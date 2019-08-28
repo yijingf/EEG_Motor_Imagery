@@ -120,8 +120,11 @@ def CasRNN(net, n_hidden=[64], n_classes=5,
             lstm_cell = tf.contrib.rnn.BasicLSTMCell(n, name='LSTM_{}'.format(i))
             net, _ = tf.contrib.rnn.static_rnn(lstm_cell, net, dtype=tf.float32)
         
+    W_0 = n_hidden[-1]
+    if bidirect:
+        W_0 = W_0 * 2
     net = fullyconnected(net[-1], 
-                         W_shape=[n_hidden[-1], n_classes], b_shape=[n_classes], 
+                         W_shape=[W_0, n_classes], b_shape=[n_classes], 
                          regularizer=regularizer, weight_decay=weight_decay, 
                          scope='casRNN_FC')
     return net

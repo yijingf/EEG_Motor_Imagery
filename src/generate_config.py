@@ -5,30 +5,30 @@ from datetime import datetime
 input_config = dict(window_len=20,
                     step=10)
 
-# cnn_config = dict(net_type='CNN',
-#                   reuse=True,
-#                   conv_filter_shape = [{'W': [3,3,1,32], 'b': [32]}, 
-#                              {'W': [3,3,32,64], 'b': [64]},
-#                              {'W': [3,3,64,128], 'b': [128]}],
-#                   weight_decay=0.0005,
-#                   fc_layer=True,
-#                   fc_n_hidden=1024)
-
-cnn_config = dict(net_type='ResNet',
+cnn_config = dict(net_type='CNN',
                   reuse=True,
-                  conv_filter_shape=[{'W': [3,3,1,16], 'b': [16]}],
-                  n_blocks = [2, 1, 2, 1, 2],
-                  downsample = [False, True, False, True, False],
-                  resnet_filter_shape = [{'W0': [3,3,16,16], 'b0': [16]},
-                                         {'W0': [3,3,16,32], 'b0': [32], 'W1': [3,3,32,32], 'b1': [32]},
-                                         {'W0': [3,3,32,32], 'b0': [32]},
-#                                          {'W0': [3,3,32,64], 'b0': [64], 'W1': [3,3,64,64], 'b1': [64]}, 
-#                                          {'W0': [3,3,64,64], 'b0': [64]}
-                                        ],
-                  bias=False,
+                  conv_filter_shape = [{'W': [3,3,1,32], 'b': [32]}, 
+                             {'W': [3,3,32,64], 'b': [64]},
+                             {'W': [3,3,64,128], 'b': [128]}],
                   weight_decay=0.0005,
                   fc_layer=True,
-                  fc_n_hidden=512)
+                  fc_n_hidden=1024)
+
+# cnn_config = dict(net_type='ResNet',
+#                   reuse=True,
+#                   conv_filter_shape=[{'W': [3,3,1,16], 'b': [16]}],
+#                   n_blocks = [2, 1, 2, 1, 2],
+#                   downsample = [False, True, False, True, False],
+#                   resnet_filter_shape = [{'W0': [3,3,16,16], 'b0': [16]},
+#                                          {'W0': [3,3,16,32], 'b0': [32], 'W1': [3,3,32,32], 'b1': [32]},
+#                                          {'W0': [3,3,32,32], 'b0': [32]},
+#                                          {'W0': [3,3,32,64], 'b0': [64], 'W1': [3,3,64,64], 'b1': [64]}, 
+#                                          {'W0': [3,3,64,64], 'b0': [64]}
+#                                         ],
+#                   bias=False,
+#                   weight_decay=0.0005,
+#                   fc_layer=True,
+#                   fc_n_hidden=512)
 
 # rnn_config = dict(n_hidden=[64,16],
 #                   bidirect=True,
