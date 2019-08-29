@@ -15,8 +15,8 @@ date = datetime.now().strftime("%Y%m%d")
 ModelDir = '../{}_model'.format(date)
 os.makedirs(ModelDir, exist_ok=True)
 
-ModelFile = os.path.join(ModelDir, 'batch_model.ckpt')
-Batch_ModelFile = os.path.join(ModelDir, 'model.ckpt')
+ModelFile = os.path.join(ModelDir, 'model.ckpt')
+Batch_ModelFile = os.path.join(ModelDir, 'batch_model.ckpt')
 ResultDir = '../result/{}'.format(date)
 os.makedirs(ResultDir, exist_ok=True)
 
