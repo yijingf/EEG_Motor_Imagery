@@ -45,7 +45,7 @@ params = dict(learning_rate=0.0001,
               display_step = 8, 
               num_valid_step = 200)
 
-date = datetime.today().strftime("%Y%m%d")
+date = datetime.today().strftime("%y%m%d%H")
 
 ResultDir = '../result/{}'.format(date)
 os.makedirs(ResultDir, exist_ok=True)
