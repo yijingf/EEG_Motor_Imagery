@@ -10,16 +10,6 @@ from import_data import get_mesh_data
 
 from CasCNNRNN import *
 
-date = datetime.now().strftime("%Y%m%d")
-
-ModelDir = '../{}_model'.format(date)
-os.makedirs(ModelDir, exist_ok=True)
-
-ModelFile = os.path.join(ModelDir, 'model.ckpt')
-Batch_ModelFile = os.path.join(ModelDir, 'batch_model.ckpt')
-ResultDir = '../result/{}'.format(date)
-os.makedirs(ResultDir, exist_ok=True)
-
 PATH = '../data/'
 
 with open('../config/train_subs.txt', 'r') as f:
@@ -73,8 +63,8 @@ class EEG_Train:
     
         if resume:
             print("Loading Model")
-            saver = tf.train.import_meta_graph(os.path.join(ModelDir, ModelFile+'.meta'))
-            saver.restore(sess, os.path.join(ModelDir, ModelFile))
+            saver = tf.train.import_meta_graph(Batch_ModelFile+'.meta')
+            saver.restore(sess, Batch_ModelFile)
             graph = tf.get_default_graph()
             x = graph.get_operation_by_name('x_input').outputs[0]
             y = graph.get_operation_by_name('y_input').outputs[0]
@@ -137,7 +127,14 @@ class EEG_Train:
         # Training
         train_filename = os.path.join(ResultDir, 'train_log.txt')
         valid_filename = os.path.join(ResultDir, 'val_log.txt')
-
+            
+        if resume:
+            Resume_message = '##############Resume Training##############' 
+            with open(train_filename, 'a') as f:
+                f.write(Resume_message + '\n')
+            with open(valid_filename, 'a') as f:
+                f.write(Resume_message + '\n')
+                
         best_acc = 0
         best_batch_acc = 0
         step_count = 0
@@ -208,8 +205,40 @@ class EEG_Train:
                     f.write("Model saved" + '\n')
         return
     
-if __name__ == '__main__':
+def GetDir(time_stamp=None):
+    
+    if not time_stamp:
+        time_stamp = datetime.now().strftime('%y%m%d%H')
+        
+    ModelDir = '../model/{}'.format(time_stamp)
+    os.makedirs(ModelDir, exist_ok=True)
 
+    ModelFile = os.path.join(ModelDir, 'model.ckpt')
+    Batch_ModelFile = os.path.join(ModelDir, 'batch_model.ckpt')
+    
+    ResultDir = '../result/{}'.format(time_stamp)
+    os.makedirs(ResultDir, exist_ok=True)
+    
+    return ModelFile, Batch_ModelFile, ResultDir
+
+    
+if __name__ == '__main__':
+    
+    import argparse
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-p', '--prefix', dest='prefix', type=str, help='model/result dir prefix: yyyymmdd/yymmddhh')
+    parser.add_argument('-m', '--mode', dest='mode', type=str, help='r for resume')
+    
+    args = parser.parse_args()
+    
+    if args.mode == 'r':
+        resume=True
+    else:
+        resume=False
+        
+    ModelFile, Batch_ModelFile, ResultDir = GetDir(args.prefix)
+    
     # Loading Model Configuration
     model_conf_filename=os.path.join(ResultDir, 'model_conf.json')
     with open(model_conf_filename, 'r') as f:
@@ -230,6 +259,7 @@ if __name__ == '__main__':
     num_valid_step = train_conf['num_valid_step']
 
     eeg_train = EEG_Train(gpu_memory_fraction=0.85)
-    res = eeg_train.train(model_conf)
+    res = eeg_train.train(model_conf, resume)
+    
     # eeg_train = EEG_Train()
     # res = eeg_train.train()
