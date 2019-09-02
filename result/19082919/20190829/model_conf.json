@@ -1,0 +1,1 @@
+{"rnn": {"weight_decay": 0.0001, "bidirect": true, "n_hidden": [64]}, "input": {"window_len": 20, "step": 10}, "cnn": {"weight_decay": 0.0005, "fc_layer": true, "fc_n_hidden": 1024, "reuse": true, "net_type": "CNN", "conv_filter_shape": [{"b": [32], "W": [3, 3, 1, 32]}, {"b": [64], "W": [3, 3, 32, 64]}, {"b": [128], "W": [3, 3, 64, 128]}]}}

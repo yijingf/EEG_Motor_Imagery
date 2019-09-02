@@ -1,0 +1,2173 @@
+Validation Step: 0, Loss: 1.970482, Acc: 0.217054
+Validation Step: 200, Loss: 1.836496, Acc: 0.209302
+Validation Step: 400, Loss: 1.730727, Acc: 0.242188
+Validation Step: 600, Loss: 1.673794, Acc: 0.156250
+Validation Step: 800, Loss: 1.642184, Acc: 0.179688
+Epch: 0	Val acc: 0.20080661
+Model saved
+Validation Step: 1000, Loss: 1.626379, Acc: 0.170543
+Validation Step: 1200, Loss: 1.606776, Acc: 0.250000
+Validation Step: 1400, Loss: 1.624168, Acc: 0.164062
+Validation Step: 1600, Loss: 1.613924, Acc: 0.265625
+Validation Step: 1800, Loss: 1.598693, Acc: 0.210938
+Epch: 1	Val acc: 0.24991869
+Model saved
+Validation Step: 2000, Loss: 1.603968, Acc: 0.263566
+Validation Step: 2200, Loss: 1.608293, Acc: 0.203125
+Validation Step: 2400, Loss: 1.573317, Acc: 0.304688
+Validation Step: 2600, Loss: 1.595432, Acc: 0.218750
+Validation Step: 2800, Loss: 1.561817, Acc: 0.289062
+Epch: 2	Val acc: 0.26016392
+Model saved
+Validation Step: 3000, Loss: 1.536642, Acc: 0.333333
+Validation Step: 3200, Loss: 1.564235, Acc: 0.273438
+Validation Step: 3400, Loss: 1.571851, Acc: 0.234375
+Validation Step: 3600, Loss: 1.547387, Acc: 0.351562
+Validation Step: 3800, Loss: 1.552841, Acc: 0.242188
+Epch: 3	Val acc: 0.26982372
+Model saved
+Validation Step: 4000, Loss: 1.539552, Acc: 0.271318
+Validation Step: 4200, Loss: 1.542405, Acc: 0.312500
+Validation Step: 4400, Loss: 1.573475, Acc: 0.257812
+Validation Step: 4600, Loss: 1.554511, Acc: 0.257812
+Epch: 4	Val acc: 0.26917323
+Validation Step: 4800, Loss: 1.555902, Acc: 0.271318
+Validation Step: 5000, Loss: 1.554698, Acc: 0.248062
+Validation Step: 5200, Loss: 1.592388, Acc: 0.226562
+Validation Step: 5400, Loss: 1.523931, Acc: 0.335938
+Validation Step: 5600, Loss: 1.572321, Acc: 0.257812
+Epch: 5	Val acc: 0.26214792
+Validation Step: 5800, Loss: 1.546166, Acc: 0.271318
+Validation Step: 6000, Loss: 1.557655, Acc: 0.289062
+Validation Step: 6200, Loss: 1.573618, Acc: 0.210938
+Validation Step: 6400, Loss: 1.548027, Acc: 0.265625
+Validation Step: 6600, Loss: 1.564118, Acc: 0.257812
+Epch: 6	Val acc: 0.26982372
+Model saved
+Validation Step: 6800, Loss: 1.547057, Acc: 0.310078
+Validation Step: 7000, Loss: 1.584085, Acc: 0.218750
+Validation Step: 7200, Loss: 1.535958, Acc: 0.320312
+Validation Step: 7400, Loss: 1.566989, Acc: 0.203125
+Validation Step: 7600, Loss: 1.516974, Acc: 0.265625
+Epch: 7	Val acc: 0.26927080
+Validation Step: 7800, Loss: 1.545661, Acc: 0.294574
+Validation Step: 8000, Loss: 1.558468, Acc: 0.296875
+Validation Step: 8200, Loss: 1.569799, Acc: 0.257812
+Validation Step: 8400, Loss: 1.543711, Acc: 0.265625
+Validation Step: 8600, Loss: 1.554003, Acc: 0.304688
+Epch: 8	Val acc: 0.26735185
+Validation Step: 8800, Loss: 1.522688, Acc: 0.333333
+Validation Step: 9000, Loss: 1.548453, Acc: 0.250000
+Validation Step: 9200, Loss: 1.571873, Acc: 0.210938
+Validation Step: 9400, Loss: 1.566668, Acc: 0.210938
+Epch: 9	Val acc: 0.27034411
+Model saved
+Validation Step: 9600, Loss: 1.556962, Acc: 0.271318
+Validation Step: 9800, Loss: 1.567681, Acc: 0.294574
+Validation Step: 10000, Loss: 1.583058, Acc: 0.257812
+Validation Step: 10200, Loss: 1.528758, Acc: 0.367188
+Validation Step: 10400, Loss: 1.566988, Acc: 0.265625
+Epch: 10	Val acc: 0.26556300
+Validation Step: 10600, Loss: 1.543097, Acc: 0.271318
+Validation Step: 10800, Loss: 1.572439, Acc: 0.257812
+Validation Step: 11000, Loss: 1.547608, Acc: 0.257812
+Validation Step: 11200, Loss: 1.537342, Acc: 0.320312
+Validation Step: 11400, Loss: 1.563450, Acc: 0.281250
+Epch: 11	Val acc: 0.27336889
+Model saved
+Validation Step: 11600, Loss: 1.533076, Acc: 0.279070
+Validation Step: 11800, Loss: 1.581990, Acc: 0.234375
+Validation Step: 12000, Loss: 1.519320, Acc: 0.312500
+Validation Step: 12200, Loss: 1.562907, Acc: 0.226562
+Validation Step: 12400, Loss: 1.523291, Acc: 0.296875
+Epch: 12	Val acc: 0.27408443
+Model saved
+Validation Step: 12600, Loss: 1.508685, Acc: 0.286822
+Validation Step: 12800, Loss: 1.548189, Acc: 0.242188
+Validation Step: 13000, Loss: 1.558581, Acc: 0.304688
+Validation Step: 13200, Loss: 1.539668, Acc: 0.312500
+Validation Step: 13400, Loss: 1.512989, Acc: 0.257812
+Epch: 13	Val acc: 0.27161257
+Validation Step: 13600, Loss: 1.515993, Acc: 0.294574
+Validation Step: 13800, Loss: 1.552759, Acc: 0.304688
+Validation Step: 14000, Loss: 1.564215, Acc: 0.273438
+Validation Step: 14200, Loss: 1.543821, Acc: 0.250000
+Epch: 14	Val acc: 0.27408443
+Model saved
+Validation Step: 14400, Loss: 1.561307, Acc: 0.279070
+Validation Step: 14600, Loss: 1.551417, Acc: 0.294574
+Validation Step: 14800, Loss: 1.584357, Acc: 0.203125
+Validation Step: 15000, Loss: 1.525635, Acc: 0.312500
+Validation Step: 15200, Loss: 1.547662, Acc: 0.296875
+Epch: 15	Val acc: 0.27138490
+Validation Step: 15400, Loss: 1.545060, Acc: 0.240310
+Validation Step: 15600, Loss: 1.564355, Acc: 0.328125
+Validation Step: 15800, Loss: 1.547683, Acc: 0.320312
+Validation Step: 16000, Loss: 1.551826, Acc: 0.273438
+Validation Step: 16200, Loss: 1.554183, Acc: 0.234375
+Epch: 16	Val acc: 0.26819749
+Validation Step: 16400, Loss: 1.520936, Acc: 0.255814
+Validation Step: 16600, Loss: 1.562856, Acc: 0.250000
+Validation Step: 16800, Loss: 1.524854, Acc: 0.335938
+Validation Step: 17000, Loss: 1.543754, Acc: 0.320312
+Validation Step: 17200, Loss: 1.527999, Acc: 0.289062
+Epch: 17	Val acc: 0.27359657
+Validation Step: 17400, Loss: 1.518104, Acc: 0.271318
+Validation Step: 17600, Loss: 1.528932, Acc: 0.320312
+Validation Step: 17800, Loss: 1.552163, Acc: 0.304688
+Validation Step: 18000, Loss: 1.508523, Acc: 0.351562
+Validation Step: 18200, Loss: 1.497602, Acc: 0.289062
+Epch: 18	Val acc: 0.27532037
+Model saved
+Validation Step: 18400, Loss: 1.537638, Acc: 0.279070
+Validation Step: 18600, Loss: 1.544515, Acc: 0.289062
+Validation Step: 18800, Loss: 1.536562, Acc: 0.304688
+Validation Step: 19000, Loss: 1.521263, Acc: 0.226562
+Epch: 19	Val acc: 0.27697912
+Model saved
+Validation Step: 19200, Loss: 1.563545, Acc: 0.248062
+Validation Step: 19400, Loss: 1.533276, Acc: 0.286822
+Validation Step: 19600, Loss: 1.564292, Acc: 0.320312
+Validation Step: 19800, Loss: 1.506858, Acc: 0.328125
+Validation Step: 20000, Loss: 1.528400, Acc: 0.273438
+Epch: 20	Val acc: 0.27844272
+Model saved
+Validation Step: 20200, Loss: 1.524984, Acc: 0.232558
+Validation Step: 20400, Loss: 1.564156, Acc: 0.273438
+Validation Step: 20600, Loss: 1.537215, Acc: 0.265625
+Validation Step: 20800, Loss: 1.534333, Acc: 0.320312
+Validation Step: 21000, Loss: 1.577272, Acc: 0.312500
+Epch: 21	Val acc: 0.28397190
+Model saved
+Validation Step: 21200, Loss: 1.494696, Acc: 0.302326
+Validation Step: 21400, Loss: 1.511354, Acc: 0.281250
+Validation Step: 21600, Loss: 1.464343, Acc: 0.351562
+Validation Step: 21800, Loss: 1.524163, Acc: 0.289062
+Validation Step: 22000, Loss: 1.480449, Acc: 0.343750
+Epch: 22	Val acc: 0.29912834
+Model saved
+Validation Step: 22200, Loss: 1.463680, Acc: 0.317829
+Validation Step: 22400, Loss: 1.507588, Acc: 0.218750
+Validation Step: 22600, Loss: 1.574021, Acc: 0.265625
+Validation Step: 22800, Loss: 1.442767, Acc: 0.343750
+Validation Step: 23000, Loss: 1.478384, Acc: 0.304688
+Epch: 23	Val acc: 0.30725948
+Model saved
+Validation Step: 23200, Loss: 1.473243, Acc: 0.341085
+Validation Step: 23400, Loss: 1.450739, Acc: 0.343750
+Validation Step: 23600, Loss: 1.459359, Acc: 0.328125
+Validation Step: 23800, Loss: 1.406243, Acc: 0.304688
+Epch: 24	Val acc: 0.31438236
+Model saved
+Validation Step: 24000, Loss: 1.464117, Acc: 0.341085
+Validation Step: 24200, Loss: 1.477599, Acc: 0.372093
+Validation Step: 24400, Loss: 1.457173, Acc: 0.320312
+Validation Step: 24600, Loss: 1.429515, Acc: 0.367188
+Validation Step: 24800, Loss: 1.454862, Acc: 0.296875
+Epch: 25	Val acc: 0.32970142
+Model saved
+Validation Step: 25000, Loss: 1.460992, Acc: 0.302326
+Validation Step: 25200, Loss: 1.464884, Acc: 0.328125
+Validation Step: 25400, Loss: 1.433579, Acc: 0.343750
+Validation Step: 25600, Loss: 1.414829, Acc: 0.437500
+Validation Step: 25800, Loss: 1.471135, Acc: 0.343750
+Epch: 26	Val acc: 0.33350680
+Model saved
+Validation Step: 26000, Loss: 1.409780, Acc: 0.348837
+Validation Step: 26200, Loss: 1.391633, Acc: 0.367188
+Validation Step: 26400, Loss: 1.414334, Acc: 0.367188
+Validation Step: 26600, Loss: 1.488803, Acc: 0.328125
+Validation Step: 26800, Loss: 1.380389, Acc: 0.351562
+Epch: 27	Val acc: 0.34004423
+Model saved
+Validation Step: 27000, Loss: 1.357927, Acc: 0.418605
+Validation Step: 27200, Loss: 1.403359, Acc: 0.312500
+Validation Step: 27400, Loss: 1.590960, Acc: 0.296875
+Validation Step: 27600, Loss: 1.388630, Acc: 0.367188
+Validation Step: 27800, Loss: 1.422350, Acc: 0.312500
+Epch: 28	Val acc: 0.34030443
+Model saved
+Validation Step: 28000, Loss: 1.381148, Acc: 0.387597
+Validation Step: 28200, Loss: 1.366242, Acc: 0.382812
+Validation Step: 28400, Loss: 1.421083, Acc: 0.304688
+Validation Step: 28600, Loss: 1.312198, Acc: 0.335938
+Epch: 29	Val acc: 0.35438756
+Model saved
+Validation Step: 28800, Loss: 1.369316, Acc: 0.379845
+Validation Step: 29000, Loss: 1.404673, Acc: 0.379845
+Validation Step: 29200, Loss: 1.369717, Acc: 0.351562
+Validation Step: 29400, Loss: 1.373773, Acc: 0.328125
+Validation Step: 29600, Loss: 1.385103, Acc: 0.328125
+Epch: 30	Val acc: 0.36434008
+Model saved
+Validation Step: 29800, Loss: 1.374003, Acc: 0.395349
+Validation Step: 30000, Loss: 1.398144, Acc: 0.414062
+Validation Step: 30200, Loss: 1.383852, Acc: 0.367188
+Validation Step: 30400, Loss: 1.308953, Acc: 0.445312
+Validation Step: 30600, Loss: 1.361195, Acc: 0.343750
+Epch: 31	Val acc: 0.37091004
+Model saved
+Validation Step: 30800, Loss: 1.330437, Acc: 0.364341
+Validation Step: 31000, Loss: 1.297421, Acc: 0.437500
+Validation Step: 31200, Loss: 1.228163, Acc: 0.414062
+Validation Step: 31400, Loss: 1.458896, Acc: 0.304688
+Validation Step: 31600, Loss: 1.296712, Acc: 0.429688
+Epch: 32	Val acc: 0.37858583
+Model saved
+Validation Step: 31800, Loss: 1.257674, Acc: 0.441860
+Validation Step: 32000, Loss: 1.274058, Acc: 0.367188
+Validation Step: 32200, Loss: 1.348360, Acc: 0.398438
+Validation Step: 32400, Loss: 1.337095, Acc: 0.382812
+Validation Step: 32600, Loss: 1.283820, Acc: 0.406250
+Epch: 33	Val acc: 0.37627659
+Validation Step: 32800, Loss: 1.283679, Acc: 0.410853
+Validation Step: 33000, Loss: 1.302875, Acc: 0.429688
+Validation Step: 33200, Loss: 1.370144, Acc: 0.359375
+Validation Step: 33400, Loss: 1.273285, Acc: 0.328125
+Epch: 34	Val acc: 0.38678202
+Model saved
+Validation Step: 33600, Loss: 1.267382, Acc: 0.418605
+Validation Step: 33800, Loss: 1.336889, Acc: 0.418605
+Validation Step: 34000, Loss: 1.267501, Acc: 0.414062
+Validation Step: 34200, Loss: 1.325105, Acc: 0.375000
+Validation Step: 34400, Loss: 1.339808, Acc: 0.429688
+Epch: 35	Val acc: 0.38886359
+Model saved
+Validation Step: 34600, Loss: 1.312950, Acc: 0.387597
+Validation Step: 34800, Loss: 1.376877, Acc: 0.429688
+Validation Step: 35000, Loss: 1.296263, Acc: 0.328125
+Validation Step: 35200, Loss: 1.287966, Acc: 0.398438
+Validation Step: 35400, Loss: 1.335122, Acc: 0.335938
+Epch: 36	Val acc: 0.39130293
+Model saved
+Validation Step: 35600, Loss: 1.282542, Acc: 0.410853
+Validation Step: 35800, Loss: 1.312149, Acc: 0.390625
+Validation Step: 36000, Loss: 1.214985, Acc: 0.375000
+Validation Step: 36200, Loss: 1.337516, Acc: 0.343750
+Validation Step: 36400, Loss: 1.281659, Acc: 0.429688
+Epch: 37	Val acc: 0.38850582
+Validation Step: 36600, Loss: 1.251118, Acc: 0.410853
+Validation Step: 36800, Loss: 1.315154, Acc: 0.343750
+Validation Step: 37000, Loss: 1.267734, Acc: 0.476562
+Validation Step: 37200, Loss: 1.304855, Acc: 0.359375
+Validation Step: 37400, Loss: 1.240481, Acc: 0.414062
+Epch: 38	Val acc: 0.39992194
+Model saved
+Validation Step: 37600, Loss: 1.280797, Acc: 0.418605
+Validation Step: 37800, Loss: 1.259947, Acc: 0.406250
+Validation Step: 38000, Loss: 1.313341, Acc: 0.460938
+Validation Step: 38200, Loss: 1.275446, Acc: 0.398438
+Epch: 39	Val acc: 0.39985689
+Validation Step: 38400, Loss: 1.238017, Acc: 0.449612
+Validation Step: 38600, Loss: 1.282296, Acc: 0.457364
+Validation Step: 38800, Loss: 1.196761, Acc: 0.453125
+Validation Step: 39000, Loss: 1.331817, Acc: 0.367188
+Validation Step: 39200, Loss: 1.350565, Acc: 0.390625
+Epch: 40	Val acc: 0.39771027
+Validation Step: 39400, Loss: 1.297583, Acc: 0.410853
+Validation Step: 39600, Loss: 1.363975, Acc: 0.406250
+Validation Step: 39800, Loss: 1.263480, Acc: 0.390625
+Validation Step: 40000, Loss: 1.287280, Acc: 0.398438
+Validation Step: 40200, Loss: 1.315612, Acc: 0.390625
+Epch: 41	Val acc: 0.40805308
+Model saved
+Validation Step: 40400, Loss: 1.267687, Acc: 0.488372
+Validation Step: 40600, Loss: 1.214333, Acc: 0.437500
+Validation Step: 40800, Loss: 1.178765, Acc: 0.437500
+Validation Step: 41000, Loss: 1.295600, Acc: 0.398438
+Validation Step: 41200, Loss: 1.225584, Acc: 0.476562
+Epch: 42	Val acc: 0.40408508
+Validation Step: 41400, Loss: 1.181884, Acc: 0.472868
+Validation Step: 41600, Loss: 1.211682, Acc: 0.375000
+Validation Step: 41800, Loss: 1.245952, Acc: 0.507812
+Validation Step: 42000, Loss: 1.290484, Acc: 0.390625
+Validation Step: 42200, Loss: 1.250171, Acc: 0.429688
+Epch: 43	Val acc: 0.41224875
+Model saved
+Validation Step: 42400, Loss: 1.297180, Acc: 0.364341
+Validation Step: 42600, Loss: 1.222189, Acc: 0.429688
+Validation Step: 42800, Loss: 1.270011, Acc: 0.453125
+Validation Step: 43000, Loss: 1.251498, Acc: 0.398438
+Epch: 44	Val acc: 0.40632928
+Validation Step: 43200, Loss: 1.223585, Acc: 0.441860
+Validation Step: 43400, Loss: 1.224923, Acc: 0.488372
+Validation Step: 43600, Loss: 1.176801, Acc: 0.445312
+Validation Step: 43800, Loss: 1.318493, Acc: 0.414062
+Validation Step: 44000, Loss: 1.334501, Acc: 0.382812
+Epch: 45	Val acc: 0.41927405
+Model saved
+Validation Step: 44200, Loss: 1.266203, Acc: 0.418605
+Validation Step: 44400, Loss: 1.377864, Acc: 0.398438
+Validation Step: 44600, Loss: 1.267081, Acc: 0.406250
+Validation Step: 44800, Loss: 1.273654, Acc: 0.398438
+Validation Step: 45000, Loss: 1.320860, Acc: 0.406250
+Epch: 46	Val acc: 0.41676966
+Validation Step: 45200, Loss: 1.255251, Acc: 0.426357
+Validation Step: 45400, Loss: 1.187968, Acc: 0.460938
+Validation Step: 45600, Loss: 1.167150, Acc: 0.437500
+Validation Step: 45800, Loss: 1.305611, Acc: 0.429688
+Validation Step: 46000, Loss: 1.253795, Acc: 0.445312
+Epch: 47	Val acc: 0.41436284
+Validation Step: 46200, Loss: 1.181713, Acc: 0.434109
+Validation Step: 46400, Loss: 1.232666, Acc: 0.390625
+Validation Step: 46600, Loss: 1.283454, Acc: 0.468750
+Validation Step: 46800, Loss: 1.284375, Acc: 0.382812
+Validation Step: 47000, Loss: 1.283879, Acc: 0.429688
+Epch: 48	Val acc: 0.41927405
+Model saved
+Validation Step: 47200, Loss: 1.328207, Acc: 0.418605
+Validation Step: 47400, Loss: 1.202068, Acc: 0.429688
+Validation Step: 47600, Loss: 1.312393, Acc: 0.414062
+Validation Step: 47800, Loss: 1.251057, Acc: 0.421875
+Epch: 49	Val acc: 0.41865609
+Validation Step: 48000, Loss: 1.263313, Acc: 0.465116
+Validation Step: 48200, Loss: 1.211035, Acc: 0.465116
+Validation Step: 48400, Loss: 1.222602, Acc: 0.421875
+Validation Step: 48600, Loss: 1.291625, Acc: 0.429688
+Validation Step: 48800, Loss: 1.338136, Acc: 0.367188
+Epch: 50	Val acc: 0.41699733
+Validation Step: 49000, Loss: 1.216448, Acc: 0.441860
+Validation Step: 49200, Loss: 1.312180, Acc: 0.468750
+Validation Step: 49400, Loss: 1.338114, Acc: 0.382812
+Validation Step: 49600, Loss: 1.198694, Acc: 0.421875
+Validation Step: 49800, Loss: 1.302823, Acc: 0.390625
+Epch: 51	Val acc: 0.42044494
+Model saved
+Validation Step: 50000, Loss: 1.296102, Acc: 0.457364
+Validation Step: 50200, Loss: 1.180426, Acc: 0.468750
+Validation Step: 50400, Loss: 1.155543, Acc: 0.429688
+Validation Step: 50600, Loss: 1.292569, Acc: 0.414062
+Validation Step: 50800, Loss: 1.251058, Acc: 0.460938
+Epch: 52	Val acc: 0.42168087
+Model saved
+Validation Step: 51000, Loss: 1.156994, Acc: 0.480620
+Validation Step: 51200, Loss: 1.206249, Acc: 0.406250
+Validation Step: 51400, Loss: 1.256520, Acc: 0.468750
+Validation Step: 51600, Loss: 1.315614, Acc: 0.414062
+Validation Step: 51800, Loss: 1.244741, Acc: 0.406250
+Epch: 53	Val acc: 0.42438041
+Model saved
+Validation Step: 52000, Loss: 1.301781, Acc: 0.403101
+Validation Step: 52200, Loss: 1.173251, Acc: 0.429688
+Validation Step: 52400, Loss: 1.313812, Acc: 0.375000
+Validation Step: 52600, Loss: 1.233611, Acc: 0.429688
+Epch: 54	Val acc: 0.41735510
+Validation Step: 52800, Loss: 1.289256, Acc: 0.410853
+Validation Step: 53000, Loss: 1.156344, Acc: 0.550388
+Validation Step: 53200, Loss: 1.255557, Acc: 0.406250
+Validation Step: 53400, Loss: 1.258643, Acc: 0.421875
+Validation Step: 53600, Loss: 1.305856, Acc: 0.406250
+Epch: 55	Val acc: 0.42792558
+Model saved
+Validation Step: 53800, Loss: 1.205272, Acc: 0.418605
+Validation Step: 54000, Loss: 1.347600, Acc: 0.437500
+Validation Step: 54200, Loss: 1.296184, Acc: 0.414062
+Validation Step: 54400, Loss: 1.205690, Acc: 0.445312
+Validation Step: 54600, Loss: 1.300368, Acc: 0.421875
+Epch: 56	Val acc: 0.42701490
+Validation Step: 54800, Loss: 1.248411, Acc: 0.465116
+Validation Step: 55000, Loss: 1.251052, Acc: 0.429688
+Validation Step: 55200, Loss: 1.185835, Acc: 0.468750
+Validation Step: 55400, Loss: 1.297116, Acc: 0.406250
+Validation Step: 55600, Loss: 1.267226, Acc: 0.445312
+Epch: 57	Val acc: 0.42799063
+Model saved
+Validation Step: 55800, Loss: 1.175169, Acc: 0.449612
+Validation Step: 56000, Loss: 1.205593, Acc: 0.406250
+Validation Step: 56200, Loss: 1.241416, Acc: 0.476562
+Validation Step: 56400, Loss: 1.303477, Acc: 0.414062
+Validation Step: 56600, Loss: 1.253886, Acc: 0.468750
+Epch: 58	Val acc: 0.42506342
+Validation Step: 56800, Loss: 1.323120, Acc: 0.410853
+Validation Step: 57000, Loss: 1.187924, Acc: 0.468750
+Validation Step: 57200, Loss: 1.302279, Acc: 0.390625
+Validation Step: 57400, Loss: 1.239136, Acc: 0.421875
+Epch: 59	Val acc: 0.42418526
+Validation Step: 57600, Loss: 1.276124, Acc: 0.480620
+Validation Step: 57800, Loss: 1.256498, Acc: 0.472868
+Validation Step: 58000, Loss: 1.188878, Acc: 0.460938
+Validation Step: 58200, Loss: 1.268701, Acc: 0.468750
+Validation Step: 58400, Loss: 1.314388, Acc: 0.406250
+Epch: 60	Val acc: 0.42714499
+Validation Step: 58600, Loss: 1.248194, Acc: 0.395349
+Validation Step: 58800, Loss: 1.314316, Acc: 0.460938
+Validation Step: 59000, Loss: 1.316186, Acc: 0.414062
+Validation Step: 59200, Loss: 1.163252, Acc: 0.468750
+Validation Step: 59400, Loss: 1.337543, Acc: 0.460938
+Epch: 61	Val acc: 0.42581149
+Validation Step: 59600, Loss: 1.271502, Acc: 0.472868
+Validation Step: 59800, Loss: 1.201957, Acc: 0.445312
+Validation Step: 60000, Loss: 1.136444, Acc: 0.406250
+Validation Step: 60200, Loss: 1.289881, Acc: 0.382812
+Validation Step: 60400, Loss: 1.250430, Acc: 0.453125
+Epch: 62	Val acc: 0.42938919
+Model saved
+Validation Step: 60600, Loss: 1.173033, Acc: 0.488372
+Validation Step: 60800, Loss: 1.215159, Acc: 0.367188
+Validation Step: 61000, Loss: 1.299199, Acc: 0.429688
+Validation Step: 61200, Loss: 1.275023, Acc: 0.414062
+Validation Step: 61400, Loss: 1.275839, Acc: 0.406250
+Epch: 63	Val acc: 0.42834840
+Validation Step: 61600, Loss: 1.300148, Acc: 0.441860
+Validation Step: 61800, Loss: 1.172525, Acc: 0.468750
+Validation Step: 62000, Loss: 1.330094, Acc: 0.445312
+Validation Step: 62200, Loss: 1.232197, Acc: 0.429688
+Epch: 64	Val acc: 0.43238145
+Model saved
+Validation Step: 62400, Loss: 1.268216, Acc: 0.410853
+Validation Step: 62600, Loss: 1.179957, Acc: 0.449612
+Validation Step: 62800, Loss: 1.240939, Acc: 0.406250
+Validation Step: 63000, Loss: 1.253685, Acc: 0.468750
+Validation Step: 63200, Loss: 1.368193, Acc: 0.351562
+Epch: 65	Val acc: 0.43059260
+Validation Step: 63400, Loss: 1.173131, Acc: 0.434109
+Validation Step: 63600, Loss: 1.355767, Acc: 0.437500
+Validation Step: 63800, Loss: 1.312459, Acc: 0.414062
+Validation Step: 64000, Loss: 1.154711, Acc: 0.460938
+Validation Step: 64200, Loss: 1.317672, Acc: 0.437500
+Epch: 66	Val acc: 0.43049502
+Validation Step: 64400, Loss: 1.272428, Acc: 0.449612
+Validation Step: 64600, Loss: 1.261438, Acc: 0.375000
+Validation Step: 64800, Loss: 1.167720, Acc: 0.445312
+Validation Step: 65000, Loss: 1.283259, Acc: 0.390625
+Validation Step: 65200, Loss: 1.259497, Acc: 0.476562
+Epch: 67	Val acc: 0.43072270
+Validation Step: 65400, Loss: 1.214327, Acc: 0.465116
+Validation Step: 65600, Loss: 1.147392, Acc: 0.429688
+Validation Step: 65800, Loss: 1.331215, Acc: 0.445312
+Validation Step: 66000, Loss: 1.276221, Acc: 0.414062
+Validation Step: 66200, Loss: 1.277436, Acc: 0.421875
+Epch: 68	Val acc: 0.43332466
+Model saved
+Validation Step: 66400, Loss: 1.290838, Acc: 0.441860
+Validation Step: 66600, Loss: 1.174905, Acc: 0.476562
+Validation Step: 66800, Loss: 1.310688, Acc: 0.382812
+Validation Step: 67000, Loss: 1.258911, Acc: 0.375000
+Epch: 69	Val acc: 0.42890132
+Validation Step: 67200, Loss: 1.321658, Acc: 0.418605
+Validation Step: 67400, Loss: 1.162558, Acc: 0.527132
+Validation Step: 67600, Loss: 1.261848, Acc: 0.382812
+Validation Step: 67800, Loss: 1.260613, Acc: 0.453125
+Validation Step: 68000, Loss: 1.329756, Acc: 0.390625
+Epch: 70	Val acc: 0.43062512
+Validation Step: 68200, Loss: 1.240695, Acc: 0.403101
+Validation Step: 68400, Loss: 1.397166, Acc: 0.414062
+Validation Step: 68600, Loss: 1.245463, Acc: 0.453125
+Validation Step: 68800, Loss: 1.141602, Acc: 0.468750
+Validation Step: 69000, Loss: 1.313928, Acc: 0.429688
+Epch: 71	Val acc: 0.42786053
+Validation Step: 69200, Loss: 1.263826, Acc: 0.457364
+Validation Step: 69400, Loss: 1.246111, Acc: 0.414062
+Validation Step: 69600, Loss: 1.142052, Acc: 0.445312
+Validation Step: 69800, Loss: 1.313358, Acc: 0.382812
+Validation Step: 70000, Loss: 1.251762, Acc: 0.468750
+Epch: 72	Val acc: 0.43322709
+Validation Step: 70200, Loss: 1.284448, Acc: 0.441860
+Validation Step: 70400, Loss: 1.201947, Acc: 0.421875
+Validation Step: 70600, Loss: 1.251131, Acc: 0.437500
+Validation Step: 70800, Loss: 1.273676, Acc: 0.406250
+Validation Step: 71000, Loss: 1.273467, Acc: 0.445312
+Epch: 73	Val acc: 0.43052755
+Validation Step: 71200, Loss: 1.362340, Acc: 0.480620
+Validation Step: 71400, Loss: 1.225531, Acc: 0.429688
+Validation Step: 71600, Loss: 1.382148, Acc: 0.398438
+Validation Step: 71800, Loss: 1.283841, Acc: 0.359375
+Epch: 74	Val acc: 0.42773044
+Validation Step: 72000, Loss: 1.317659, Acc: 0.434109
+Validation Step: 72200, Loss: 1.138455, Acc: 0.573643
+Validation Step: 72400, Loss: 1.240314, Acc: 0.382812
+Validation Step: 72600, Loss: 1.270723, Acc: 0.445312
+Validation Step: 72800, Loss: 1.330587, Acc: 0.429688
+Epch: 75	Val acc: 0.43039745
+Validation Step: 73000, Loss: 1.292077, Acc: 0.410853
+Validation Step: 73200, Loss: 1.334188, Acc: 0.429688
+Validation Step: 73400, Loss: 1.285365, Acc: 0.406250
+Validation Step: 73600, Loss: 1.198613, Acc: 0.515625
+Validation Step: 73800, Loss: 1.306635, Acc: 0.476562
+Epch: 76	Val acc: 0.42958434
+Validation Step: 74000, Loss: 1.301596, Acc: 0.488372
+Validation Step: 74200, Loss: 1.255249, Acc: 0.468750
+Validation Step: 74400, Loss: 1.219318, Acc: 0.429688
+Validation Step: 74600, Loss: 1.333499, Acc: 0.367188
+Validation Step: 74800, Loss: 1.231283, Acc: 0.453125
+Epch: 77	Val acc: 0.43143824
+Validation Step: 75000, Loss: 1.219449, Acc: 0.465116
+Validation Step: 75200, Loss: 1.179789, Acc: 0.429688
+Validation Step: 75400, Loss: 1.321402, Acc: 0.445312
+Validation Step: 75600, Loss: 1.336223, Acc: 0.406250
+Validation Step: 75800, Loss: 1.285986, Acc: 0.453125
+Epch: 78	Val acc: 0.43511351
+Model saved
+Validation Step: 76000, Loss: 1.437396, Acc: 0.465116
+Validation Step: 76200, Loss: 1.184060, Acc: 0.484375
+Validation Step: 76400, Loss: 1.354773, Acc: 0.382812
+Validation Step: 76600, Loss: 1.246522, Acc: 0.421875
+Epch: 79	Val acc: 0.42802316
+Validation Step: 76800, Loss: 1.328010, Acc: 0.426357
+Validation Step: 77000, Loss: 1.217408, Acc: 0.527132
+Validation Step: 77200, Loss: 1.310519, Acc: 0.390625
+Validation Step: 77400, Loss: 1.313297, Acc: 0.414062
+Validation Step: 77600, Loss: 1.322171, Acc: 0.414062
+Epch: 80	Val acc: 0.43478827
+Validation Step: 77800, Loss: 1.285849, Acc: 0.395349
+Validation Step: 78000, Loss: 1.365917, Acc: 0.421875
+Validation Step: 78200, Loss: 1.349889, Acc: 0.398438
+Validation Step: 78400, Loss: 1.202723, Acc: 0.468750
+Validation Step: 78600, Loss: 1.313739, Acc: 0.484375
+Epch: 81	Val acc: 0.43228387
+Validation Step: 78800, Loss: 1.247245, Acc: 0.488372
+Validation Step: 79000, Loss: 1.242578, Acc: 0.453125
+Validation Step: 79200, Loss: 1.190933, Acc: 0.398438
+Validation Step: 79400, Loss: 1.362708, Acc: 0.343750
+Validation Step: 79600, Loss: 1.293532, Acc: 0.492188
+Epch: 82	Val acc: 0.43371495
+Validation Step: 79800, Loss: 1.193327, Acc: 0.496124
+Validation Step: 80000, Loss: 1.214469, Acc: 0.406250
+Validation Step: 80200, Loss: 1.287462, Acc: 0.429688
+Validation Step: 80400, Loss: 1.322689, Acc: 0.414062
+Validation Step: 80600, Loss: 1.376051, Acc: 0.359375
+Epch: 83	Val acc: 0.43169843
+Validation Step: 80800, Loss: 1.370690, Acc: 0.434109
+Validation Step: 81000, Loss: 1.187457, Acc: 0.484375
+Validation Step: 81200, Loss: 1.375558, Acc: 0.406250
+Validation Step: 81400, Loss: 1.291579, Acc: 0.367188
+Epch: 84	Val acc: 0.43163338
+Validation Step: 81600, Loss: 1.324566, Acc: 0.441860
+Validation Step: 81800, Loss: 1.168179, Acc: 0.565891
+Validation Step: 82000, Loss: 1.272091, Acc: 0.398438
+Validation Step: 82200, Loss: 1.278807, Acc: 0.468750
+Validation Step: 82400, Loss: 1.321853, Acc: 0.414062
+Epch: 85	Val acc: 0.42925909
+Validation Step: 82600, Loss: 1.234968, Acc: 0.372093
+Validation Step: 82800, Loss: 1.401720, Acc: 0.429688
+Validation Step: 83000, Loss: 1.295597, Acc: 0.421875
+Validation Step: 83200, Loss: 1.225895, Acc: 0.492188
+Validation Step: 83400, Loss: 1.338796, Acc: 0.453125
+Epch: 86	Val acc: 0.43420282
+Validation Step: 83600, Loss: 1.282259, Acc: 0.465116
+Validation Step: 83800, Loss: 1.241642, Acc: 0.460938
+Validation Step: 84000, Loss: 1.173092, Acc: 0.429688
+Validation Step: 84200, Loss: 1.286600, Acc: 0.429688
+Validation Step: 84400, Loss: 1.318253, Acc: 0.453125
+Epch: 87	Val acc: 0.43085279
+Validation Step: 84600, Loss: 1.250675, Acc: 0.503876
+Validation Step: 84800, Loss: 1.242456, Acc: 0.406250
+Validation Step: 85000, Loss: 1.285662, Acc: 0.476562
+Validation Step: 85200, Loss: 1.285154, Acc: 0.421875
+Validation Step: 85400, Loss: 1.371733, Acc: 0.453125
+Epch: 88	Val acc: 0.43179601
+Validation Step: 85600, Loss: 1.466377, Acc: 0.441860
+Validation Step: 85800, Loss: 1.166153, Acc: 0.476562
+Validation Step: 86000, Loss: 1.362782, Acc: 0.367188
+Validation Step: 86200, Loss: 1.301260, Acc: 0.390625
+Epch: 89	Val acc: 0.43127561
+Validation Step: 86400, Loss: 1.304939, Acc: 0.434109
+Validation Step: 86600, Loss: 1.215390, Acc: 0.480620
+Validation Step: 86800, Loss: 1.309011, Acc: 0.414062
+Validation Step: 87000, Loss: 1.331466, Acc: 0.460938
+Validation Step: 87200, Loss: 1.333802, Acc: 0.406250
+Epch: 90	Val acc: 0.43449554
+Validation Step: 87400, Loss: 1.255474, Acc: 0.418605
+Validation Step: 87600, Loss: 1.307873, Acc: 0.453125
+Validation Step: 87800, Loss: 1.272076, Acc: 0.429688
+Validation Step: 88000, Loss: 1.172558, Acc: 0.460938
+Validation Step: 88200, Loss: 1.326436, Acc: 0.453125
+Epch: 91	Val acc: 0.43547128
+Model saved
+Validation Step: 88400, Loss: 1.293840, Acc: 0.480620
+Validation Step: 88600, Loss: 1.242036, Acc: 0.484375
+Validation Step: 88800, Loss: 1.206205, Acc: 0.382812
+Validation Step: 89000, Loss: 1.331001, Acc: 0.375000
+Validation Step: 89200, Loss: 1.252750, Acc: 0.484375
+Epch: 92	Val acc: 0.43475574
+Validation Step: 89400, Loss: 1.207206, Acc: 0.519380
+Validation Step: 89600, Loss: 1.225563, Acc: 0.390625
+Validation Step: 89800, Loss: 1.305954, Acc: 0.445312
+Validation Step: 90000, Loss: 1.296589, Acc: 0.445312
+Validation Step: 90200, Loss: 1.394661, Acc: 0.414062
+Epch: 93	Val acc: 0.43573148
+Model saved
+Validation Step: 90400, Loss: 1.428326, Acc: 0.441860
+Validation Step: 90600, Loss: 1.188344, Acc: 0.468750
+Validation Step: 90800, Loss: 1.374482, Acc: 0.429688
+Validation Step: 91000, Loss: 1.313383, Acc: 0.398438
+Epch: 94	Val acc: 0.43378000
+Validation Step: 91200, Loss: 1.357590, Acc: 0.449612
+Validation Step: 91400, Loss: 1.203293, Acc: 0.511628
+Validation Step: 91600, Loss: 1.306887, Acc: 0.414062
+Validation Step: 91800, Loss: 1.336999, Acc: 0.476562
+Validation Step: 92000, Loss: 1.401064, Acc: 0.421875
+Epch: 95	Val acc: 0.43104794
+Validation Step: 92200, Loss: 1.282641, Acc: 0.403101
+Validation Step: 92400, Loss: 1.358082, Acc: 0.406250
+Validation Step: 92600, Loss: 1.294407, Acc: 0.421875
+Validation Step: 92800, Loss: 1.129731, Acc: 0.453125
+Validation Step: 93000, Loss: 1.263902, Acc: 0.492188
+Epch: 96	Val acc: 0.43299941
+Validation Step: 93200, Loss: 1.344527, Acc: 0.449612
+Validation Step: 93400, Loss: 1.276920, Acc: 0.406250
+Validation Step: 93600, Loss: 1.261080, Acc: 0.406250
+Validation Step: 93800, Loss: 1.372954, Acc: 0.382812
+Validation Step: 94000, Loss: 1.347556, Acc: 0.476562
+Epch: 97	Val acc: 0.43524361
+Validation Step: 94200, Loss: 1.186466, Acc: 0.488372
+Validation Step: 94400, Loss: 1.249071, Acc: 0.414062
+Validation Step: 94600, Loss: 1.240914, Acc: 0.468750
+Validation Step: 94800, Loss: 1.344831, Acc: 0.406250
+Validation Step: 95000, Loss: 1.316573, Acc: 0.414062
+Epch: 98	Val acc: 0.43218630
+Validation Step: 95200, Loss: 1.439208, Acc: 0.418605
+Validation Step: 95400, Loss: 1.146130, Acc: 0.476562
+Validation Step: 95600, Loss: 1.335212, Acc: 0.406250
+Validation Step: 95800, Loss: 1.332815, Acc: 0.382812
+Epch: 99	Val acc: 0.43579653
+Model saved
+Validation Step: 96000, Loss: 1.286988, Acc: 0.511628
+Validation Step: 96200, Loss: 1.207861, Acc: 0.558140
+Validation Step: 96400, Loss: 1.294652, Acc: 0.382812
+Validation Step: 96600, Loss: 1.323665, Acc: 0.468750
+Validation Step: 96800, Loss: 1.408775, Acc: 0.421875
+Epch: 100	Val acc: 0.43937423
+Model saved
+Validation Step: 97000, Loss: 1.289684, Acc: 0.418605
+Validation Step: 97200, Loss: 1.385545, Acc: 0.406250
+Validation Step: 97400, Loss: 1.352614, Acc: 0.390625
+Validation Step: 97600, Loss: 1.144289, Acc: 0.500000
+Validation Step: 97800, Loss: 1.393038, Acc: 0.460938
+Epch: 101	Val acc: 0.43618682
+Validation Step: 98000, Loss: 1.288270, Acc: 0.488372
+Validation Step: 98200, Loss: 1.226919, Acc: 0.460938
+Validation Step: 98400, Loss: 1.233297, Acc: 0.429688
+Validation Step: 98600, Loss: 1.382057, Acc: 0.398438
+Validation Step: 98800, Loss: 1.333687, Acc: 0.476562
+Epch: 102	Val acc: 0.43351981
+Validation Step: 99000, Loss: 1.259148, Acc: 0.519380
+Validation Step: 99200, Loss: 1.281289, Acc: 0.406250
+Validation Step: 99400, Loss: 1.211224, Acc: 0.484375
+Validation Step: 99600, Loss: 1.334653, Acc: 0.437500
+Validation Step: 99800, Loss: 1.435230, Acc: 0.437500
+Epch: 103	Val acc: 0.43521108
+Validation Step: 100000, Loss: 1.364498, Acc: 0.503876
+Validation Step: 100200, Loss: 1.164958, Acc: 0.492188
+Validation Step: 100400, Loss: 1.299311, Acc: 0.429688
+Validation Step: 100600, Loss: 1.401818, Acc: 0.335938
+Epch: 104	Val acc: 0.43430040
+Validation Step: 100800, Loss: 1.318665, Acc: 0.441860
+Validation Step: 101000, Loss: 1.194885, Acc: 0.503876
+Validation Step: 101200, Loss: 1.326412, Acc: 0.390625
+Validation Step: 101400, Loss: 1.254930, Acc: 0.460938
+Validation Step: 101600, Loss: 1.349667, Acc: 0.445312
+Epch: 105	Val acc: 0.43459312
+Validation Step: 101800, Loss: 1.342694, Acc: 0.426357
+Validation Step: 102000, Loss: 1.371694, Acc: 0.445312
+Validation Step: 102200, Loss: 1.404929, Acc: 0.382812
+Validation Step: 102400, Loss: 1.104293, Acc: 0.492188
+Validation Step: 102600, Loss: 1.389792, Acc: 0.460938
+Epch: 106	Val acc: 0.43543876
+Validation Step: 102800, Loss: 1.337258, Acc: 0.472868
+Validation Step: 103000, Loss: 1.327088, Acc: 0.421875
+Validation Step: 103200, Loss: 1.227604, Acc: 0.398438
+Validation Step: 103400, Loss: 1.387443, Acc: 0.359375
+Validation Step: 103600, Loss: 1.317598, Acc: 0.500000
+Epch: 107	Val acc: 0.43338971
+Validation Step: 103800, Loss: 1.267412, Acc: 0.480620
+Validation Step: 104000, Loss: 1.252262, Acc: 0.406250
+Validation Step: 104200, Loss: 1.326603, Acc: 0.476562
+Validation Step: 104400, Loss: 1.308680, Acc: 0.421875
+Validation Step: 104600, Loss: 1.456257, Acc: 0.421875
+Epch: 108	Val acc: 0.43430040
+Validation Step: 104800, Loss: 1.433466, Acc: 0.449612
+Validation Step: 105000, Loss: 1.211118, Acc: 0.500000
+Validation Step: 105200, Loss: 1.368820, Acc: 0.390625
+Validation Step: 105400, Loss: 1.420099, Acc: 0.351562
+Epch: 109	Val acc: 0.43225135
+Validation Step: 105600, Loss: 1.406801, Acc: 0.434109
+Validation Step: 105800, Loss: 1.215339, Acc: 0.565891
+Validation Step: 106000, Loss: 1.319334, Acc: 0.421875
+Validation Step: 106200, Loss: 1.337191, Acc: 0.484375
+Validation Step: 106400, Loss: 1.371212, Acc: 0.445312
+Epch: 110	Val acc: 0.43293437
+Validation Step: 106600, Loss: 1.315749, Acc: 0.403101
+Validation Step: 106800, Loss: 1.388499, Acc: 0.453125
+Validation Step: 107000, Loss: 1.388270, Acc: 0.414062
+Validation Step: 107200, Loss: 1.120385, Acc: 0.468750
+Validation Step: 107400, Loss: 1.371271, Acc: 0.468750
+Epch: 111	Val acc: 0.43212125
+Validation Step: 107600, Loss: 1.334047, Acc: 0.441860
+Validation Step: 107800, Loss: 1.317519, Acc: 0.429688
+Validation Step: 108000, Loss: 1.228333, Acc: 0.445312
+Validation Step: 108200, Loss: 1.358596, Acc: 0.390625
+Validation Step: 108400, Loss: 1.292413, Acc: 0.515625
+Epch: 112	Val acc: 0.43312951
+Validation Step: 108600, Loss: 1.351660, Acc: 0.488372
+Validation Step: 108800, Loss: 1.239314, Acc: 0.421875
+Validation Step: 109000, Loss: 1.269847, Acc: 0.460938
+Validation Step: 109200, Loss: 1.306525, Acc: 0.437500
+Validation Step: 109400, Loss: 1.461884, Acc: 0.414062
+Epch: 113	Val acc: 0.43212125
+Validation Step: 109600, Loss: 1.362264, Acc: 0.496124
+Validation Step: 109800, Loss: 1.231892, Acc: 0.484375
+Validation Step: 110000, Loss: 1.377131, Acc: 0.351562
+Validation Step: 110200, Loss: 1.423182, Acc: 0.398438
+Epch: 114	Val acc: 0.43537371
+Validation Step: 110400, Loss: 1.362334, Acc: 0.410853
+Validation Step: 110600, Loss: 1.205827, Acc: 0.519380
+Validation Step: 110800, Loss: 1.253126, Acc: 0.406250
+Validation Step: 111000, Loss: 1.301231, Acc: 0.507812
+Validation Step: 111200, Loss: 1.390574, Acc: 0.414062
+Epch: 115	Val acc: 0.43439797
+Validation Step: 111400, Loss: 1.313674, Acc: 0.426357
+Validation Step: 111600, Loss: 1.335213, Acc: 0.484375
+Validation Step: 111800, Loss: 1.362095, Acc: 0.398438
+Validation Step: 112000, Loss: 1.169873, Acc: 0.523438
+Validation Step: 112200, Loss: 1.335445, Acc: 0.484375
+Epch: 116	Val acc: 0.43423535
+Validation Step: 112400, Loss: 1.287864, Acc: 0.457364
+Validation Step: 112600, Loss: 1.292787, Acc: 0.421875
+Validation Step: 112800, Loss: 1.202371, Acc: 0.453125
+Validation Step: 113000, Loss: 1.369692, Acc: 0.406250
+Validation Step: 113200, Loss: 1.288558, Acc: 0.531250
+Epch: 117	Val acc: 0.43462564
+Validation Step: 113400, Loss: 1.305385, Acc: 0.457364
+Validation Step: 113600, Loss: 1.278304, Acc: 0.429688
+Validation Step: 113800, Loss: 1.369351, Acc: 0.460938
+Validation Step: 114000, Loss: 1.290047, Acc: 0.445312
+Validation Step: 114200, Loss: 1.388029, Acc: 0.390625
+Epch: 118	Val acc: 0.43719508
+Validation Step: 114400, Loss: 1.462372, Acc: 0.465116
+Validation Step: 114600, Loss: 1.183173, Acc: 0.515625
+Validation Step: 114800, Loss: 1.439983, Acc: 0.359375
+Validation Step: 115000, Loss: 1.413831, Acc: 0.406250
+Epch: 119	Val acc: 0.43553633
+Validation Step: 115200, Loss: 1.307113, Acc: 0.465116
+Validation Step: 115400, Loss: 1.211692, Acc: 0.511628
+Validation Step: 115600, Loss: 1.329199, Acc: 0.382812
+Validation Step: 115800, Loss: 1.346236, Acc: 0.453125
+Validation Step: 116000, Loss: 1.384282, Acc: 0.437500
+Epch: 120	Val acc: 0.43826839
+Validation Step: 116200, Loss: 1.362053, Acc: 0.426357
+Validation Step: 116400, Loss: 1.366264, Acc: 0.453125
+Validation Step: 116600, Loss: 1.373461, Acc: 0.390625
+Validation Step: 116800, Loss: 1.186561, Acc: 0.484375
+Validation Step: 117000, Loss: 1.382669, Acc: 0.484375
+Epch: 121	Val acc: 0.43514604
+Validation Step: 117200, Loss: 1.280034, Acc: 0.488372
+Validation Step: 117400, Loss: 1.278456, Acc: 0.429688
+Validation Step: 117600, Loss: 1.254326, Acc: 0.398438
+Validation Step: 117800, Loss: 1.434637, Acc: 0.406250
+Validation Step: 118000, Loss: 1.308861, Acc: 0.492188
+Epch: 122	Val acc: 0.43413777
+Validation Step: 118200, Loss: 1.238878, Acc: 0.488372
+Validation Step: 118400, Loss: 1.299149, Acc: 0.421875
+Validation Step: 118600, Loss: 1.295400, Acc: 0.531250
+Validation Step: 118800, Loss: 1.346963, Acc: 0.421875
+Validation Step: 119000, Loss: 1.454326, Acc: 0.421875
+Epch: 123	Val acc: 0.43456059
+Validation Step: 119200, Loss: 1.394230, Acc: 0.472868
+Validation Step: 119400, Loss: 1.172960, Acc: 0.539062
+Validation Step: 119600, Loss: 1.385910, Acc: 0.398438
+Validation Step: 119800, Loss: 1.398730, Acc: 0.367188
+Epch: 124	Val acc: 0.43443050
+Validation Step: 120000, Loss: 1.330892, Acc: 0.434109
+Validation Step: 120200, Loss: 1.189576, Acc: 0.480620
+Validation Step: 120400, Loss: 1.327497, Acc: 0.460938
+Validation Step: 120600, Loss: 1.361749, Acc: 0.476562
+Validation Step: 120800, Loss: 1.426243, Acc: 0.421875
+Epch: 125	Val acc: 0.43569895
+Validation Step: 121000, Loss: 1.342713, Acc: 0.426357
+Validation Step: 121200, Loss: 1.417104, Acc: 0.414062
+Validation Step: 121400, Loss: 1.331776, Acc: 0.414062
+Validation Step: 121600, Loss: 1.109012, Acc: 0.531250
+Validation Step: 121800, Loss: 1.451632, Acc: 0.492188
+Epch: 126	Val acc: 0.43670721
+Validation Step: 122000, Loss: 1.291892, Acc: 0.472868
+Validation Step: 122200, Loss: 1.299962, Acc: 0.414062
+Validation Step: 122400, Loss: 1.256598, Acc: 0.414062
+Validation Step: 122600, Loss: 1.379539, Acc: 0.445312
+Validation Step: 122800, Loss: 1.309180, Acc: 0.468750
+Epch: 127	Val acc: 0.43407272
+Validation Step: 123000, Loss: 1.301128, Acc: 0.465116
+Validation Step: 123200, Loss: 1.272204, Acc: 0.437500
+Validation Step: 123400, Loss: 1.318472, Acc: 0.507812
+Validation Step: 123600, Loss: 1.338260, Acc: 0.453125
+Validation Step: 123800, Loss: 1.405174, Acc: 0.460938
+Epch: 128	Val acc: 0.43260912
+Validation Step: 124000, Loss: 1.410881, Acc: 0.480620
+Validation Step: 124200, Loss: 1.206353, Acc: 0.492188
+Validation Step: 124400, Loss: 1.429457, Acc: 0.335938
+Validation Step: 124600, Loss: 1.433424, Acc: 0.375000
+Epch: 129	Val acc: 0.43784557
+Validation Step: 124800, Loss: 1.438214, Acc: 0.426357
+Validation Step: 125000, Loss: 1.243304, Acc: 0.503876
+Validation Step: 125200, Loss: 1.439776, Acc: 0.421875
+Validation Step: 125400, Loss: 1.397271, Acc: 0.460938
+Validation Step: 125600, Loss: 1.356251, Acc: 0.398438
+Epch: 130	Val acc: 0.43524361
+Validation Step: 125800, Loss: 1.368269, Acc: 0.410853
+Validation Step: 126000, Loss: 1.356040, Acc: 0.460938
+Validation Step: 126200, Loss: 1.390631, Acc: 0.406250
+Validation Step: 126400, Loss: 1.156826, Acc: 0.507812
+Validation Step: 126600, Loss: 1.413565, Acc: 0.453125
+Epch: 131	Val acc: 0.43602420
+Validation Step: 126800, Loss: 1.318065, Acc: 0.480620
+Validation Step: 127000, Loss: 1.337851, Acc: 0.390625
+Validation Step: 127200, Loss: 1.277168, Acc: 0.414062
+Validation Step: 127400, Loss: 1.419346, Acc: 0.414062
+Validation Step: 127600, Loss: 1.291340, Acc: 0.507812
+Epch: 132	Val acc: 0.43560138
+Validation Step: 127800, Loss: 1.228750, Acc: 0.519380
+Validation Step: 128000, Loss: 1.280213, Acc: 0.390625
+Validation Step: 128200, Loss: 1.270203, Acc: 0.500000
+Validation Step: 128400, Loss: 1.347430, Acc: 0.445312
+Validation Step: 128600, Loss: 1.396630, Acc: 0.445312
+Epch: 133	Val acc: 0.43257660
+Validation Step: 128800, Loss: 1.395488, Acc: 0.480620
+Validation Step: 129000, Loss: 1.209604, Acc: 0.484375
+Validation Step: 129200, Loss: 1.368427, Acc: 0.390625
+Validation Step: 129400, Loss: 1.465021, Acc: 0.382812
+Epch: 134	Val acc: 0.43608925
+Validation Step: 129600, Loss: 1.350135, Acc: 0.410853
+Validation Step: 129800, Loss: 1.202056, Acc: 0.527132
+Validation Step: 130000, Loss: 1.309442, Acc: 0.414062
+Validation Step: 130200, Loss: 1.383612, Acc: 0.484375
+Validation Step: 130400, Loss: 1.387571, Acc: 0.437500
+Epch: 135	Val acc: 0.43504846
+Validation Step: 130600, Loss: 1.330527, Acc: 0.441860
+Validation Step: 130800, Loss: 1.341954, Acc: 0.468750
+Validation Step: 131000, Loss: 1.381627, Acc: 0.460938
+Validation Step: 131200, Loss: 1.166131, Acc: 0.507812
+Validation Step: 131400, Loss: 1.435082, Acc: 0.453125
+Epch: 136	Val acc: 0.42694985
+Validation Step: 131600, Loss: 1.325341, Acc: 0.434109
+Validation Step: 131800, Loss: 1.361984, Acc: 0.406250
+Validation Step: 132000, Loss: 1.332739, Acc: 0.429688
+Validation Step: 132200, Loss: 1.466649, Acc: 0.351562
+Validation Step: 132400, Loss: 1.303802, Acc: 0.500000
+Epch: 137	Val acc: 0.43299941
+Validation Step: 132600, Loss: 1.270073, Acc: 0.496124
+Validation Step: 132800, Loss: 1.270606, Acc: 0.437500
+Validation Step: 133000, Loss: 1.347245, Acc: 0.445312
+Validation Step: 133200, Loss: 1.318723, Acc: 0.453125
+Validation Step: 133400, Loss: 1.331723, Acc: 0.437500
+Epch: 138	Val acc: 0.43576400
+Validation Step: 133600, Loss: 1.414947, Acc: 0.465116
+Validation Step: 133800, Loss: 1.166403, Acc: 0.500000
+Validation Step: 134000, Loss: 1.425055, Acc: 0.375000
+Validation Step: 134200, Loss: 1.464640, Acc: 0.398438
+Epch: 139	Val acc: 0.43589410
+Validation Step: 134400, Loss: 1.306322, Acc: 0.441860
+Validation Step: 134600, Loss: 1.221056, Acc: 0.511628
+Validation Step: 134800, Loss: 1.427961, Acc: 0.390625
+Validation Step: 135000, Loss: 1.424106, Acc: 0.453125
+Validation Step: 135200, Loss: 1.416180, Acc: 0.414062
+Epch: 140	Val acc: 0.43478827
+Validation Step: 135400, Loss: 1.307984, Acc: 0.457364
+Validation Step: 135600, Loss: 1.301441, Acc: 0.476562
+Validation Step: 135800, Loss: 1.451285, Acc: 0.445312
+Validation Step: 136000, Loss: 1.144202, Acc: 0.515625
+Validation Step: 136200, Loss: 1.434627, Acc: 0.460938
+Epch: 141	Val acc: 0.43693489
+Validation Step: 136400, Loss: 1.326900, Acc: 0.410853
+Validation Step: 136600, Loss: 1.397390, Acc: 0.421875
+Validation Step: 136800, Loss: 1.292063, Acc: 0.445312
+Validation Step: 137000, Loss: 1.405634, Acc: 0.437500
+Validation Step: 137200, Loss: 1.316724, Acc: 0.484375
+Epch: 142	Val acc: 0.43644702
+Validation Step: 137400, Loss: 1.382305, Acc: 0.472868
+Validation Step: 137600, Loss: 1.336600, Acc: 0.375000
+Validation Step: 137800, Loss: 1.303970, Acc: 0.468750
+Validation Step: 138000, Loss: 1.298988, Acc: 0.445312
+Validation Step: 138200, Loss: 1.407601, Acc: 0.445312
+Epch: 143	Val acc: 0.43556885
+Validation Step: 138400, Loss: 1.389784, Acc: 0.472868
+Validation Step: 138600, Loss: 1.178190, Acc: 0.500000
+Validation Step: 138800, Loss: 1.401436, Acc: 0.406250
+Validation Step: 139000, Loss: 1.408776, Acc: 0.398438
+Epch: 144	Val acc: 0.43696741
+Validation Step: 139200, Loss: 1.399143, Acc: 0.426357
+Validation Step: 139400, Loss: 1.217316, Acc: 0.527132
+Validation Step: 139600, Loss: 1.435596, Acc: 0.375000
+Validation Step: 139800, Loss: 1.551067, Acc: 0.453125
+Validation Step: 140000, Loss: 1.405128, Acc: 0.398438
+Epch: 145	Val acc: 0.43745528
+Validation Step: 140200, Loss: 1.428041, Acc: 0.457364
+Validation Step: 140400, Loss: 1.347784, Acc: 0.453125
+Validation Step: 140600, Loss: 1.377498, Acc: 0.406250
+Validation Step: 140800, Loss: 1.233950, Acc: 0.507812
+Validation Step: 141000, Loss: 1.468114, Acc: 0.484375
+Epch: 146	Val acc: 0.43514604
+Validation Step: 141200, Loss: 1.274633, Acc: 0.441860
+Validation Step: 141400, Loss: 1.354080, Acc: 0.414062
+Validation Step: 141600, Loss: 1.237263, Acc: 0.429688
+Validation Step: 141800, Loss: 1.459650, Acc: 0.390625
+Validation Step: 142000, Loss: 1.321196, Acc: 0.500000
+Epch: 147	Val acc: 0.43651207
+Validation Step: 142200, Loss: 1.353583, Acc: 0.472868
+Validation Step: 142400, Loss: 1.300645, Acc: 0.429688
+Validation Step: 142600, Loss: 1.342148, Acc: 0.476562
+Validation Step: 142800, Loss: 1.356298, Acc: 0.429688
+Validation Step: 143000, Loss: 1.367514, Acc: 0.445312
+Epch: 148	Val acc: 0.43052755
+Validation Step: 143200, Loss: 1.433886, Acc: 0.496124
+Validation Step: 143400, Loss: 1.192938, Acc: 0.507812
+Validation Step: 143600, Loss: 1.377818, Acc: 0.414062
+Validation Step: 143800, Loss: 1.471806, Acc: 0.382812
+Epch: 149	Val acc: 0.43212125
+Validation Step: 144000, Loss: 1.450641, Acc: 0.418605
+Validation Step: 144200, Loss: 1.238775, Acc: 0.496124
+Validation Step: 144400, Loss: 1.399354, Acc: 0.398438
+Validation Step: 144600, Loss: 1.528003, Acc: 0.476562
+Validation Step: 144800, Loss: 1.398090, Acc: 0.429688
+Epch: 150	Val acc: 0.42971443
+Validation Step: 145000, Loss: 1.369584, Acc: 0.426357
+Validation Step: 145200, Loss: 1.321446, Acc: 0.476562
+Validation Step: 145400, Loss: 1.482697, Acc: 0.421875
+Validation Step: 145600, Loss: 1.124713, Acc: 0.507812
+Validation Step: 145800, Loss: 1.430265, Acc: 0.507812
+Epch: 151	Val acc: 0.43921160
+Validation Step: 146000, Loss: 1.335186, Acc: 0.480620
+Validation Step: 146200, Loss: 1.374045, Acc: 0.398438
+Validation Step: 146400, Loss: 1.284904, Acc: 0.414062
+Validation Step: 146600, Loss: 1.409046, Acc: 0.437500
+Validation Step: 146800, Loss: 1.289781, Acc: 0.500000
+Epch: 152	Val acc: 0.43677226
+Validation Step: 147000, Loss: 1.308723, Acc: 0.488372
+Validation Step: 147200, Loss: 1.331125, Acc: 0.429688
+Validation Step: 147400, Loss: 1.381079, Acc: 0.484375
+Validation Step: 147600, Loss: 1.321781, Acc: 0.460938
+Validation Step: 147800, Loss: 1.408801, Acc: 0.476562
+Epch: 153	Val acc: 0.43491836
+Validation Step: 148000, Loss: 1.418035, Acc: 0.480620
+Validation Step: 148200, Loss: 1.268243, Acc: 0.476562
+Validation Step: 148400, Loss: 1.495703, Acc: 0.398438
+Validation Step: 148600, Loss: 1.513304, Acc: 0.406250
+Epch: 154	Val acc: 0.43504846
+Validation Step: 148800, Loss: 1.370549, Acc: 0.410853
+Validation Step: 149000, Loss: 1.209290, Acc: 0.527132
+Validation Step: 149200, Loss: 1.418748, Acc: 0.398438
+Validation Step: 149400, Loss: 1.476193, Acc: 0.476562
+Validation Step: 149600, Loss: 1.421083, Acc: 0.406250
+Epch: 155	Val acc: 0.43651207
+Validation Step: 149800, Loss: 1.303002, Acc: 0.480620
+Validation Step: 150000, Loss: 1.307179, Acc: 0.492188
+Validation Step: 150200, Loss: 1.337997, Acc: 0.468750
+Validation Step: 150400, Loss: 1.268742, Acc: 0.468750
+Validation Step: 150600, Loss: 1.459923, Acc: 0.460938
+Epch: 156	Val acc: 0.43768295
+Validation Step: 150800, Loss: 1.376440, Acc: 0.465116
+Validation Step: 151000, Loss: 1.381364, Acc: 0.414062
+Validation Step: 151200, Loss: 1.245566, Acc: 0.437500
+Validation Step: 151400, Loss: 1.458486, Acc: 0.414062
+Validation Step: 151600, Loss: 1.294771, Acc: 0.492188
+Epch: 157	Val acc: 0.43589410
+Validation Step: 151800, Loss: 1.311173, Acc: 0.488372
+Validation Step: 152000, Loss: 1.303906, Acc: 0.406250
+Validation Step: 152200, Loss: 1.321192, Acc: 0.476562
+Validation Step: 152400, Loss: 1.381339, Acc: 0.460938
+Validation Step: 152600, Loss: 1.433767, Acc: 0.445312
+Epch: 158	Val acc: 0.43953685
+Model saved
+Validation Step: 152800, Loss: 1.507084, Acc: 0.457364
+Validation Step: 153000, Loss: 1.251151, Acc: 0.460938
+Validation Step: 153200, Loss: 1.419266, Acc: 0.367188
+Validation Step: 153400, Loss: 1.473879, Acc: 0.382812
+Epch: 159	Val acc: 0.43508099
+Validation Step: 153600, Loss: 1.406882, Acc: 0.449612
+Validation Step: 153800, Loss: 1.207309, Acc: 0.519380
+Validation Step: 154000, Loss: 1.444110, Acc: 0.398438
+Validation Step: 154200, Loss: 1.585949, Acc: 0.437500
+Validation Step: 154400, Loss: 1.448591, Acc: 0.390625
+Epch: 160	Val acc: 0.43992714
+Model saved
+Validation Step: 154600, Loss: 1.365090, Acc: 0.426357
+Validation Step: 154800, Loss: 1.262315, Acc: 0.492188
+Validation Step: 155000, Loss: 1.404416, Acc: 0.398438
+Validation Step: 155200, Loss: 1.169991, Acc: 0.515625
+Validation Step: 155400, Loss: 1.419547, Acc: 0.476562
+Epch: 161	Val acc: 0.43651207
+Validation Step: 155600, Loss: 1.380389, Acc: 0.426357
+Validation Step: 155800, Loss: 1.322263, Acc: 0.406250
+Validation Step: 156000, Loss: 1.295372, Acc: 0.453125
+Validation Step: 156200, Loss: 1.466480, Acc: 0.375000
+Validation Step: 156400, Loss: 1.269042, Acc: 0.507812
+Epch: 162	Val acc: 0.43498341
+Validation Step: 156600, Loss: 1.343060, Acc: 0.511628
+Validation Step: 156800, Loss: 1.311997, Acc: 0.437500
+Validation Step: 157000, Loss: 1.437697, Acc: 0.515625
+Validation Step: 157200, Loss: 1.389776, Acc: 0.445312
+Validation Step: 157400, Loss: 1.426909, Acc: 0.476562
+Epch: 163	Val acc: 0.43612177
+Validation Step: 157600, Loss: 1.465390, Acc: 0.449612
+Validation Step: 157800, Loss: 1.183934, Acc: 0.531250
+Validation Step: 158000, Loss: 1.424916, Acc: 0.445312
+Validation Step: 158200, Loss: 1.505834, Acc: 0.382812
+Epch: 164	Val acc: 0.43647954
+Validation Step: 158400, Loss: 1.403934, Acc: 0.449612
+Validation Step: 158600, Loss: 1.255923, Acc: 0.496124
+Validation Step: 158800, Loss: 1.336289, Acc: 0.406250
+Validation Step: 159000, Loss: 1.460128, Acc: 0.460938
+Validation Step: 159200, Loss: 1.423782, Acc: 0.453125
+Epch: 165	Val acc: 0.43312951
+Validation Step: 159400, Loss: 1.383027, Acc: 0.426357
+Validation Step: 159600, Loss: 1.303078, Acc: 0.507812
+Validation Step: 159800, Loss: 1.484031, Acc: 0.445312
+Validation Step: 160000, Loss: 1.213482, Acc: 0.531250
+Validation Step: 160200, Loss: 1.384711, Acc: 0.453125
+Epch: 166	Val acc: 0.43537371
+Validation Step: 160400, Loss: 1.363757, Acc: 0.496124
+Validation Step: 160600, Loss: 1.410784, Acc: 0.398438
+Validation Step: 160800, Loss: 1.284788, Acc: 0.437500
+Validation Step: 161000, Loss: 1.466184, Acc: 0.390625
+Validation Step: 161200, Loss: 1.317350, Acc: 0.476562
+Epch: 167	Val acc: 0.43602420
+Validation Step: 161400, Loss: 1.474950, Acc: 0.503876
+Validation Step: 161600, Loss: 1.296899, Acc: 0.421875
+Validation Step: 161800, Loss: 1.388250, Acc: 0.476562
+Validation Step: 162000, Loss: 1.377276, Acc: 0.437500
+Validation Step: 162200, Loss: 1.395733, Acc: 0.445312
+Epch: 168	Val acc: 0.43589410
+Validation Step: 162400, Loss: 1.468430, Acc: 0.465116
+Validation Step: 162600, Loss: 1.308980, Acc: 0.468750
+Validation Step: 162800, Loss: 1.468868, Acc: 0.382812
+Validation Step: 163000, Loss: 1.490827, Acc: 0.429688
+Epch: 169	Val acc: 0.43299941
+Validation Step: 163200, Loss: 1.495618, Acc: 0.426357
+Validation Step: 163400, Loss: 1.249458, Acc: 0.511628
+Validation Step: 163600, Loss: 1.437185, Acc: 0.382812
+Validation Step: 163800, Loss: 1.471189, Acc: 0.453125
+Validation Step: 164000, Loss: 1.445955, Acc: 0.414062
+Epch: 170	Val acc: 0.43410525
+Validation Step: 164200, Loss: 1.505996, Acc: 0.480620
+Validation Step: 164400, Loss: 1.278695, Acc: 0.484375
+Validation Step: 164600, Loss: 1.406180, Acc: 0.406250
+Validation Step: 164800, Loss: 1.171491, Acc: 0.492188
+Validation Step: 165000, Loss: 1.402430, Acc: 0.460938
+Epch: 171	Val acc: 0.43452807
+Validation Step: 165200, Loss: 1.409976, Acc: 0.434109
+Validation Step: 165400, Loss: 1.374393, Acc: 0.398438
+Validation Step: 165600, Loss: 1.342061, Acc: 0.390625
+Validation Step: 165800, Loss: 1.480703, Acc: 0.429688
+Validation Step: 166000, Loss: 1.261306, Acc: 0.523438
+Epch: 172	Val acc: 0.43641449
+Validation Step: 166200, Loss: 1.332348, Acc: 0.519380
+Validation Step: 166400, Loss: 1.258635, Acc: 0.398438
+Validation Step: 166600, Loss: 1.338886, Acc: 0.484375
+Validation Step: 166800, Loss: 1.343247, Acc: 0.460938
+Validation Step: 167000, Loss: 1.397168, Acc: 0.476562
+Epch: 173	Val acc: 0.43690236
+Validation Step: 167200, Loss: 1.424704, Acc: 0.503876
+Validation Step: 167400, Loss: 1.250900, Acc: 0.492188
+Validation Step: 167600, Loss: 1.521474, Acc: 0.406250
+Validation Step: 167800, Loss: 1.574290, Acc: 0.398438
+Epch: 174	Val acc: 0.43849606
+Validation Step: 168000, Loss: 1.415011, Acc: 0.434109
+Validation Step: 168200, Loss: 1.261171, Acc: 0.550388
+Validation Step: 168400, Loss: 1.435197, Acc: 0.406250
+Validation Step: 168600, Loss: 1.531574, Acc: 0.460938
+Validation Step: 168800, Loss: 1.438533, Acc: 0.445312
+Epch: 175	Val acc: 0.43586158
+Validation Step: 169000, Loss: 1.385315, Acc: 0.457364
+Validation Step: 169200, Loss: 1.292335, Acc: 0.484375
+Validation Step: 169400, Loss: 1.480445, Acc: 0.406250
+Validation Step: 169600, Loss: 1.171103, Acc: 0.492188
+Validation Step: 169800, Loss: 1.406502, Acc: 0.437500
+Epch: 176	Val acc: 0.43524361
+Validation Step: 170000, Loss: 1.393245, Acc: 0.457364
+Validation Step: 170200, Loss: 1.371473, Acc: 0.398438
+Validation Step: 170400, Loss: 1.222420, Acc: 0.445312
+Validation Step: 170600, Loss: 1.495431, Acc: 0.398438
+Validation Step: 170800, Loss: 1.315546, Acc: 0.500000
+Epch: 177	Val acc: 0.44002472
+Model saved
+Validation Step: 171000, Loss: 1.360315, Acc: 0.496124
+Validation Step: 171200, Loss: 1.308070, Acc: 0.445312
+Validation Step: 171400, Loss: 1.395339, Acc: 0.484375
+Validation Step: 171600, Loss: 1.383916, Acc: 0.421875
+Validation Step: 171800, Loss: 1.454577, Acc: 0.453125
+Epch: 178	Val acc: 0.43761790
+Validation Step: 172000, Loss: 1.437972, Acc: 0.441860
+Validation Step: 172200, Loss: 1.293037, Acc: 0.476562
+Validation Step: 172400, Loss: 1.523329, Acc: 0.382812
+Validation Step: 172600, Loss: 1.456629, Acc: 0.445312
+Epch: 179	Val acc: 0.43540623
+Validation Step: 172800, Loss: 1.375260, Acc: 0.434109
+Validation Step: 173000, Loss: 1.328390, Acc: 0.503876
+Validation Step: 173200, Loss: 1.415084, Acc: 0.421875
+Validation Step: 173400, Loss: 1.638866, Acc: 0.484375
+Validation Step: 173600, Loss: 1.420708, Acc: 0.429688
+Epch: 180	Val acc: 0.44012229
+Model saved
+Validation Step: 173800, Loss: 1.382136, Acc: 0.441860
+Validation Step: 174000, Loss: 1.299840, Acc: 0.539062
+Validation Step: 174200, Loss: 1.437441, Acc: 0.445312
+Validation Step: 174400, Loss: 1.137412, Acc: 0.492188
+Validation Step: 174600, Loss: 1.472898, Acc: 0.468750
+Epch: 181	Val acc: 0.43368243
+Validation Step: 174800, Loss: 1.395869, Acc: 0.465116
+Validation Step: 175000, Loss: 1.393064, Acc: 0.437500
+Validation Step: 175200, Loss: 1.273560, Acc: 0.468750
+Validation Step: 175400, Loss: 1.494967, Acc: 0.421875
+Validation Step: 175600, Loss: 1.280291, Acc: 0.500000
+Epch: 182	Val acc: 0.43716256
+Validation Step: 175800, Loss: 1.368461, Acc: 0.480620
+Validation Step: 176000, Loss: 1.308119, Acc: 0.445312
+Validation Step: 176200, Loss: 1.340599, Acc: 0.492188
+Validation Step: 176400, Loss: 1.346360, Acc: 0.453125
+Validation Step: 176600, Loss: 1.399280, Acc: 0.484375
+Epch: 183	Val acc: 0.43875626
+Validation Step: 176800, Loss: 1.477713, Acc: 0.441860
+Validation Step: 177000, Loss: 1.333025, Acc: 0.453125
+Validation Step: 177200, Loss: 1.451620, Acc: 0.437500
+Validation Step: 177400, Loss: 1.442436, Acc: 0.437500
+Epch: 184	Val acc: 0.44077278
+Model saved
+Validation Step: 177600, Loss: 1.384261, Acc: 0.434109
+Validation Step: 177800, Loss: 1.272039, Acc: 0.542636
+Validation Step: 178000, Loss: 1.460601, Acc: 0.382812
+Validation Step: 178200, Loss: 1.560990, Acc: 0.476562
+Validation Step: 178400, Loss: 1.427521, Acc: 0.414062
+Epch: 185	Val acc: 0.43765043
+Validation Step: 178600, Loss: 1.420414, Acc: 0.434109
+Validation Step: 178800, Loss: 1.328633, Acc: 0.492188
+Validation Step: 179000, Loss: 1.461283, Acc: 0.367188
+Validation Step: 179200, Loss: 1.137463, Acc: 0.484375
+Validation Step: 179400, Loss: 1.410395, Acc: 0.453125
+Epch: 186	Val acc: 0.43758538
+Validation Step: 179600, Loss: 1.435185, Acc: 0.472868
+Validation Step: 179800, Loss: 1.450861, Acc: 0.406250
+Validation Step: 180000, Loss: 1.308478, Acc: 0.421875
+Validation Step: 180200, Loss: 1.442145, Acc: 0.437500
+Validation Step: 180400, Loss: 1.297696, Acc: 0.515625
+Epch: 187	Val acc: 0.43527613
+Validation Step: 180600, Loss: 1.238701, Acc: 0.496124
+Validation Step: 180800, Loss: 1.297209, Acc: 0.437500
+Validation Step: 181000, Loss: 1.314490, Acc: 0.492188
+Validation Step: 181200, Loss: 1.349487, Acc: 0.414062
+Validation Step: 181400, Loss: 1.461832, Acc: 0.437500
+Epch: 188	Val acc: 0.43849606
+Validation Step: 181600, Loss: 1.513502, Acc: 0.488372
+Validation Step: 181800, Loss: 1.254373, Acc: 0.500000
+Validation Step: 182000, Loss: 1.485165, Acc: 0.398438
+Validation Step: 182200, Loss: 1.527862, Acc: 0.421875
+Epch: 189	Val acc: 0.43914656
+Validation Step: 182400, Loss: 1.457042, Acc: 0.449612
+Validation Step: 182600, Loss: 1.369081, Acc: 0.472868
+Validation Step: 182800, Loss: 1.432256, Acc: 0.375000
+Validation Step: 183000, Loss: 1.567424, Acc: 0.476562
+Validation Step: 183200, Loss: 1.388212, Acc: 0.437500
+Epch: 190	Val acc: 0.43813829
+Validation Step: 183400, Loss: 1.448651, Acc: 0.426357
+Validation Step: 183600, Loss: 1.347971, Acc: 0.460938
+Validation Step: 183800, Loss: 1.461721, Acc: 0.375000
+Validation Step: 184000, Loss: 1.160506, Acc: 0.492188
+Validation Step: 184200, Loss: 1.449129, Acc: 0.453125
+Epch: 191	Val acc: 0.43472322
+Validation Step: 184400, Loss: 1.423537, Acc: 0.426357
+Validation Step: 184600, Loss: 1.427464, Acc: 0.406250
+Validation Step: 184800, Loss: 1.274632, Acc: 0.453125
+Validation Step: 185000, Loss: 1.513922, Acc: 0.445312
+Validation Step: 185200, Loss: 1.316266, Acc: 0.515625
+Epch: 192	Val acc: 0.43908151
+Validation Step: 185400, Loss: 1.322501, Acc: 0.503876
+Validation Step: 185600, Loss: 1.303165, Acc: 0.382812
+Validation Step: 185800, Loss: 1.357046, Acc: 0.507812
+Validation Step: 186000, Loss: 1.353530, Acc: 0.468750
+Validation Step: 186200, Loss: 1.335203, Acc: 0.453125
+Epch: 193	Val acc: 0.43456059
+Validation Step: 186400, Loss: 1.441918, Acc: 0.472868
+Validation Step: 186600, Loss: 1.250542, Acc: 0.445312
+Validation Step: 186800, Loss: 1.388777, Acc: 0.398438
+Validation Step: 187000, Loss: 1.490022, Acc: 0.390625
+Epch: 194	Val acc: 0.43475574
+Validation Step: 187200, Loss: 1.449448, Acc: 0.457364
+Validation Step: 187400, Loss: 1.379130, Acc: 0.472868
+Validation Step: 187600, Loss: 1.476632, Acc: 0.414062
+Validation Step: 187800, Loss: 1.494998, Acc: 0.468750
+Validation Step: 188000, Loss: 1.433967, Acc: 0.398438
+Epch: 195	Val acc: 0.43498341
+Validation Step: 188200, Loss: 1.457933, Acc: 0.434109
+Validation Step: 188400, Loss: 1.365008, Acc: 0.437500
+Validation Step: 188600, Loss: 1.369837, Acc: 0.421875
+Validation Step: 188800, Loss: 1.157562, Acc: 0.484375
+Validation Step: 189000, Loss: 1.446398, Acc: 0.406250
+Epch: 196	Val acc: 0.43810577
+Validation Step: 189200, Loss: 1.432247, Acc: 0.449612
+Validation Step: 189400, Loss: 1.373580, Acc: 0.406250
+Validation Step: 189600, Loss: 1.310326, Acc: 0.460938
+Validation Step: 189800, Loss: 1.528291, Acc: 0.414062
+Validation Step: 190000, Loss: 1.307515, Acc: 0.492188
+Epch: 197	Val acc: 0.43498341
+Validation Step: 190200, Loss: 1.373376, Acc: 0.527132
+Validation Step: 190400, Loss: 1.259977, Acc: 0.453125
+Validation Step: 190600, Loss: 1.347956, Acc: 0.515625
+Validation Step: 190800, Loss: 1.431530, Acc: 0.429688
+Validation Step: 191000, Loss: 1.434762, Acc: 0.445312
+Epch: 198	Val acc: 0.43979705
+Validation Step: 191200, Loss: 1.529070, Acc: 0.449612
+Validation Step: 191400, Loss: 1.250009, Acc: 0.500000
+Validation Step: 191600, Loss: 1.462963, Acc: 0.406250
+Validation Step: 191800, Loss: 1.509057, Acc: 0.445312
+Epch: 199	Val acc: 0.43934170
+Validation Step: 192000, Loss: 1.492860, Acc: 0.418605
+Validation Step: 192200, Loss: 1.325583, Acc: 0.534884
+Validation Step: 192400, Loss: 1.472954, Acc: 0.375000
+Validation Step: 192600, Loss: 1.585204, Acc: 0.500000
+Validation Step: 192800, Loss: 1.421359, Acc: 0.382812
+Epch: 200	Val acc: 0.43761790
+Validation Step: 193000, Loss: 1.441514, Acc: 0.457364
+Validation Step: 193200, Loss: 1.364654, Acc: 0.460938
+Validation Step: 193400, Loss: 1.419662, Acc: 0.429688
+Validation Step: 193600, Loss: 1.244042, Acc: 0.476562
+Validation Step: 193800, Loss: 1.420708, Acc: 0.453125
+Epch: 201	Val acc: 0.44061016
+Validation Step: 194000, Loss: 1.403147, Acc: 0.441860
+Validation Step: 194200, Loss: 1.455487, Acc: 0.414062
+Validation Step: 194400, Loss: 1.237331, Acc: 0.460938
+Validation Step: 194600, Loss: 1.454922, Acc: 0.468750
+Validation Step: 194800, Loss: 1.324266, Acc: 0.500000
+Epch: 202	Val acc: 0.44067521
+Validation Step: 195000, Loss: 1.311348, Acc: 0.527132
+Validation Step: 195200, Loss: 1.259237, Acc: 0.414062
+Validation Step: 195400, Loss: 1.351267, Acc: 0.484375
+Validation Step: 195600, Loss: 1.402030, Acc: 0.406250
+Validation Step: 195800, Loss: 1.416933, Acc: 0.468750
+Epch: 203	Val acc: 0.43410525
+Validation Step: 196000, Loss: 1.501411, Acc: 0.472868
+Validation Step: 196200, Loss: 1.244145, Acc: 0.507812
+Validation Step: 196400, Loss: 1.572856, Acc: 0.445312
+Validation Step: 196600, Loss: 1.539505, Acc: 0.406250
+Epch: 204	Val acc: 0.43869121
+Validation Step: 196800, Loss: 1.437045, Acc: 0.418605
+Validation Step: 197000, Loss: 1.342839, Acc: 0.496124
+Validation Step: 197200, Loss: 1.440494, Acc: 0.390625
+Validation Step: 197400, Loss: 1.618740, Acc: 0.507812
+Validation Step: 197600, Loss: 1.408883, Acc: 0.398438
+Epch: 205	Val acc: 0.43914656
+Validation Step: 197800, Loss: 1.452296, Acc: 0.426357
+Validation Step: 198000, Loss: 1.374427, Acc: 0.507812
+Validation Step: 198200, Loss: 1.424158, Acc: 0.398438
+Validation Step: 198400, Loss: 1.196434, Acc: 0.500000
+Validation Step: 198600, Loss: 1.442238, Acc: 0.437500
+Epch: 206	Val acc: 0.44008977
+Validation Step: 198800, Loss: 1.485701, Acc: 0.480620
+Validation Step: 199000, Loss: 1.401569, Acc: 0.421875
+Validation Step: 199200, Loss: 1.307810, Acc: 0.468750
+Validation Step: 199400, Loss: 1.534076, Acc: 0.429688
+Validation Step: 199600, Loss: 1.310064, Acc: 0.484375
+Epch: 207	Val acc: 0.43969947
+Validation Step: 199800, Loss: 1.364108, Acc: 0.527132
+Validation Step: 200000, Loss: 1.304639, Acc: 0.421875
+Validation Step: 200200, Loss: 1.308641, Acc: 0.515625
+Validation Step: 200400, Loss: 1.424204, Acc: 0.453125
+Validation Step: 200600, Loss: 1.366295, Acc: 0.476562
+Epch: 208	Val acc: 0.43748780
+Validation Step: 200800, Loss: 1.555046, Acc: 0.449612
+Validation Step: 201000, Loss: 1.284339, Acc: 0.460938
+Validation Step: 201200, Loss: 1.572466, Acc: 0.390625
+Validation Step: 201400, Loss: 1.490303, Acc: 0.437500
+Epch: 209	Val acc: 0.43573148
+Validation Step: 201600, Loss: 1.439290, Acc: 0.441860
+Validation Step: 201800, Loss: 1.395691, Acc: 0.465116
+Validation Step: 202000, Loss: 1.444070, Acc: 0.382812
+Validation Step: 202200, Loss: 1.578735, Acc: 0.492188
+Validation Step: 202400, Loss: 1.418861, Acc: 0.398438
+Epch: 210	Val acc: 0.44048006
+Validation Step: 202600, Loss: 1.497085, Acc: 0.426357
+Validation Step: 202800, Loss: 1.312041, Acc: 0.523438
+Validation Step: 203000, Loss: 1.389198, Acc: 0.398438
+Validation Step: 203200, Loss: 1.183728, Acc: 0.460938
+Validation Step: 203400, Loss: 1.457044, Acc: 0.414062
+Epch: 211	Val acc: 0.43976452
+Validation Step: 203600, Loss: 1.512791, Acc: 0.457364
+Validation Step: 203800, Loss: 1.419064, Acc: 0.406250
+Validation Step: 204000, Loss: 1.312867, Acc: 0.468750
+Validation Step: 204200, Loss: 1.486730, Acc: 0.453125
+Validation Step: 204400, Loss: 1.331200, Acc: 0.507812
+Epch: 212	Val acc: 0.44239901
+Model saved
+Validation Step: 204600, Loss: 1.256782, Acc: 0.565891
+Validation Step: 204800, Loss: 1.282707, Acc: 0.437500
+Validation Step: 205000, Loss: 1.303418, Acc: 0.500000
+Validation Step: 205200, Loss: 1.470722, Acc: 0.445312
+Validation Step: 205400, Loss: 1.423567, Acc: 0.460938
+Epch: 213	Val acc: 0.43953685
+Validation Step: 205600, Loss: 1.498737, Acc: 0.488372
+Validation Step: 205800, Loss: 1.304878, Acc: 0.523438
+Validation Step: 206000, Loss: 1.581234, Acc: 0.437500
+Validation Step: 206200, Loss: 1.540897, Acc: 0.390625
+Epch: 214	Val acc: 0.43917908
+Validation Step: 206400, Loss: 1.343601, Acc: 0.449612
+Validation Step: 206600, Loss: 1.337810, Acc: 0.519380
+Validation Step: 206800, Loss: 1.504619, Acc: 0.367188
+Validation Step: 207000, Loss: 1.641136, Acc: 0.507812
+Validation Step: 207200, Loss: 1.471161, Acc: 0.406250
+Epch: 215	Val acc: 0.43530866
+Validation Step: 207400, Loss: 1.414035, Acc: 0.426357
+Validation Step: 207600, Loss: 1.375097, Acc: 0.484375
+Validation Step: 207800, Loss: 1.471711, Acc: 0.398438
+Validation Step: 208000, Loss: 1.183428, Acc: 0.500000
+Validation Step: 208200, Loss: 1.446734, Acc: 0.437500
+Epch: 216	Val acc: 0.43979705
+Validation Step: 208400, Loss: 1.553918, Acc: 0.426357
+Validation Step: 208600, Loss: 1.473303, Acc: 0.390625
+Validation Step: 208800, Loss: 1.258269, Acc: 0.492188
+Validation Step: 209000, Loss: 1.478089, Acc: 0.453125
+Validation Step: 209200, Loss: 1.322850, Acc: 0.492188
+Epch: 217	Val acc: 0.43804072
+Validation Step: 209400, Loss: 1.346622, Acc: 0.519380
+Validation Step: 209600, Loss: 1.295971, Acc: 0.421875
+Validation Step: 209800, Loss: 1.314380, Acc: 0.531250
+Validation Step: 210000, Loss: 1.462947, Acc: 0.453125
+Validation Step: 210200, Loss: 1.522874, Acc: 0.468750
+Epch: 218	Val acc: 0.43647954
+Validation Step: 210400, Loss: 1.516742, Acc: 0.465116
+Validation Step: 210600, Loss: 1.284930, Acc: 0.500000
+Validation Step: 210800, Loss: 1.578329, Acc: 0.390625
+Validation Step: 211000, Loss: 1.518987, Acc: 0.421875
+Epch: 219	Val acc: 0.43628439
+Validation Step: 211200, Loss: 1.450143, Acc: 0.426357
+Validation Step: 211400, Loss: 1.349294, Acc: 0.488372
+Validation Step: 211600, Loss: 1.569178, Acc: 0.367188
+Validation Step: 211800, Loss: 1.657774, Acc: 0.492188
+Validation Step: 212000, Loss: 1.483934, Acc: 0.406250
+Epch: 220	Val acc: 0.43745528
+Validation Step: 212200, Loss: 1.452295, Acc: 0.418605
+Validation Step: 212400, Loss: 1.358323, Acc: 0.500000
+Validation Step: 212600, Loss: 1.379538, Acc: 0.421875
+Validation Step: 212800, Loss: 1.230340, Acc: 0.484375
+Validation Step: 213000, Loss: 1.427168, Acc: 0.437500
+Epch: 221	Val acc: 0.43586158
+Validation Step: 213200, Loss: 1.506783, Acc: 0.426357
+Validation Step: 213400, Loss: 1.434681, Acc: 0.406250
+Validation Step: 213600, Loss: 1.329151, Acc: 0.484375
+Validation Step: 213800, Loss: 1.456465, Acc: 0.437500
+Validation Step: 214000, Loss: 1.303331, Acc: 0.515625
+Epch: 222	Val acc: 0.43686984
+Validation Step: 214200, Loss: 1.317554, Acc: 0.527132
+Validation Step: 214400, Loss: 1.334110, Acc: 0.414062
+Validation Step: 214600, Loss: 1.394530, Acc: 0.500000
+Validation Step: 214800, Loss: 1.426590, Acc: 0.468750
+Validation Step: 215000, Loss: 1.442976, Acc: 0.445312
+Epch: 223	Val acc: 0.43739023
+Validation Step: 215200, Loss: 1.462995, Acc: 0.488372
+Validation Step: 215400, Loss: 1.286064, Acc: 0.523438
+Validation Step: 215600, Loss: 1.523253, Acc: 0.429688
+Validation Step: 215800, Loss: 1.486566, Acc: 0.421875
+Epch: 224	Val acc: 0.43982957
+Validation Step: 216000, Loss: 1.486080, Acc: 0.418605
+Validation Step: 216200, Loss: 1.376814, Acc: 0.527132
+Validation Step: 216400, Loss: 1.514180, Acc: 0.406250
+Validation Step: 216600, Loss: 1.698621, Acc: 0.515625
+Validation Step: 216800, Loss: 1.429725, Acc: 0.382812
+Epch: 225	Val acc: 0.43856111
+Validation Step: 217000, Loss: 1.366693, Acc: 0.418605
+Validation Step: 217200, Loss: 1.313189, Acc: 0.500000
+Validation Step: 217400, Loss: 1.408111, Acc: 0.429688
+Validation Step: 217600, Loss: 1.154045, Acc: 0.539062
+Validation Step: 217800, Loss: 1.434492, Acc: 0.421875
+Epch: 226	Val acc: 0.43755285
+Validation Step: 218000, Loss: 1.525232, Acc: 0.449612
+Validation Step: 218200, Loss: 1.401252, Acc: 0.421875
+Validation Step: 218400, Loss: 1.290972, Acc: 0.492188
+Validation Step: 218600, Loss: 1.535619, Acc: 0.406250
+Validation Step: 218800, Loss: 1.299611, Acc: 0.492188
+Epch: 227	Val acc: 0.43953685
+Validation Step: 219000, Loss: 1.330277, Acc: 0.480620
+Validation Step: 219200, Loss: 1.282961, Acc: 0.445312
+Validation Step: 219400, Loss: 1.363215, Acc: 0.515625
+Validation Step: 219600, Loss: 1.489006, Acc: 0.476562
+Validation Step: 219800, Loss: 1.452608, Acc: 0.453125
+Epch: 228	Val acc: 0.44103298
+Validation Step: 220000, Loss: 1.556436, Acc: 0.434109
+Validation Step: 220200, Loss: 1.300473, Acc: 0.500000
+Validation Step: 220400, Loss: 1.621608, Acc: 0.406250
+Validation Step: 220600, Loss: 1.554768, Acc: 0.414062
+Epch: 229	Val acc: 0.43722761
+Validation Step: 220800, Loss: 1.461508, Acc: 0.441860
+Validation Step: 221000, Loss: 1.347744, Acc: 0.527132
+Validation Step: 221200, Loss: 1.499479, Acc: 0.367188
+Validation Step: 221400, Loss: 1.631562, Acc: 0.492188
+Validation Step: 221600, Loss: 1.405414, Acc: 0.421875
+Epch: 230	Val acc: 0.43963442
+Validation Step: 221800, Loss: 1.502897, Acc: 0.418605
+Validation Step: 222000, Loss: 1.320349, Acc: 0.500000
+Validation Step: 222200, Loss: 1.409286, Acc: 0.398438
+Validation Step: 222400, Loss: 1.237738, Acc: 0.476562
+Validation Step: 222600, Loss: 1.488543, Acc: 0.406250
+Epch: 231	Val acc: 0.43839849
+Validation Step: 222800, Loss: 1.518897, Acc: 0.441860
+Validation Step: 223000, Loss: 1.495999, Acc: 0.414062
+Validation Step: 223200, Loss: 1.273332, Acc: 0.468750
+Validation Step: 223400, Loss: 1.481684, Acc: 0.445312
+Validation Step: 223600, Loss: 1.282886, Acc: 0.500000
+Epch: 232	Val acc: 0.43735771
+Validation Step: 223800, Loss: 1.316977, Acc: 0.527132
+Validation Step: 224000, Loss: 1.333054, Acc: 0.460938
+Validation Step: 224200, Loss: 1.483849, Acc: 0.492188
+Validation Step: 224400, Loss: 1.455310, Acc: 0.445312
+Validation Step: 224600, Loss: 1.440360, Acc: 0.453125
+Epch: 233	Val acc: 0.43839849
+Validation Step: 224800, Loss: 1.481662, Acc: 0.480620
+Validation Step: 225000, Loss: 1.276559, Acc: 0.507812
+Validation Step: 225200, Loss: 1.471114, Acc: 0.421875
+Validation Step: 225400, Loss: 1.573337, Acc: 0.398438
+Epch: 234	Val acc: 0.43517856
+Validation Step: 225600, Loss: 1.415566, Acc: 0.426357
+Validation Step: 225800, Loss: 1.379978, Acc: 0.550388
+Validation Step: 226000, Loss: 1.582191, Acc: 0.398438
+Validation Step: 226200, Loss: 1.737364, Acc: 0.476562
+Validation Step: 226400, Loss: 1.453880, Acc: 0.437500
+Epch: 235	Val acc: 0.44015482
+Validation Step: 226600, Loss: 1.436848, Acc: 0.410853
+Validation Step: 226800, Loss: 1.287477, Acc: 0.523438
+Validation Step: 227000, Loss: 1.424878, Acc: 0.445312
+Validation Step: 227200, Loss: 1.207109, Acc: 0.539062
+Validation Step: 227400, Loss: 1.490367, Acc: 0.414062
+Epch: 236	Val acc: 0.43843102
+Validation Step: 227600, Loss: 1.483429, Acc: 0.449612
+Validation Step: 227800, Loss: 1.385054, Acc: 0.453125
+Validation Step: 228000, Loss: 1.340520, Acc: 0.476562
+Validation Step: 228200, Loss: 1.465271, Acc: 0.414062
+Validation Step: 228400, Loss: 1.345613, Acc: 0.500000
+Epch: 237	Val acc: 0.44051259
+Validation Step: 228600, Loss: 1.333807, Acc: 0.519380
+Validation Step: 228800, Loss: 1.369391, Acc: 0.453125
+Validation Step: 229000, Loss: 1.240430, Acc: 0.507812
+Validation Step: 229200, Loss: 1.466684, Acc: 0.453125
+Validation Step: 229400, Loss: 1.468165, Acc: 0.429688
+Epch: 238	Val acc: 0.43956937
+Validation Step: 229600, Loss: 1.505686, Acc: 0.457364
+Validation Step: 229800, Loss: 1.291929, Acc: 0.484375
+Validation Step: 230000, Loss: 1.545716, Acc: 0.414062
+Validation Step: 230200, Loss: 1.532182, Acc: 0.421875
+Epch: 239	Val acc: 0.43778052
+Validation Step: 230400, Loss: 1.491877, Acc: 0.426357
+Validation Step: 230600, Loss: 1.379963, Acc: 0.511628
+Validation Step: 230800, Loss: 1.361245, Acc: 0.414062
+Validation Step: 231000, Loss: 1.710799, Acc: 0.445312
+Validation Step: 231200, Loss: 1.392619, Acc: 0.406250
+Epch: 240	Val acc: 0.44005724
+Validation Step: 231400, Loss: 1.462537, Acc: 0.418605
+Validation Step: 231600, Loss: 1.302399, Acc: 0.531250
+Validation Step: 231800, Loss: 1.489191, Acc: 0.453125
+Validation Step: 232000, Loss: 1.227377, Acc: 0.507812
+Validation Step: 232200, Loss: 1.449854, Acc: 0.429688
+Epch: 241	Val acc: 0.43895141
+Validation Step: 232400, Loss: 1.531307, Acc: 0.472868
+Validation Step: 232600, Loss: 1.542291, Acc: 0.421875
+Validation Step: 232800, Loss: 1.381802, Acc: 0.492188
+Validation Step: 233000, Loss: 1.456856, Acc: 0.460938
+Validation Step: 233200, Loss: 1.365880, Acc: 0.515625
+Epch: 242	Val acc: 0.43586158
+Validation Step: 233400, Loss: 1.370255, Acc: 0.542636
+Validation Step: 233600, Loss: 1.274879, Acc: 0.429688
+Validation Step: 233800, Loss: 1.413792, Acc: 0.445312
+Validation Step: 234000, Loss: 1.427562, Acc: 0.460938
+Validation Step: 234200, Loss: 1.514789, Acc: 0.421875
+Epch: 243	Val acc: 0.43999219
+Validation Step: 234400, Loss: 1.504283, Acc: 0.441860
+Validation Step: 234600, Loss: 1.285989, Acc: 0.476562
+Validation Step: 234800, Loss: 1.601099, Acc: 0.406250
+Validation Step: 235000, Loss: 1.571871, Acc: 0.445312
+Epch: 244	Val acc: 0.44080531
+Validation Step: 235200, Loss: 1.460492, Acc: 0.403101
+Validation Step: 235400, Loss: 1.378157, Acc: 0.503876
+Validation Step: 235600, Loss: 1.446648, Acc: 0.390625
+Validation Step: 235800, Loss: 1.595947, Acc: 0.445312
+Validation Step: 236000, Loss: 1.442348, Acc: 0.375000
+Epch: 245	Val acc: 0.43956937
+Validation Step: 236200, Loss: 1.488186, Acc: 0.410853
+Validation Step: 236400, Loss: 1.271279, Acc: 0.515625
+Validation Step: 236600, Loss: 1.434114, Acc: 0.382812
+Validation Step: 236800, Loss: 1.259382, Acc: 0.500000
+Validation Step: 237000, Loss: 1.517165, Acc: 0.398438
+Epch: 246	Val acc: 0.43986210
+Validation Step: 237200, Loss: 1.515419, Acc: 0.465116
+Validation Step: 237400, Loss: 1.440657, Acc: 0.437500
+Validation Step: 237600, Loss: 1.310426, Acc: 0.460938
+Validation Step: 237800, Loss: 1.449405, Acc: 0.507812
+Validation Step: 238000, Loss: 1.348049, Acc: 0.507812
+Epch: 247	Val acc: 0.44074026
+Validation Step: 238200, Loss: 1.321590, Acc: 0.534884
+Validation Step: 238400, Loss: 1.355538, Acc: 0.421875
+Validation Step: 238600, Loss: 1.339796, Acc: 0.507812
+Validation Step: 238800, Loss: 1.490919, Acc: 0.468750
+Validation Step: 239000, Loss: 1.382702, Acc: 0.468750
+Epch: 248	Val acc: 0.43969947
+Validation Step: 239200, Loss: 1.488329, Acc: 0.449612
+Validation Step: 239400, Loss: 1.215502, Acc: 0.500000
+Validation Step: 239600, Loss: 1.542935, Acc: 0.453125
+Validation Step: 239800, Loss: 1.490450, Acc: 0.445312
+Epch: 249	Val acc: 0.43960190
+Validation Step: 240000, Loss: 1.503708, Acc: 0.395349
+Validation Step: 240200, Loss: 1.409326, Acc: 0.511628
+Validation Step: 240400, Loss: 1.422823, Acc: 0.421875
+Validation Step: 240600, Loss: 1.618753, Acc: 0.476562
+Validation Step: 240800, Loss: 1.427170, Acc: 0.398438
+Epch: 250	Val acc: 0.44034996
+Validation Step: 241000, Loss: 1.471120, Acc: 0.418605
+Validation Step: 241200, Loss: 1.328609, Acc: 0.515625
+Validation Step: 241400, Loss: 1.469518, Acc: 0.406250
+Validation Step: 241600, Loss: 1.275993, Acc: 0.492188
+Validation Step: 241800, Loss: 1.458024, Acc: 0.414062
+Epch: 251	Val acc: 0.43634944
+Validation Step: 242000, Loss: 1.498600, Acc: 0.441860
+Validation Step: 242200, Loss: 1.443508, Acc: 0.406250
+Validation Step: 242400, Loss: 1.335809, Acc: 0.460938
+Validation Step: 242600, Loss: 1.475747, Acc: 0.460938
+Validation Step: 242800, Loss: 1.373365, Acc: 0.507812
+Epch: 252	Val acc: 0.44148832
+Validation Step: 243000, Loss: 1.386284, Acc: 0.496124
+Validation Step: 243200, Loss: 1.326348, Acc: 0.429688
+Validation Step: 243400, Loss: 1.419750, Acc: 0.453125
+Validation Step: 243600, Loss: 1.455986, Acc: 0.460938
+Validation Step: 243800, Loss: 1.371162, Acc: 0.468750
+Epch: 253	Val acc: 0.43550381
+Validation Step: 244000, Loss: 1.556952, Acc: 0.441860
+Validation Step: 244200, Loss: 1.280101, Acc: 0.515625
+Validation Step: 244400, Loss: 1.513659, Acc: 0.406250
+Validation Step: 244600, Loss: 1.542902, Acc: 0.406250
+Epch: 254	Val acc: 0.43878879
+Validation Step: 244800, Loss: 1.394411, Acc: 0.457364
+Validation Step: 245000, Loss: 1.411987, Acc: 0.534884
+Validation Step: 245200, Loss: 1.463653, Acc: 0.367188
+Validation Step: 245400, Loss: 1.681342, Acc: 0.476562
+Validation Step: 245600, Loss: 1.407959, Acc: 0.406250
+Epch: 255	Val acc: 0.43726013
+Validation Step: 245800, Loss: 1.452717, Acc: 0.410853
+Validation Step: 246000, Loss: 1.355728, Acc: 0.500000
+Validation Step: 246200, Loss: 1.423816, Acc: 0.437500
+Validation Step: 246400, Loss: 1.230090, Acc: 0.515625
+Validation Step: 246600, Loss: 1.450576, Acc: 0.460938
+Epch: 256	Val acc: 0.43875626
+Validation Step: 246800, Loss: 1.426559, Acc: 0.441860
+Validation Step: 247000, Loss: 1.481725, Acc: 0.445312
+Validation Step: 247200, Loss: 1.228851, Acc: 0.476562
+Validation Step: 247400, Loss: 1.507389, Acc: 0.445312
+Validation Step: 247600, Loss: 1.298197, Acc: 0.531250
+Epch: 257	Val acc: 0.43862616
+Validation Step: 247800, Loss: 1.303626, Acc: 0.519380
+Validation Step: 248000, Loss: 1.315248, Acc: 0.429688
+Validation Step: 248200, Loss: 1.479617, Acc: 0.484375
+Validation Step: 248400, Loss: 1.469160, Acc: 0.421875
+Validation Step: 248600, Loss: 1.487721, Acc: 0.468750
+Epch: 258	Val acc: 0.43836597
+Validation Step: 248800, Loss: 1.611935, Acc: 0.465116
+Validation Step: 249000, Loss: 1.277633, Acc: 0.539062
+Validation Step: 249200, Loss: 1.575548, Acc: 0.414062
+Validation Step: 249400, Loss: 1.609601, Acc: 0.406250
+Epch: 259	Val acc: 0.43778052
+Validation Step: 249600, Loss: 1.489813, Acc: 0.441860
+Validation Step: 249800, Loss: 1.420617, Acc: 0.542636
+Validation Step: 250000, Loss: 1.579296, Acc: 0.367188
+Validation Step: 250200, Loss: 1.677123, Acc: 0.500000
+Validation Step: 250400, Loss: 1.476135, Acc: 0.406250
+Epch: 260	Val acc: 0.43742275
+Validation Step: 250600, Loss: 1.462922, Acc: 0.426357
+Validation Step: 250800, Loss: 1.329007, Acc: 0.507812
+Validation Step: 251000, Loss: 1.514827, Acc: 0.421875
+Validation Step: 251200, Loss: 1.320272, Acc: 0.476562
+Validation Step: 251400, Loss: 1.484108, Acc: 0.421875
+Epch: 261	Val acc: 0.44070773
+Validation Step: 251600, Loss: 1.488044, Acc: 0.465116
+Validation Step: 251800, Loss: 1.553261, Acc: 0.406250
+Validation Step: 252000, Loss: 1.363708, Acc: 0.468750
+Validation Step: 252200, Loss: 1.417486, Acc: 0.484375
+Validation Step: 252400, Loss: 1.316261, Acc: 0.523438
+Epch: 262	Val acc: 0.44246406
+Model saved
+Validation Step: 252600, Loss: 1.358392, Acc: 0.519380
+Validation Step: 252800, Loss: 1.271993, Acc: 0.437500
+Validation Step: 253000, Loss: 1.368560, Acc: 0.492188
+Validation Step: 253200, Loss: 1.438718, Acc: 0.460938
+Validation Step: 253400, Loss: 1.513806, Acc: 0.453125
+Epch: 263	Val acc: 0.43534118
+Validation Step: 253600, Loss: 1.569695, Acc: 0.441860
+Validation Step: 253800, Loss: 1.267349, Acc: 0.507812
+Validation Step: 254000, Loss: 1.591460, Acc: 0.414062
+Validation Step: 254200, Loss: 1.541970, Acc: 0.406250
+Epch: 264	Val acc: 0.44168347
+Validation Step: 254400, Loss: 1.459929, Acc: 0.441860
+Validation Step: 254600, Loss: 1.488243, Acc: 0.496124
+Validation Step: 254800, Loss: 1.388664, Acc: 0.406250
+Validation Step: 255000, Loss: 1.691334, Acc: 0.453125
+Validation Step: 255200, Loss: 1.414205, Acc: 0.398438
+Epch: 265	Val acc: 0.43836597
+Validation Step: 255400, Loss: 1.449877, Acc: 0.418605
+Validation Step: 255600, Loss: 1.324416, Acc: 0.507812
+Validation Step: 255800, Loss: 1.437180, Acc: 0.414062
+Validation Step: 256000, Loss: 1.225575, Acc: 0.492188
+Validation Step: 256200, Loss: 1.472866, Acc: 0.414062
+Epch: 266	Val acc: 0.44181357
+Validation Step: 256400, Loss: 1.517630, Acc: 0.441860
+Validation Step: 256600, Loss: 1.556170, Acc: 0.414062
+Validation Step: 256800, Loss: 1.252158, Acc: 0.445312
+Validation Step: 257000, Loss: 1.485433, Acc: 0.421875
+Validation Step: 257200, Loss: 1.310543, Acc: 0.546875
+Epch: 267	Val acc: 0.43930918
+Validation Step: 257400, Loss: 1.375965, Acc: 0.472868
+Validation Step: 257600, Loss: 1.402574, Acc: 0.445312
+Validation Step: 257800, Loss: 1.410757, Acc: 0.476562
+Validation Step: 258000, Loss: 1.521344, Acc: 0.437500
+Validation Step: 258200, Loss: 1.479785, Acc: 0.429688
+Epch: 268	Val acc: 0.43989462
+Validation Step: 258400, Loss: 1.631998, Acc: 0.441860
+Validation Step: 258600, Loss: 1.400321, Acc: 0.460938
+Validation Step: 258800, Loss: 1.592166, Acc: 0.453125
+Validation Step: 259000, Loss: 1.615941, Acc: 0.390625
+Epch: 269	Val acc: 0.43621935
+Validation Step: 259200, Loss: 1.540586, Acc: 0.441860
+Validation Step: 259400, Loss: 1.429440, Acc: 0.496124
+Validation Step: 259600, Loss: 1.577990, Acc: 0.375000
+Validation Step: 259800, Loss: 1.652938, Acc: 0.492188
+Validation Step: 260000, Loss: 1.467553, Acc: 0.406250
+Epch: 270	Val acc: 0.43839849
+Validation Step: 260200, Loss: 1.450743, Acc: 0.403101
+Validation Step: 260400, Loss: 1.319659, Acc: 0.484375
+Validation Step: 260600, Loss: 1.474832, Acc: 0.390625
+Validation Step: 260800, Loss: 1.241377, Acc: 0.500000
+Validation Step: 261000, Loss: 1.431646, Acc: 0.429688
+Epch: 271	Val acc: 0.43797567
+Validation Step: 261200, Loss: 1.637148, Acc: 0.441860
+Validation Step: 261400, Loss: 1.502167, Acc: 0.468750
+Validation Step: 261600, Loss: 1.293155, Acc: 0.453125
+Validation Step: 261800, Loss: 1.380752, Acc: 0.437500
+Validation Step: 262000, Loss: 1.335989, Acc: 0.507812
+Epch: 272	Val acc: 0.43992714
+Validation Step: 262200, Loss: 1.343956, Acc: 0.527132
+Validation Step: 262400, Loss: 1.303155, Acc: 0.468750
+Validation Step: 262600, Loss: 1.436780, Acc: 0.460938
+Validation Step: 262800, Loss: 1.619313, Acc: 0.445312
+Validation Step: 263000, Loss: 1.427858, Acc: 0.484375
+Epch: 273	Val acc: 0.43911403
+Validation Step: 263200, Loss: 1.606989, Acc: 0.457364
+Validation Step: 263400, Loss: 1.283427, Acc: 0.468750
+Validation Step: 263600, Loss: 1.553351, Acc: 0.453125
+Validation Step: 263800, Loss: 1.620672, Acc: 0.382812
+Epch: 274	Val acc: 0.43397515
+Validation Step: 264000, Loss: 1.494185, Acc: 0.403101
+Validation Step: 264200, Loss: 1.422405, Acc: 0.534884
+Validation Step: 264400, Loss: 1.509390, Acc: 0.359375
+Validation Step: 264600, Loss: 1.710023, Acc: 0.500000
+Validation Step: 264800, Loss: 1.476556, Acc: 0.429688
+Epch: 275	Val acc: 0.43878879
+Validation Step: 265000, Loss: 1.553414, Acc: 0.387597
+Validation Step: 265200, Loss: 1.374300, Acc: 0.546875
+Validation Step: 265400, Loss: 1.521605, Acc: 0.421875
+Validation Step: 265600, Loss: 1.316562, Acc: 0.515625
+Validation Step: 265800, Loss: 1.452360, Acc: 0.382812
+Epch: 276	Val acc: 0.43810577
+Validation Step: 266000, Loss: 1.516654, Acc: 0.449612
+Validation Step: 266200, Loss: 1.551043, Acc: 0.429688
+Validation Step: 266400, Loss: 1.252614, Acc: 0.484375
+Validation Step: 266600, Loss: 1.473388, Acc: 0.445312
+Validation Step: 266800, Loss: 1.359820, Acc: 0.492188
+Epch: 277	Val acc: 0.43755285
+Validation Step: 267000, Loss: 1.336041, Acc: 0.511628
+Validation Step: 267200, Loss: 1.408528, Acc: 0.398438
+Validation Step: 267400, Loss: 1.418820, Acc: 0.476562
+Validation Step: 267600, Loss: 1.567036, Acc: 0.460938
+Validation Step: 267800, Loss: 1.419642, Acc: 0.476562
+Epch: 278	Val acc: 0.43761790
+Validation Step: 268000, Loss: 1.513856, Acc: 0.465116
+Validation Step: 268200, Loss: 1.341667, Acc: 0.507812
+Validation Step: 268400, Loss: 1.507463, Acc: 0.476562
+Validation Step: 268600, Loss: 1.580971, Acc: 0.406250
+Epch: 279	Val acc: 0.43888636
+Validation Step: 268800, Loss: 1.393883, Acc: 0.426357
+Validation Step: 269000, Loss: 1.377681, Acc: 0.503876
+Validation Step: 269200, Loss: 1.583815, Acc: 0.414062
+Validation Step: 269400, Loss: 1.643551, Acc: 0.492188
+Validation Step: 269600, Loss: 1.440729, Acc: 0.390625
+Epch: 280	Val acc: 0.43774800
+Validation Step: 269800, Loss: 1.445022, Acc: 0.418605
+Validation Step: 270000, Loss: 1.367487, Acc: 0.515625
+Validation Step: 270200, Loss: 1.440227, Acc: 0.421875
+Validation Step: 270400, Loss: 1.268874, Acc: 0.539062
+Validation Step: 270600, Loss: 1.443055, Acc: 0.421875
+Epch: 281	Val acc: 0.43778052
+Validation Step: 270800, Loss: 1.501722, Acc: 0.472868
+Validation Step: 271000, Loss: 1.475840, Acc: 0.445312
+Validation Step: 271200, Loss: 1.324094, Acc: 0.453125
+Validation Step: 271400, Loss: 1.474142, Acc: 0.460938
+Validation Step: 271600, Loss: 1.378870, Acc: 0.554688
+Epch: 282	Val acc: 0.43914656
+Validation Step: 271800, Loss: 1.350979, Acc: 0.511628
+Validation Step: 272000, Loss: 1.367042, Acc: 0.460938
+Validation Step: 272200, Loss: 1.426377, Acc: 0.507812
+Validation Step: 272400, Loss: 1.516534, Acc: 0.453125
+Validation Step: 272600, Loss: 1.425912, Acc: 0.437500
+Epch: 283	Val acc: 0.43963442
+Validation Step: 272800, Loss: 1.564002, Acc: 0.465116
+Validation Step: 273000, Loss: 1.394300, Acc: 0.492188
+Validation Step: 273200, Loss: 1.524786, Acc: 0.445312
+Validation Step: 273400, Loss: 1.614775, Acc: 0.406250
+Epch: 284	Val acc: 0.43755285
+Validation Step: 273600, Loss: 1.515360, Acc: 0.457364
+Validation Step: 273800, Loss: 1.410715, Acc: 0.488372
+Validation Step: 274000, Loss: 1.543400, Acc: 0.406250
+Validation Step: 274200, Loss: 1.684804, Acc: 0.515625
+Validation Step: 274400, Loss: 1.459645, Acc: 0.398438
+Epch: 285	Val acc: 0.43846354
+Validation Step: 274600, Loss: 1.481902, Acc: 0.403101
+Validation Step: 274800, Loss: 1.312077, Acc: 0.531250
+Validation Step: 275000, Loss: 1.534333, Acc: 0.390625
+Validation Step: 275200, Loss: 1.330828, Acc: 0.523438
+Validation Step: 275400, Loss: 1.535324, Acc: 0.390625
+Epch: 286	Val acc: 0.44002472
+Validation Step: 275600, Loss: 1.586646, Acc: 0.418605
+Validation Step: 275800, Loss: 1.540034, Acc: 0.429688
+Validation Step: 276000, Loss: 1.313591, Acc: 0.500000
+Validation Step: 276200, Loss: 1.466457, Acc: 0.453125
+Validation Step: 276400, Loss: 1.402142, Acc: 0.531250
+Epch: 287	Val acc: 0.44070773
+Validation Step: 276600, Loss: 1.409329, Acc: 0.503876
+Validation Step: 276800, Loss: 1.306092, Acc: 0.437500
+Validation Step: 277000, Loss: 1.444929, Acc: 0.492188
+Validation Step: 277200, Loss: 1.544013, Acc: 0.453125
+Validation Step: 277400, Loss: 1.424643, Acc: 0.484375
+Epch: 288	Val acc: 0.43836597
+Validation Step: 277600, Loss: 1.604212, Acc: 0.403101
+Validation Step: 277800, Loss: 1.295668, Acc: 0.515625
+Validation Step: 278000, Loss: 1.610238, Acc: 0.453125
+Validation Step: 278200, Loss: 1.674727, Acc: 0.398438
+Epch: 289	Val acc: 0.44012229
+Validation Step: 278400, Loss: 1.480008, Acc: 0.441860
+Validation Step: 278600, Loss: 1.408061, Acc: 0.519380
+Validation Step: 278800, Loss: 1.560594, Acc: 0.429688
+Validation Step: 279000, Loss: 1.725625, Acc: 0.476562
+Validation Step: 279200, Loss: 1.375743, Acc: 0.421875
+Epch: 290	Val acc: 0.43820334
+Validation Step: 279400, Loss: 1.446709, Acc: 0.403101
+Validation Step: 279600, Loss: 1.345305, Acc: 0.539062
+Validation Step: 279800, Loss: 1.504155, Acc: 0.398438
+Validation Step: 280000, Loss: 1.311852, Acc: 0.484375
+Validation Step: 280200, Loss: 1.434274, Acc: 0.375000
+Epch: 291	Val acc: 0.43956937
+Validation Step: 280400, Loss: 1.571347, Acc: 0.449612
+Validation Step: 280600, Loss: 1.469257, Acc: 0.484375
+Validation Step: 280800, Loss: 1.244251, Acc: 0.460938
+Validation Step: 281000, Loss: 1.410310, Acc: 0.476562
+Validation Step: 281200, Loss: 1.368906, Acc: 0.507812
+Epch: 292	Val acc: 0.44057764
+Validation Step: 281400, Loss: 1.408532, Acc: 0.511628
+Validation Step: 281600, Loss: 1.346166, Acc: 0.453125
+Validation Step: 281800, Loss: 1.433307, Acc: 0.507812
+Validation Step: 282000, Loss: 1.540778, Acc: 0.453125
+Validation Step: 282200, Loss: 1.464823, Acc: 0.445312
+Epch: 293	Val acc: 0.44034996
+Validation Step: 282400, Loss: 1.550673, Acc: 0.441860
+Validation Step: 282600, Loss: 1.306846, Acc: 0.492188
+Validation Step: 282800, Loss: 1.520870, Acc: 0.453125
+Validation Step: 283000, Loss: 1.632139, Acc: 0.375000
+Epch: 294	Val acc: 0.43911403
+Validation Step: 283200, Loss: 1.465417, Acc: 0.434109
+Validation Step: 283400, Loss: 1.424203, Acc: 0.534884
+Validation Step: 283600, Loss: 1.516931, Acc: 0.390625
+Validation Step: 283800, Loss: 1.748207, Acc: 0.453125
+Validation Step: 284000, Loss: 1.467391, Acc: 0.406250
+Epch: 295	Val acc: 0.43891888
+Validation Step: 284200, Loss: 1.491041, Acc: 0.418605
+Validation Step: 284400, Loss: 1.321953, Acc: 0.468750
+Validation Step: 284600, Loss: 1.524020, Acc: 0.414062
+Validation Step: 284800, Loss: 1.241670, Acc: 0.515625
+Validation Step: 285000, Loss: 1.473562, Acc: 0.429688
+Epch: 296	Val acc: 0.43683731
+Validation Step: 285200, Loss: 1.589844, Acc: 0.449612
+Validation Step: 285400, Loss: 1.489702, Acc: 0.460938
+Validation Step: 285600, Loss: 1.251273, Acc: 0.468750
+Validation Step: 285800, Loss: 1.404920, Acc: 0.460938
+Validation Step: 286000, Loss: 1.393111, Acc: 0.531250
+Epch: 297	Val acc: 0.44148832
+Validation Step: 286200, Loss: 1.323756, Acc: 0.550388
+Validation Step: 286400, Loss: 1.380128, Acc: 0.445312
+Validation Step: 286600, Loss: 1.465749, Acc: 0.492188
+Validation Step: 286800, Loss: 1.517592, Acc: 0.453125
+Validation Step: 287000, Loss: 1.499160, Acc: 0.429688
+Epch: 298	Val acc: 0.43836597
+Validation Step: 287200, Loss: 1.497690, Acc: 0.441860
+Validation Step: 287400, Loss: 1.280824, Acc: 0.523438
+Validation Step: 287600, Loss: 1.511795, Acc: 0.460938
+Validation Step: 287800, Loss: 1.610060, Acc: 0.414062
+Epch: 299	Val acc: 0.43937423
+Validation Step: 288000, Loss: 1.496896, Acc: 0.449612
+Validation Step: 288200, Loss: 1.410378, Acc: 0.488372
+Validation Step: 288400, Loss: 1.528353, Acc: 0.390625
+Validation Step: 288600, Loss: 1.627786, Acc: 0.523438
+Validation Step: 288800, Loss: 1.379084, Acc: 0.429688
+Epch: 300	Val acc: 0.43947180
+Validation Step: 289000, Loss: 1.515169, Acc: 0.403101
+Validation Step: 289200, Loss: 1.295636, Acc: 0.554688
+Validation Step: 289400, Loss: 1.496061, Acc: 0.398438
+Validation Step: 289600, Loss: 1.298963, Acc: 0.515625
+Validation Step: 289800, Loss: 1.476241, Acc: 0.398438
+Epch: 301	Val acc: 0.44008977
+Validation Step: 290000, Loss: 1.609134, Acc: 0.449612
+Validation Step: 290200, Loss: 1.558696, Acc: 0.414062
+Validation Step: 290400, Loss: 1.333674, Acc: 0.453125
+Validation Step: 290600, Loss: 1.535346, Acc: 0.414062
+Validation Step: 290800, Loss: 1.407781, Acc: 0.515625
+Epch: 302	Val acc: 0.44070773
+Validation Step: 291000, Loss: 1.321465, Acc: 0.488372
+Validation Step: 291200, Loss: 1.406201, Acc: 0.421875
+Validation Step: 291400, Loss: 1.488080, Acc: 0.484375
+Validation Step: 291600, Loss: 1.525319, Acc: 0.468750
+Validation Step: 291800, Loss: 1.451833, Acc: 0.437500
+Epch: 303	Val acc: 0.43381253
+Validation Step: 292000, Loss: 1.599005, Acc: 0.426357
+Validation Step: 292200, Loss: 1.323304, Acc: 0.476562
+Validation Step: 292400, Loss: 1.524052, Acc: 0.429688
+Validation Step: 292600, Loss: 1.625686, Acc: 0.421875
+Epch: 304	Val acc: 0.44178104
+Validation Step: 292800, Loss: 1.473515, Acc: 0.449612
+Validation Step: 293000, Loss: 1.485449, Acc: 0.480620
+Validation Step: 293200, Loss: 1.571159, Acc: 0.398438
+Validation Step: 293400, Loss: 1.646869, Acc: 0.453125
+Validation Step: 293600, Loss: 1.449171, Acc: 0.390625
+Epch: 305	Val acc: 0.44340727
+Model saved
+Validation Step: 293800, Loss: 1.536263, Acc: 0.395349
+Validation Step: 294000, Loss: 1.347194, Acc: 0.507812
+Validation Step: 294200, Loss: 1.535132, Acc: 0.429688
+Validation Step: 294400, Loss: 1.263964, Acc: 0.523438
+Validation Step: 294600, Loss: 1.527798, Acc: 0.421875
+Epch: 306	Val acc: 0.43882131
+Validation Step: 294800, Loss: 1.630782, Acc: 0.465116
+Validation Step: 295000, Loss: 1.427729, Acc: 0.476562
+Validation Step: 295200, Loss: 1.334462, Acc: 0.484375
+Validation Step: 295400, Loss: 1.408494, Acc: 0.476562
+Validation Step: 295600, Loss: 1.329702, Acc: 0.531250
+Epch: 307	Val acc: 0.43849606
+Validation Step: 295800, Loss: 1.353260, Acc: 0.472868
+Validation Step: 296000, Loss: 1.382818, Acc: 0.453125
+Validation Step: 296200, Loss: 1.389492, Acc: 0.523438
+Validation Step: 296400, Loss: 1.578222, Acc: 0.445312
+Validation Step: 296600, Loss: 1.408479, Acc: 0.476562
+Epch: 308	Val acc: 0.44034996
+Validation Step: 296800, Loss: 1.521914, Acc: 0.426357
+Validation Step: 297000, Loss: 1.355870, Acc: 0.500000
+Validation Step: 297200, Loss: 1.574839, Acc: 0.460938
+Validation Step: 297400, Loss: 1.612111, Acc: 0.390625
+Epch: 309	Val acc: 0.43917908
+Validation Step: 297600, Loss: 1.519282, Acc: 0.441860
+Validation Step: 297800, Loss: 1.455451, Acc: 0.534884
+Validation Step: 298000, Loss: 1.576657, Acc: 0.398438
+Validation Step: 298200, Loss: 1.705777, Acc: 0.484375
+Validation Step: 298400, Loss: 1.498860, Acc: 0.375000
+Epch: 310	Val acc: 0.44207377
+Validation Step: 298600, Loss: 1.558313, Acc: 0.426357
+Validation Step: 298800, Loss: 1.299268, Acc: 0.531250
+Validation Step: 299000, Loss: 1.478789, Acc: 0.445312
+Validation Step: 299200, Loss: 1.342940, Acc: 0.492188
+Validation Step: 299400, Loss: 1.539526, Acc: 0.359375
+Epch: 311	Val acc: 0.43960190
+Validation Step: 299600, Loss: 1.581051, Acc: 0.449612
+Validation Step: 299800, Loss: 1.430542, Acc: 0.476562
+Validation Step: 300000, Loss: 1.365776, Acc: 0.484375
+Validation Step: 300200, Loss: 1.493970, Acc: 0.484375
+Validation Step: 300400, Loss: 1.410764, Acc: 0.492188
+Epch: 312	Val acc: 0.43963442
+Validation Step: 300600, Loss: 1.393367, Acc: 0.480620
+Validation Step: 300800, Loss: 1.385025, Acc: 0.453125
+Validation Step: 301000, Loss: 1.461003, Acc: 0.476562
+Validation Step: 301200, Loss: 1.549309, Acc: 0.445312
+Validation Step: 301400, Loss: 1.473300, Acc: 0.453125
+Epch: 313	Val acc: 0.43758538
+Validation Step: 301600, Loss: 1.541836, Acc: 0.449612
+Validation Step: 301800, Loss: 1.343555, Acc: 0.484375
+Validation Step: 302000, Loss: 1.574506, Acc: 0.445312
+Validation Step: 302200, Loss: 1.625744, Acc: 0.398438
+Epch: 314	Val acc: 0.43391010
+Validation Step: 302400, Loss: 1.495832, Acc: 0.426357
+Validation Step: 302600, Loss: 1.448022, Acc: 0.503876
+Validation Step: 302800, Loss: 1.592855, Acc: 0.437500
+Validation Step: 303000, Loss: 1.649437, Acc: 0.515625
+Validation Step: 303200, Loss: 1.460181, Acc: 0.421875
+Epch: 315	Val acc: 0.43260912
+Validation Step: 303400, Loss: 1.493656, Acc: 0.410853
+Validation Step: 303600, Loss: 1.325914, Acc: 0.531250
+Validation Step: 303800, Loss: 1.549661, Acc: 0.390625
+Validation Step: 304000, Loss: 1.301821, Acc: 0.507812
+Validation Step: 304200, Loss: 1.502083, Acc: 0.445312
+Epch: 316	Val acc: 0.44051259
+Validation Step: 304400, Loss: 1.632033, Acc: 0.480620
+Validation Step: 304600, Loss: 1.504775, Acc: 0.445312
+Validation Step: 304800, Loss: 1.303608, Acc: 0.476562
+Validation Step: 305000, Loss: 1.464442, Acc: 0.421875
+Validation Step: 305200, Loss: 1.346670, Acc: 0.515625
+Epch: 317	Val acc: 0.43950433
+Validation Step: 305400, Loss: 1.516701, Acc: 0.488372
+Validation Step: 305600, Loss: 1.461314, Acc: 0.414062
+Validation Step: 305800, Loss: 1.516483, Acc: 0.484375
+Validation Step: 306000, Loss: 1.571139, Acc: 0.453125
+Validation Step: 306200, Loss: 1.472100, Acc: 0.453125
+Epch: 318	Val acc: 0.43989462
+Validation Step: 306400, Loss: 1.517043, Acc: 0.488372
+Validation Step: 306600, Loss: 1.343650, Acc: 0.500000
+Validation Step: 306800, Loss: 1.492012, Acc: 0.460938
+Validation Step: 307000, Loss: 1.664335, Acc: 0.390625
+Epch: 319	Val acc: 0.43657712
+Validation Step: 307200, Loss: 1.518436, Acc: 0.434109
+Validation Step: 307400, Loss: 1.555876, Acc: 0.511628
+Validation Step: 307600, Loss: 1.653076, Acc: 0.351562
+Validation Step: 307800, Loss: 1.656544, Acc: 0.523438
+Validation Step: 308000, Loss: 1.500959, Acc: 0.390625
+Epch: 320	Val acc: 0.44155337
+Validation Step: 308200, Loss: 1.531536, Acc: 0.410853
+Validation Step: 308400, Loss: 1.311221, Acc: 0.515625
+Validation Step: 308600, Loss: 1.536764, Acc: 0.445312
+Validation Step: 308800, Loss: 1.267412, Acc: 0.500000
+Validation Step: 309000, Loss: 1.569308, Acc: 0.421875
+Epch: 321	Val acc: 0.43579653
+Validation Step: 309200, Loss: 1.675940, Acc: 0.449612
+Validation Step: 309400, Loss: 1.641663, Acc: 0.421875
+Validation Step: 309600, Loss: 1.364817, Acc: 0.460938
+Validation Step: 309800, Loss: 1.493907, Acc: 0.437500
+Validation Step: 310000, Loss: 1.319736, Acc: 0.546875
+Epch: 322	Val acc: 0.43852859
+Validation Step: 310200, Loss: 1.456431, Acc: 0.496124
+Validation Step: 310400, Loss: 1.369189, Acc: 0.429688
+Validation Step: 310600, Loss: 1.532426, Acc: 0.460938
+Validation Step: 310800, Loss: 1.556949, Acc: 0.437500
+Validation Step: 311000, Loss: 1.484382, Acc: 0.429688
+Epch: 323	Val acc: 0.43960190
+Validation Step: 311200, Loss: 1.654428, Acc: 0.434109
+Validation Step: 311400, Loss: 1.372688, Acc: 0.492188
+Validation Step: 311600, Loss: 1.528672, Acc: 0.468750
+Validation Step: 311800, Loss: 1.610716, Acc: 0.414062
+Epch: 324	Val acc: 0.43836597
+Validation Step: 312000, Loss: 1.517770, Acc: 0.410853
+Validation Step: 312200, Loss: 1.472540, Acc: 0.503876
+Validation Step: 312400, Loss: 1.709885, Acc: 0.359375
+Validation Step: 312600, Loss: 1.753318, Acc: 0.515625
+Validation Step: 312800, Loss: 1.441355, Acc: 0.406250
+Epch: 325	Val acc: 0.43368243
+Validation Step: 313000, Loss: 1.535807, Acc: 0.403101
+Validation Step: 313200, Loss: 1.298995, Acc: 0.515625
+Validation Step: 313400, Loss: 1.506662, Acc: 0.421875
+Validation Step: 313600, Loss: 1.253609, Acc: 0.500000
+Validation Step: 313800, Loss: 1.477129, Acc: 0.414062
+Epch: 326	Val acc: 0.43833344
+Validation Step: 314000, Loss: 1.651429, Acc: 0.410853
+Validation Step: 314200, Loss: 1.493325, Acc: 0.437500
+Validation Step: 314400, Loss: 1.238294, Acc: 0.460938
+Validation Step: 314600, Loss: 1.415570, Acc: 0.453125
+Validation Step: 314800, Loss: 1.374128, Acc: 0.507812
+Epch: 327	Val acc: 0.43888636
+Validation Step: 315000, Loss: 1.379641, Acc: 0.496124
+Validation Step: 315200, Loss: 1.395128, Acc: 0.484375
+Validation Step: 315400, Loss: 1.491162, Acc: 0.468750
+Validation Step: 315600, Loss: 1.696525, Acc: 0.460938
+Validation Step: 315800, Loss: 1.541757, Acc: 0.429688
+Epch: 328	Val acc: 0.44100046
+Validation Step: 316000, Loss: 1.536572, Acc: 0.472868
+Validation Step: 316200, Loss: 1.278570, Acc: 0.492188
+Validation Step: 316400, Loss: 1.556480, Acc: 0.429688
+Validation Step: 316600, Loss: 1.640619, Acc: 0.414062
+Epch: 329	Val acc: 0.44041501
+Validation Step: 316800, Loss: 1.520391, Acc: 0.418605
+Validation Step: 317000, Loss: 1.498991, Acc: 0.511628
+Validation Step: 317200, Loss: 1.674564, Acc: 0.382812
+Validation Step: 317400, Loss: 1.725864, Acc: 0.492188
+Validation Step: 317600, Loss: 1.455450, Acc: 0.390625
+Epch: 330	Val acc: 0.43758538
+Validation Step: 317800, Loss: 1.588487, Acc: 0.441860
+Validation Step: 318000, Loss: 1.291770, Acc: 0.531250
+Validation Step: 318200, Loss: 1.581704, Acc: 0.414062
+Validation Step: 318400, Loss: 1.323098, Acc: 0.515625
+Validation Step: 318600, Loss: 1.512582, Acc: 0.390625
+Epch: 331	Val acc: 0.44126065
+Validation Step: 318800, Loss: 1.597041, Acc: 0.449612
+Validation Step: 319000, Loss: 1.658963, Acc: 0.421875
+Validation Step: 319200, Loss: 1.356596, Acc: 0.476562
+Validation Step: 319400, Loss: 1.435041, Acc: 0.476562
+Validation Step: 319600, Loss: 1.412707, Acc: 0.531250
+Epch: 332	Val acc: 0.44070773
+Validation Step: 319800, Loss: 1.423683, Acc: 0.465116
+Validation Step: 320000, Loss: 1.390409, Acc: 0.437500
+Validation Step: 320200, Loss: 1.382233, Acc: 0.515625
+Validation Step: 320400, Loss: 1.657144, Acc: 0.468750
+Validation Step: 320600, Loss: 1.514590, Acc: 0.445312
+Epch: 333	Val acc: 0.43830092
+Validation Step: 320800, Loss: 1.562408, Acc: 0.472868
+Validation Step: 321000, Loss: 1.371614, Acc: 0.500000
+Validation Step: 321200, Loss: 1.595307, Acc: 0.406250
+Validation Step: 321400, Loss: 1.646933, Acc: 0.390625
+Epch: 334	Val acc: 0.43530866
+Validation Step: 321600, Loss: 1.523113, Acc: 0.395349
+Validation Step: 321800, Loss: 1.488942, Acc: 0.488372
+Validation Step: 322000, Loss: 1.559011, Acc: 0.390625
+Validation Step: 322200, Loss: 1.669689, Acc: 0.492188
+Validation Step: 322400, Loss: 1.428044, Acc: 0.406250
+Epch: 335	Val acc: 0.43664216
+Validation Step: 322600, Loss: 1.602824, Acc: 0.403101
+Validation Step: 322800, Loss: 1.381772, Acc: 0.546875
+Validation Step: 323000, Loss: 1.570970, Acc: 0.382812
+Validation Step: 323200, Loss: 1.351226, Acc: 0.484375
+Validation Step: 323400, Loss: 1.504149, Acc: 0.414062
+Epch: 336	Val acc: 0.43979705
+Validation Step: 323600, Loss: 1.646497, Acc: 0.434109
+Validation Step: 323800, Loss: 1.607233, Acc: 0.421875
+Validation Step: 324000, Loss: 1.388486, Acc: 0.484375
+Validation Step: 324200, Loss: 1.498619, Acc: 0.500000
+Validation Step: 324400, Loss: 1.385316, Acc: 0.562500
+Epch: 337	Val acc: 0.44028492
+Validation Step: 324600, Loss: 1.346608, Acc: 0.519380
+Validation Step: 324800, Loss: 1.422649, Acc: 0.406250
+Validation Step: 325000, Loss: 1.438288, Acc: 0.515625
+Validation Step: 325200, Loss: 1.610140, Acc: 0.453125
+Validation Step: 325400, Loss: 1.538573, Acc: 0.429688
+Epch: 338	Val acc: 0.43807325
+Validation Step: 325600, Loss: 1.566041, Acc: 0.472868
+Validation Step: 325800, Loss: 1.376664, Acc: 0.460938
+Validation Step: 326000, Loss: 1.572813, Acc: 0.437500
+Validation Step: 326200, Loss: 1.709499, Acc: 0.390625
+Epch: 339	Val acc: 0.44061016
+Validation Step: 326400, Loss: 1.464784, Acc: 0.434109
+Validation Step: 326600, Loss: 1.449436, Acc: 0.488372
+Validation Step: 326800, Loss: 1.646867, Acc: 0.390625
+Validation Step: 327000, Loss: 1.778246, Acc: 0.468750
+Validation Step: 327200, Loss: 1.423713, Acc: 0.421875
+Epch: 340	Val acc: 0.44067521
+Validation Step: 327400, Loss: 1.514565, Acc: 0.418605
+Validation Step: 327600, Loss: 1.386422, Acc: 0.476562
+Validation Step: 327800, Loss: 1.605761, Acc: 0.414062
+Validation Step: 328000, Loss: 1.289305, Acc: 0.507812
+Validation Step: 328200, Loss: 1.543558, Acc: 0.437500
+Epch: 341	Val acc: 0.43872374
+Validation Step: 328400, Loss: 1.695717, Acc: 0.418605
+Validation Step: 328600, Loss: 1.580066, Acc: 0.437500
+Validation Step: 328800, Loss: 1.381336, Acc: 0.468750
+Validation Step: 329000, Loss: 1.457367, Acc: 0.468750
+Validation Step: 329200, Loss: 1.418695, Acc: 0.562500
+Epch: 342	Val acc: 0.44057764
+Validation Step: 329400, Loss: 1.397856, Acc: 0.472868
+Validation Step: 329600, Loss: 1.399341, Acc: 0.421875
+Validation Step: 329800, Loss: 1.462393, Acc: 0.468750
+Validation Step: 330000, Loss: 1.609929, Acc: 0.437500
+Validation Step: 330200, Loss: 1.518743, Acc: 0.445312
+Epch: 343	Val acc: 0.43911403
+Validation Step: 330400, Loss: 1.551445, Acc: 0.488372
+Validation Step: 330600, Loss: 1.368069, Acc: 0.484375
+Validation Step: 330800, Loss: 1.523592, Acc: 0.429688
+Validation Step: 331000, Loss: 1.697258, Acc: 0.421875
+Epch: 344	Val acc: 0.43670721
+Validation Step: 331200, Loss: 1.449453, Acc: 0.434109
+Validation Step: 331400, Loss: 1.464365, Acc: 0.488372
+Validation Step: 331600, Loss: 1.710957, Acc: 0.359375
+Validation Step: 331800, Loss: 1.747133, Acc: 0.468750
+Validation Step: 332000, Loss: 1.450461, Acc: 0.421875
+Epch: 345	Val acc: 0.43726013
+Validation Step: 332200, Loss: 1.524310, Acc: 0.426357
+Validation Step: 332400, Loss: 1.310542, Acc: 0.531250
+Validation Step: 332600, Loss: 1.605733, Acc: 0.429688
+Validation Step: 332800, Loss: 1.308844, Acc: 0.500000
+Validation Step: 333000, Loss: 1.494239, Acc: 0.421875
+Epch: 346	Val acc: 0.43914656
+Validation Step: 333200, Loss: 1.614787, Acc: 0.434109
+Validation Step: 333400, Loss: 1.612200, Acc: 0.421875
+Validation Step: 333600, Loss: 1.281960, Acc: 0.492188
+Validation Step: 333800, Loss: 1.481743, Acc: 0.437500
+Validation Step: 334000, Loss: 1.481955, Acc: 0.484375
+Epch: 347	Val acc: 0.43943928
+Validation Step: 334200, Loss: 1.347325, Acc: 0.503876
+Validation Step: 334400, Loss: 1.419262, Acc: 0.406250
+Validation Step: 334600, Loss: 1.402985, Acc: 0.531250
+Validation Step: 334800, Loss: 1.721362, Acc: 0.460938
+Validation Step: 335000, Loss: 1.431723, Acc: 0.453125
+Epch: 348	Val acc: 0.44002472
+Validation Step: 335200, Loss: 1.521248, Acc: 0.449612
+Validation Step: 335400, Loss: 1.372179, Acc: 0.507812
+Validation Step: 335600, Loss: 1.596077, Acc: 0.437500
+Validation Step: 335800, Loss: 1.668395, Acc: 0.398438
+Epch: 349	Val acc: 0.43823587
+Validation Step: 336000, Loss: 1.466021, Acc: 0.457364
+Validation Step: 336200, Loss: 1.493127, Acc: 0.488372
+Validation Step: 336400, Loss: 1.717947, Acc: 0.406250
+Validation Step: 336600, Loss: 1.704264, Acc: 0.507812
+Validation Step: 336800, Loss: 1.452497, Acc: 0.414062
+Epch: 350	Val acc: 0.44174852
+Validation Step: 337000, Loss: 1.556263, Acc: 0.410853
+Validation Step: 337200, Loss: 1.412018, Acc: 0.539062
+Validation Step: 337400, Loss: 1.636691, Acc: 0.414062
+Validation Step: 337600, Loss: 1.363931, Acc: 0.515625
+Validation Step: 337800, Loss: 1.573399, Acc: 0.414062
+Epch: 351	Val acc: 0.44187862
+Validation Step: 338000, Loss: 1.630244, Acc: 0.449612
+Validation Step: 338200, Loss: 1.614992, Acc: 0.437500
+Validation Step: 338400, Loss: 1.370784, Acc: 0.460938
+Validation Step: 338600, Loss: 1.504987, Acc: 0.453125
+Validation Step: 338800, Loss: 1.430494, Acc: 0.507812
+Epch: 352	Val acc: 0.43810577
+Validation Step: 339000, Loss: 1.436814, Acc: 0.496124
+Validation Step: 339200, Loss: 1.452449, Acc: 0.445312
+Validation Step: 339400, Loss: 1.498697, Acc: 0.476562
+Validation Step: 339600, Loss: 1.687575, Acc: 0.445312
+Validation Step: 339800, Loss: 1.517894, Acc: 0.468750
+Epch: 353	Val acc: 0.43859364
+Validation Step: 340000, Loss: 1.585534, Acc: 0.441860
+Validation Step: 340200, Loss: 1.396602, Acc: 0.500000
+Validation Step: 340400, Loss: 1.605381, Acc: 0.437500
+Validation Step: 340600, Loss: 1.614616, Acc: 0.445312
+Epch: 354	Val acc: 0.43888636
+Validation Step: 340800, Loss: 1.539380, Acc: 0.457364
+Validation Step: 341000, Loss: 1.481566, Acc: 0.472868
+Validation Step: 341200, Loss: 1.629891, Acc: 0.414062
+Validation Step: 341400, Loss: 1.788496, Acc: 0.468750
+Validation Step: 341600, Loss: 1.436618, Acc: 0.414062
+Epch: 355	Val acc: 0.43953685
+Validation Step: 341800, Loss: 1.498825, Acc: 0.403101
+Validation Step: 342000, Loss: 1.371556, Acc: 0.515625
+Validation Step: 342200, Loss: 1.569094, Acc: 0.414062
+Validation Step: 342400, Loss: 1.300774, Acc: 0.507812
+Validation Step: 342600, Loss: 1.485741, Acc: 0.414062
+Epch: 356	Val acc: 0.43810577
+Validation Step: 342800, Loss: 1.722359, Acc: 0.426357
+Validation Step: 343000, Loss: 1.631822, Acc: 0.453125
+Validation Step: 343200, Loss: 1.352904, Acc: 0.429688
+Validation Step: 343400, Loss: 1.477955, Acc: 0.460938
+Validation Step: 343600, Loss: 1.451550, Acc: 0.507812
+Epch: 357	Val acc: 0.43963442
+Validation Step: 343800, Loss: 1.406497, Acc: 0.519380
+Validation Step: 344000, Loss: 1.395732, Acc: 0.437500
+Validation Step: 344200, Loss: 1.545059, Acc: 0.484375
+Validation Step: 344400, Loss: 1.763955, Acc: 0.445312
+Validation Step: 344600, Loss: 1.506697, Acc: 0.445312
+Epch: 358	Val acc: 0.43800820
+Validation Step: 344800, Loss: 1.617603, Acc: 0.480620
+Validation Step: 345000, Loss: 1.368910, Acc: 0.500000
+Validation Step: 345200, Loss: 1.574901, Acc: 0.453125
+Validation Step: 345400, Loss: 1.685905, Acc: 0.429688
+Epch: 359	Val acc: 0.43794315
+Validation Step: 345600, Loss: 1.524348, Acc: 0.426357
+Validation Step: 345800, Loss: 1.548043, Acc: 0.503876
+Validation Step: 346000, Loss: 1.682360, Acc: 0.406250
+Validation Step: 346200, Loss: 1.685297, Acc: 0.507812
+Validation Step: 346400, Loss: 1.468006, Acc: 0.390625
+Epch: 360	Val acc: 0.43560138
+Validation Step: 346600, Loss: 1.549496, Acc: 0.410853
+Validation Step: 346800, Loss: 1.360589, Acc: 0.554688
+Validation Step: 347000, Loss: 1.680833, Acc: 0.414062
+Validation Step: 347200, Loss: 1.274466, Acc: 0.515625
+Validation Step: 347400, Loss: 1.562470, Acc: 0.421875
+Epch: 361	Val acc: 0.43888636
+Validation Step: 347600, Loss: 1.658868, Acc: 0.472868
+Validation Step: 347800, Loss: 1.545681, Acc: 0.445312
+Validation Step: 348000, Loss: 1.376833, Acc: 0.445312
+Validation Step: 348200, Loss: 1.659431, Acc: 0.437500
+Validation Step: 348400, Loss: 1.415437, Acc: 0.515625
+Epch: 362	Val acc: 0.43862616
+Validation Step: 348600, Loss: 1.411452, Acc: 0.488372
+Validation Step: 348800, Loss: 1.402545, Acc: 0.437500
+Validation Step: 349000, Loss: 1.478464, Acc: 0.507812
+Validation Step: 349200, Loss: 1.693968, Acc: 0.437500
+Validation Step: 349400, Loss: 1.498651, Acc: 0.445312
+Epch: 363	Val acc: 0.43969947
+Validation Step: 349600, Loss: 1.572484, Acc: 0.457364
+Validation Step: 349800, Loss: 1.409912, Acc: 0.523438
+Validation Step: 350000, Loss: 1.570446, Acc: 0.445312
+Validation Step: 350200, Loss: 1.694010, Acc: 0.453125
+Epch: 364	Val acc: 0.43817082
+Validation Step: 350400, Loss: 1.465141, Acc: 0.434109
+Validation Step: 350600, Loss: 1.424517, Acc: 0.496124
+Validation Step: 350800, Loss: 1.657581, Acc: 0.398438
