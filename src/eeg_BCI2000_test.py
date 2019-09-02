@@ -142,26 +142,26 @@ if __name__ == "__main__":
     
     import argparse
     parser = argparse.ArgumentParser()
+    
     parser.add_argument('-m', '--mode', dest='mode', type=str, help='Test mode (i for individual, b for batch)')
     parser.add_argument('-i', '--id', dest="sub_id", type=str, help="Test Subject ID")
     parser.add_argument('-p', '--prefix', dest='prefix', type=str)
     
-    parser.add_argument()
-    
     args = parser.parse_args()
     
-    if args.model_index:
+    if args.prefix:
         prefix = args.prefix
     else:
         sys.exit('Please provide model index, usually date in the form of yyyymmdd')
         
     with open('../result/{}/model_conf.json'.format(prefix), 'r') as f:
-        model_conf = json.loads(f)
+        model_conf = json.load(f)
         
     model_dir = '../model/{}'.format(prefix)
     model = 'model.ckpt' # or 'batch_model.ckpt'
     
     mode = args.mode or 'b'
+    
     if mode == 'i':
         sub_id = args.sub_id or 1
         demo_simulate(sub_id, model_dir, **model_conf['input'])
