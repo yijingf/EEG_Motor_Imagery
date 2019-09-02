@@ -78,7 +78,7 @@ def demo_simulate(sub_id, model_dir, model,
         res = voting(vote_res)
         print('Predicted Label: {}; Ground Truth: NA'.format(res))
         time.sleep(interval)
-def test(subs, model_dir, model, res_dir, window_len=10, step=5, batch_size=128, **kwargs):
+def test(subs, model_dir, model, window_len=10, step=5, batch_size=128, **kwargs):
 
     window_len = model_conf['input']['window_len']
     step = model_conf['input']['step']
@@ -161,6 +161,10 @@ if __name__ == "__main__":
     model = 'model.ckpt' # or 'batch_model.ckpt'
     
     mode = args.mode or 'b'
+
+    res_dir = '../result/{}'.format(prefix)
+    
+    print(mode, model)
     
     if mode == 'i':
         sub_id = args.sub_id or 1
