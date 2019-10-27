@@ -50,6 +50,21 @@ python eeg_BCI2000_train.py -p yyyymmdd/yymmddhh -r r
 python eeg_BCI2000_test.py -p yyyymmdd/yymmddhh (-m b)
 ```
 
+## Evaluation
+### Usage 
+```
+from evaluation import *
+# plot single confusion matrix
+model_index = '20190822'
+plot_single_cm(model_index)
+
+# plot confusion matrices for  multiple models
+model_indices = ['20190822', '2019xxx']
+evaluation_compare(model_indices)
+
+
+
+```
 
 ## Deployment
 
