@@ -2,6 +2,8 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
+from scipy.interpolate import make_interp_spline, BSpline
+
 root_dir = '../result/'
 
 def load_data(model, mode):
@@ -21,20 +23,21 @@ def load_data(model, mode):
     
     return step, loss, acc
 
-def plot_data(steps, metrics, metric_type, filename):
+def plot_data(steps, metrics, metric_type, filename, smooth_factor=5):
     # Draw lines
-    plt.plot(steps[0], metrics[0], color="blue",  label="Training {}".format(metric_type))
-    plt.plot(steps[1], metrics[1], color="orange", label="Validation {}".format(metric_type))
-    
-    # Todo:
-    # Smoothing
+    fig = plt.figure()
+    for i, mode in enumerate(['Training', 'Validation']):
+        step_new = np.linspace(min(steps[i]), max(steps[i]), int(len(steps[i])/smooth_factor))
+        spl = make_interp_spline(steps[i], metrics[i], k=3) #BSpline object
+        metric_smooth = spl(step_new)
+        plt.plot(step_new, metric_smooth, label="{} {}".format(mode, metric_type))
     
     # Create plot
     plt.title("Learning Curve - {}".format(metric_type))
-    plt.xlabel("Step"), plt.ylabel(metric_type), plt.legend(loc="best")
+    plt.xlabel("Steps"), plt.ylabel(metric_type), plt.legend(loc="best")
     plt.tight_layout()
     
-    plt.imsave(filename)
+    fig.savefig(filename)
     return
     
 def main(model):
