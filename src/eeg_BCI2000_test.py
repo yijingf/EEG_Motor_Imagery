@@ -1,11 +1,13 @@
-import collections
 import time, os, sys, json
 
 import numpy as np
 import pandas as pd
-
 import tensorflow as tf
-from import_data import get_mesh_data
+
+from collections import Counter
+
+from eeg_loader import *
+from config import *
 
 # EEG info
 sfreq = 160
@@ -49,7 +51,7 @@ class EEG_Test:
         return res
     
 def voting(index):
-    return int(collections.Counter(index).most_common(1)[0][0])
+    return int(Counter(index).most_common(1)[0][0])
 
 def demo_simulate(sub_id, model_dir, model, 
                   window_len=10, vote_window_len=10, vote_sliding_step=5, **kwargs):
@@ -78,10 +80,8 @@ def demo_simulate(sub_id, model_dir, model,
         res = voting(vote_res)
         print('Predicted Label: {}; Ground Truth: NA'.format(res))
         time.sleep(interval)
-def test(subs, model_dir, model, window_len=10, step=5, batch_size=128, **kwargs):
-
-    window_len = model_conf['input']['window_len']
-    step = model_conf['input']['step']
+        
+def test(model_dir, model, batch_size=128, **kwargs):
     batch_size = 128
 
     # Load Model
@@ -89,20 +89,26 @@ def test(subs, model_dir, model, window_len=10, step=5, batch_size=128, **kwargs
     eeg_test = EEG_Test(gpu_memory_fraction=0.1, model_dir=model_dir, model=model)
 
     # Load Data
-    X, Y = get_mesh_data(SUBs=test_subs, window_len=window_len, step=step)
+    if input_config['mode'] == 'within':
+        test_set = np.load(os.path.join(res_dir, 'test_set'))
+        data_loader = TestDataLoader(window_cnt=test_set['window_cnt'], **input_config)
+        X, y = data_loader.load_data(SUBs, test_set['test_index'])
+    else:
+        data_loader = DataLoader(**input_config)
+        X, y, _ = data_loader.load_data(testSUBs)
 
-    num_data = len(Y)
-    index = list(range(num_data))
-    data_split = np.array_split(index, num_data//batch_size)
+    n = len(y)
+    index = list(range(n))
+    data_split = np.array_split(index, n//batch_size)
 
-    Y_pred = []
+    y_pred = []
     for i, ds in enumerate(data_split):
-        y_pred = eeg_test.predict(X[ds])
-        Y_pred += y_pred.tolist()
+        tmp_y_pred = eeg_test.predict(X[ds])
+        y_pred += tmp_y_pred.tolist()
 
-    Y = np.argmax(Y, axis=1).tolist()
+    y = np.argmax(y, axis=1).tolist()
     output_filename = os.path.join(res_dir, 'predicted_label_test.csv')
-    res = pd.DataFrame({'y_true':Y, 'y_pred':Y_pred})
+    res = pd.DataFrame({'y_true':y, 'y_pred':y_pred})
     res.to_csv(output_filename, index=False)
     return    
     
@@ -152,7 +158,7 @@ if __name__ == "__main__":
     if args.prefix:
         prefix = args.prefix
     else:
-        sys.exit('Please provide model index, usually date in the form of yyyymmdd')
+        sys.exit('Please provide model index, usually date in the form of yymmddhh')
         
     with open('../result/{}/model_conf.json'.format(prefix), 'r') as f:
         model_conf = json.load(f)
@@ -165,6 +171,8 @@ if __name__ == "__main__":
     res_dir = '../result/{}'.format(prefix)
     
     print(mode, model)
+
+    input_config = model_conf['input']
     
     if mode == 'i':
         sub_id = args.sub_id or 1
@@ -172,4 +180,4 @@ if __name__ == "__main__":
     elif mode == 'b':
         with open('../config/test_subs.txt', 'r') as f:
             test_subs = f.read().splitlines()
-        test(test_subs, model_dir, model, **model_conf['input'])
+        test(model_dir, model)

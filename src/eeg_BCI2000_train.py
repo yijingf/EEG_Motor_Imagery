@@ -30,10 +30,10 @@ class EEG_Train:
             gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=gpu_memory_fraction)
             self.config = tf.ConfigProto(gpu_options=gpu_options)
 
-    def load_data(self, window_len, overlap, mode='within', **kwargs):
+    def load_data(self):
         data_loader = DataLoader(**input_config)
 
-        if mode == 'within':
+        if input_config['mode'] == 'within':
             (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs)
 
             # Save test index
@@ -113,7 +113,7 @@ class EEG_Train:
             sess.run(init, {is_training: True})
         
         # Load Data
-        train_X, train_y, valid_X, valid_y = self.load_data(**input_config)
+        train_X, train_y, valid_X, valid_y = self.load_data()
 
         n_train, n_valid = len(train_y), len(valid_y)
         train_index, valid_index = list(range(n_train)), list(range(n_valid))
