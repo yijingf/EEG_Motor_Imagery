@@ -4,12 +4,9 @@ import numpy as np
 import tensorflow as tf
 
 from CasCNNRNN import *
-from eeg_loader import DataLoader
+from eeg_loader import *
 
 from train_config import *
-
-with open('../config/train_subs.txt', 'r') as f:
-    SUBs = f.read().splitlines()
 
 # Initialize Input Parameter (fixed)
 w, h = 10, 11
@@ -32,7 +29,27 @@ class EEG_Train:
         else:
             gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=gpu_memory_fraction)
             self.config = tf.ConfigProto(gpu_options=gpu_options)
-        
+
+    def load_data(self, window_len, overlap, mode='within', **kwargs):
+        data_loader = DataLoader(**input_config)
+
+        if mode == 'within':
+            (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs)
+
+            # Save test index
+            np.savez(test_index_filename, test_index=test_set[0], window_cnt=test_set(1))
+        else:
+            train_X, train_y, _ = data_loader.load_data(trainSUBs)
+            valid_X, valid_y, _ = data_loader.load_data(validSUBs)
+
+            index = balance_sample(train_y)
+            train_X, train_y = train_X[index], train_y[index]
+
+            valid_index = balance_sample(valid_y)
+            valid_X, valid_y = valid_X[index], valid_y[index]
+            
+            return train_X, train_y, valid_X, valid_y
+
     def train(self, resume=False):
         
         sess = tf.Session(config = self.config)
@@ -96,14 +113,10 @@ class EEG_Train:
             sess.run(init, {is_training: True})
         
         # Load Data
-        data_loader = DataLoader(window_len=window_len)
-        (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_data(SUBs)
+        train_X, train_y, valid_X, valid_y = self.load_data(**input_config)
 
         n_train, n_valid = len(train_y), len(valid_y)
         train_index, valid_index = list(range(n_train)), list(range(n_valid))
-
-        # Save test index
-        np.savez(test_index_filename, test_index=test_set[0], window_cnt=test_set(1))
 
         # Training
         train_filename = os.path.join(ResultDir, 'train_log.txt')

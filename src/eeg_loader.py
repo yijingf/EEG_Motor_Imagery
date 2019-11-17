@@ -114,7 +114,7 @@ class DataLoader():
     """
     Load eeg data from .edf/.event files.
     """
-    def __init__(self, window_len=10, overlap=0.5):
+    def __init__(self, window_len=10, overlap=0.5, **kwargs):
         self.step = int(window_len*overlap)
         self.window_len = window_len
 
@@ -165,7 +165,7 @@ class TestDataLoader():
     The order of subjects are required to be consistent with that when loading training data.
     """
     
-    def __init__(self, window_cnt, window_len=10, overlap=0.5):
+    def __init__(self, window_cnt, window_len=10, overlap=0.5, **kwargs):
         self.window_len = window_len
         self.step = int(window_len * overlap)
 
