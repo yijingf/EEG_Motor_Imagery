@@ -4,8 +4,13 @@ import numpy as np
 from mne import pick_types
 from mne.io import read_raw_edf
 from collections import Counter
+from sklearn.preprocessing import LabelBinarizer
 
 from config import *
+
+labels = [0,1,2,3,4]
+lb = LabelBinarizer()
+lb.fit(labels)
     
 def read_file(fname):
     raw = read_raw_edf(fname, preload=True, verbose=False)
@@ -100,7 +105,7 @@ def get_mesh(x, interpolate=False):
     mesh[7, 3:8] = x[55:60]
     mesh[8, 4:7] = x[60:63]
     mesh[9, 5] = x[63]
-#     mesh = mesh.reshape((10, 11, 1))
+    mesh = mesh.reshape((10, 11, 1))
     return mesh
 
 def transform(X, window_len=10, interpolate=False):
@@ -115,7 +120,7 @@ class DataLoader():
     Load eeg data from .edf/.event files.
     """
     def __init__(self, window_len=10, overlap=0.5, **kwargs):
-        self.step = int(window_len*overlap)
+        self.step = int(window_len*(1 - overlap))
         self.window_len = window_len
 
     def load_data(self, SUBs, normalized=True, mesh=True):
@@ -139,7 +144,7 @@ class DataLoader():
             window_cnt.append(len_sub)
         X = np.concatenate(X)
         Y = np.concatenate(Y)
-        
+
 #         if normalized:
 #             X = normalization(X)
         
@@ -153,7 +158,7 @@ class DataLoader():
         selected_index = balance_sample(Y)
 
         train_index, valid_index, test_index = split(selected_index, split_ratio)
-        
+        Y = lb.transform(Y)
         train_set = (X[train_index], Y[train_index])
         valid_set = (X[valid_index], Y[valid_index])
     
@@ -216,5 +221,5 @@ class TestDataLoader():
 
         X = np.concatenate(X)
         Y = np.concatenate(Y)
-        
+        Y = lb.transform(Y)
         return X, Y

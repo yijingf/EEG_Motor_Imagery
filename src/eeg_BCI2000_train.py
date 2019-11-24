@@ -37,7 +37,7 @@ class EEG_Train:
             (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs)
 
             # Save test index
-            np.savez(test_index_filename, test_index=test_set[0], window_cnt=test_set(1))
+            np.savez(test_index_filename, test_index=test_set[0], window_cnt=test_set[1])
         else:
             train_X, train_y, _ = data_loader.load_data(trainSUBs)
             valid_X, valid_y, _ = data_loader.load_data(validSUBs)
@@ -48,7 +48,7 @@ class EEG_Train:
             valid_index = balance_sample(valid_y)
             valid_X, valid_y = valid_X[index], valid_y[index]
             
-            return train_X, train_y, valid_X, valid_y
+        return train_X, train_y, valid_X, valid_y
 
     def train(self, resume=False):
         
@@ -71,7 +71,7 @@ class EEG_Train:
             # Initialize input variable
             x_cnn = tf.placeholder(tf.float32, [None, w, h, input_channel], name='x_input')
             rnn_dimension = cnn_config['fc_n_hidden']
-            x_rnn = tf.placeholder(tf.float32, [None, rnn_dimension], name='x_rnn_input')
+            x_rnn = [tf.placeholder(tf.float32, [None, rnn_dimension], name='x_rnn_input') for _ in range(window_len)]
             y = tf.placeholder(tf.float32, [None, n_classes], name='y_input')
             is_training = tf.placeholder(tf.bool, name='is_training')
 
@@ -80,7 +80,7 @@ class EEG_Train:
                 cnn_output = CasRes(x_cnn, is_training, **cnn_config)
             elif cnn_type == 'CNN':
                 cnn_output = CasCNN(tmp, **cnn_config)
-
+            
             logits = CasRNN(x_rnn, **rnn_config)
 
             regularization = tf.get_collection(tf.GraphKeys.REGULARIZATION_LOSSES)
@@ -114,6 +114,7 @@ class EEG_Train:
         
         # Load Data
         train_X, train_y, valid_X, valid_y = self.load_data()
+        num_valid = len(valid_y)
 
         n_train, n_valid = len(train_y), len(valid_y)
         train_index, valid_index = list(range(n_train)), list(range(n_valid))
@@ -143,9 +144,9 @@ class EEG_Train:
             x_rnn_input = sess.run(cnn_output, feed_dict=cnn_feed_dict)
 
             # Feed data to rnn
-            x_rnn_input = x_rnn_input.reshape((len(ts), window_len, rnn_dimension))
+            x_rnn_input = x_rnn_input.reshape((len(y_label), window_len, rnn_dimension))
             feed_dict = {x_rnn[i]:x_rnn_input[:, i, :] for i in range(window_len)}
-            feed_dict[y] = Y
+            feed_dict[y] = y_label
 
             feed_dict.update(cnn_feed_dict)
 
@@ -162,7 +163,7 @@ class EEG_Train:
             batch_count = len(train_split)
             t_start = time.time()
             for i, ts in enumerate(train_split):
-                feed_dict = feed_data(train_x[ts], train_y[ts], train_mode=True)
+                feed_dict = feed_data(train_X[ts], train_y[ts], train_mode=True)
 
                 # Display and save training accuracy per batch
                 if step_count % display_step == 0:
@@ -177,7 +178,7 @@ class EEG_Train:
                 # Display validation accuracy on smaller validation dataset
                 if step_count % num_valid_step == 0:
                     vs = valid_split[int(i/display_step)]
-                    valid_dict = feed_data(valid_x[vs], valid_y[vs], train_mode=False)
+                    valid_dict = feed_data(valid_X[vs], valid_y[vs], train_mode=False)
                     loss, acc = sess.run([loss_op, accuracy], feed_dict=valid_dict)
                     display = 'Validation Step: {}, Loss: {:.6f}, Acc: {:.6f}'.format(step_count, loss, acc)
                     print(display)
@@ -198,7 +199,7 @@ class EEG_Train:
             """
             val_total_correct = 0
             for vs in valid_split:
-                feed_dict = feed_data(valid_x[vs], valid_y[vs], train_mode=False)
+                feed_dict = feed_data(valid_X[vs], valid_y[vs], train_mode=False)
 
                 nc = sess.run(num_correct, feed_dict=feed_dict)
                 val_total_correct += nc
@@ -235,7 +236,6 @@ if __name__ == '__main__':
 
     # Hyper Parameter Initialization
     window_len = input_config['window_len']
-    step = input_config['step']
     learning_rate = train_config['learning_rate']
     num_epoch = train_config['num_epoch']
     batch_size = train_config['batch_size']

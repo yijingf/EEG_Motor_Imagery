@@ -17,7 +17,9 @@ bash cuda_cudnn_installer.sh
 
 ```
 pip install -r requirements.txt
+pip install hypertools
 ```
+(Optional) To disable plot function of hypertools, go to the directory where it is installed, i.e. ./virtual_env/lib/python3.5/site-packages/hypertools, and comment 'from .plot.plot import plot' to speed up loading process.
 
 ### Dataset
 * Get data from [physionet](https://www.physionet.org/content/eegmmidb/1.0.0/)
@@ -29,6 +31,8 @@ bash download_data.sh
 cd ResNetEEG/src
 python select_sample.py
 ```
+## HyperAlignment (optional)
+
 
 ## Training
 
