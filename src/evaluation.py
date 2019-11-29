@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from matrix_display import *
 
 data_dir = '../result/'
-labels = ['0', '1', '2', '3', '4']
+labels = ['rest', 'left_fist', 'right_fist', 'both_fist', 'both_feet']
 
 def load_data(model):
     file_dir = os.path.join(data_dir, str(model), 'predicted_label_test.csv')
@@ -21,7 +21,7 @@ def plot_single_cm(model):
     acc = accuracy_score(y_true, y_pred)
     cm = confusion_matrix(y_true, y_pred)
     plot_confusion_matrix(cm, classes=labels, title='Confusion matrix for {}'.format(model))
-    img.savefig(os.path.join(data_dir, '{}_Confustion_matrix'))
+    img.savefig(os.path.join(data_dir, model, 'Confustion_matrix'))
 
 def evaluation_compare(models, n_col=4, save=True):
     cms_img = plt.figure(figsize=(20, 10))

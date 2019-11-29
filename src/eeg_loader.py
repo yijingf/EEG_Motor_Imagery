@@ -27,7 +27,7 @@ def read_file(fname):
     events = raw.find_edf_events()
     return data, events
 
-def get_window(data, events, run_type, window_len, step, mesh=True):
+def get_window(data, events, run_type, window_len, step, mesh=True, t_cue=t_cue):
     # Filter out rest states
     if run_type:
         events = [event for event in events if event[-1] != 'T0']
@@ -152,13 +152,14 @@ class DataLoader():
 #             X, Y = reject_sample(X, Y, threshold=reject_threshold)
         return X, Y, window_cnt
         
-    def load_train_val_test(self, SUBs, normalized=True, mesh=True):
+    def load_train_val_test(self, SUBs, normalized=True, mesh=True, one_hot=True):
         
         X, Y, window_cnt = self.load_data(SUBs, normalized, mesh)
         selected_index = balance_sample(Y)
 
         train_index, valid_index, test_index = split(selected_index, split_ratio)
-        Y = lb.transform(Y)
+        if one_hot:
+            Y = lb.transform(Y)
         train_set = (X[train_index], Y[train_index])
         valid_set = (X[valid_index], Y[valid_index])
     
@@ -196,7 +197,7 @@ class TestDataLoader():
         
         return sub_index, run, run_type, window_index
     
-    def load_data(self, SUBs, test_index, mesh=True):
+    def load_data(self, SUBs, test_index, mesh=True, one_hot=True):
         input_list = {}
         # retrieve the subject/run of the window by its index
         for index in test_index:
@@ -221,5 +222,6 @@ class TestDataLoader():
 
         X = np.concatenate(X)
         Y = np.concatenate(Y)
-        Y = lb.transform(Y)
+        if one_hot:
+            Y = lb.transform(Y)
         return X, Y

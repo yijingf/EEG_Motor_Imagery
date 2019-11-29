@@ -69,6 +69,8 @@ evaluation_compare(model_indices)
 
 
 ```
+## Result
+* SVM train 39.49% test 25.69%
 
 ## Deployment
 
