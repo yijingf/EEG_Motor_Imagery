@@ -108,8 +108,9 @@ class hyperalignment():
                 
         #STEP 3 (below): ALIGN TO NEW TEMPLATE
         mappers = [procrustes() for _ in m]
-        aligned = [np.zeros(template2.shape)] * len(m)
+#         aligned = [np.zeros(template2.shape)] * len(m)
         for x in range(0, len(m)):
             next = mappers[x](m[x], template2)
-            aligned[x] = next
-        return aligned, mappers
+#             aligned[x] = next
+        return mappers
+#         return aligned, mappers

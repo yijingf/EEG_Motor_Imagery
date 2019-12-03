@@ -35,17 +35,19 @@ class EEG_Train:
         train_X, train_y, train_D = load_data_from_file(train_index_r, train_index_t)
 
         hyp = hyperalignment()
-        train_X, mappers = hyp.train(train_X)
+        mappers = hyp.train(train_X)
+
+        train_X = [mappers[i].transform(x) for i, x in enumerate(train_X)]
 
         fname = os.path.join(ResultDir, 'mappers.pkl')
         with open(fname, 'wb') as f:
                 pickle.dump(mappers, f)
 
-        train_X, train_y = get_data(train_X, train_y, train_D)
+        train_X, train_y = get_data(train_X, train_y, train_D, **input_config)
 
         valid_X, valid_y, valid_D = load_data_from_file(valid_index_r, valid_index_t)
         valid_X = [mappers[i].transform(x) for i, x in enumerate(valid_X)]
-        valid_X, valid_y = get_data(valid_X, valid_y, valid_D)
+        valid_X, valid_y = get_data(valid_X, valid_y, valid_D, **input_config)
         return train_X, train_y, valid_X, valid_y
 
     def train(self, resume=False):
