@@ -22,10 +22,15 @@ pip install hypertools
 (Optional) To disable plot function of hypertools, go to the directory where it is installed, i.e. ./virtual_env/lib/python3.5/site-packages/hypertools, and comment 'from .plot.plot import plot' to speed up loading process.
 
 ### Dataset
+* S89 is rejected
 * Get data from [physionet](https://www.physionet.org/content/eegmmidb/1.0.0/)
 ```
 bash download_data.sh
 ```
+
+* S88, S92, S100 have different sampling rates. Will consider downsampling all the data to the same sampling frequency.
+* S89 is damaged.
+
 * Split training/validation/test set, if there is no configuration file uner './config'. 
 ```
 cd ResNetEEG/src

@@ -12,17 +12,30 @@ labels = [0,1,2,3,4]
 lb = LabelBinarizer()
 lb.fit(labels)
     
-def read_file(fname):
+def read_file(fname, l_freq=1, h_freq=30, resample_sfreq=None):
+    """
+    Load EEG signal and events, and apply bandpass filter.
+    Arguments:
+        fname: str, absolute path
+        l_freq: int
+        h_freq: int 
+        sfreq: int, resample frequency
+    """
     raw = read_raw_edf(fname, preload=True, verbose=False)
     picks = pick_types(raw.info, eeg=True)
-
+    
+    # Reject samples with different sampling rate. This will be deprecated when resampling is applied 
     if raw.info['sfreq'] != 160:
-        print('{} is sampled at 128Hz so will be excluded.'.format(subj))
+        print('{} is sampled at 128Hz, will be excluded.'.format(subj))
         return
 
-    # High-pass filtering
-    raw.filter(l_freq=1, h_freq=None, picks=picks)
+    # bandpass filter
+    raw.filter(l_freq=l_freq, h_freq=h_freq, picks=picks)
+    if sfreq:
+        raw = raw.resample(resample_sfreq)
+        
     data = raw.get_data(picks=picks)
+    
     # Get annotation
     events = raw.find_edf_events()
     return data, events
@@ -123,7 +136,7 @@ class DataLoader():
         self.step = int(window_len*(1 - overlap))
         self.window_len = window_len
 
-    def load_data(self, SUBs, normalized=True, mesh=True):
+    def load_data(self, SUBs, normalized=True, mesh=True, l_freq=4, h_freq=30, resample_sfreq=None):
 
         X, Y = [], []
         window_cnt = []
@@ -134,7 +147,7 @@ class DataLoader():
                 len_runs = []
                 for run in runs:
                     fname = os.path.join(dataDir, sub, '{}R{}.edf'.format(sub, run))
-                    data, events = read_file(fname)
+                    data, events = read_file(fname, l_freq, h_freq, resample_sfreq)
                     x, y = get_window(data, events, run_type, self.window_len, self.step, mesh)
                     run_cnt += len(y)
                     len_runs.append(run_cnt)
@@ -152,9 +165,11 @@ class DataLoader():
 #             X, Y = reject_sample(X, Y, threshold=reject_threshold)
         return X, Y, window_cnt
         
-    def load_train_val_test(self, SUBs, normalized=True, mesh=True, one_hot=True):
+    def load_train_val_test(self, SUBs, normalized=True, mesh=True, 
+    						l_freq=4, h_freq=30, resample_sfreq=None, 
+    						one_hot=True):
         
-        X, Y, window_cnt = self.load_data(SUBs, normalized, mesh)
+        X, Y, window_cnt = self.load_data(SUBs, normalized, mesh, l_freq, h_freq, resample_sfreq)
         selected_index = balance_sample(Y)
 
         train_index, valid_index, test_index = split(selected_index, split_ratio)
