@@ -34,13 +34,13 @@ class EEG_Train:
         data_loader = DataLoader(**input_config)
 
         if input_config['mode'] == 'within':
-            (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs)
+            (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs, resample_freq=sfreq)
 
             # Save test index
             np.savez(test_index_filename, test_index=test_set[0], window_cnt=test_set[1])
         else:
-            train_X, train_y, _ = data_loader.load_data(trainSUBs)
-            valid_X, valid_y, _ = data_loader.load_data(validSUBs)
+            train_X, train_y, _ = data_loader.load_data(trainSUBs, resample_freq=sfreq)
+            valid_X, valid_y, _ = data_loader.load_data(validSUBs, resample_freq=sfreq)
 
             index = balance_sample(train_y)
             train_X, train_y = train_X[index], train_y[index]
@@ -50,7 +50,7 @@ class EEG_Train:
             
         return train_X, train_y, valid_X, valid_y
 
-    def train(self, resume=False):
+    def train(self, resume=False, sfreq=None):
         
         sess = tf.Session(config = self.config)
     
@@ -243,4 +243,4 @@ if __name__ == '__main__':
     num_valid_step = train_config['num_valid_step']
 
     eeg_train = EEG_Train(gpu_memory_fraction=0.85)
-    res = eeg_train.train(resume)
+    res = eeg_train.train(resume, sfreq=input_config['resample_freq'])

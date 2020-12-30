@@ -1,4 +1,5 @@
 import os
+import mne
 import random
 import numpy as np
 from mne import pick_types
@@ -31,16 +32,21 @@ def read_file(fname, l_freq=1, h_freq=30, resample_sfreq=None):
 
     # bandpass filter
     raw.filter(l_freq=l_freq, h_freq=h_freq, picks=picks)
-    if sfreq:
+    if resample_sfreq:
         raw = raw.resample(resample_sfreq)
         
     data = raw.get_data(picks=picks)
     
     # Get annotation
-    events = raw.find_edf_events()
+    events = mne.events_from_annotations(raw, verbose=False)
+    event = sorted(events[1])
+    event_time = events[0]
+    events = [[i[0], i[1], event[i[2]-1]] for i in event_time]
+    
+    
     return data, events
 
-def get_window(data, events, run_type, window_len, step, mesh=True, t_cue=t_cue):
+def get_window(data, events, run_type, window_len, step, sfreq, mesh=True, t_cue=t_cue):
     # Filter out rest states
     if run_type:
         events = [event for event in events if event[-1] != 'T0']
@@ -48,10 +54,16 @@ def get_window(data, events, run_type, window_len, step, mesh=True, t_cue=t_cue)
     x, y = [], []
     for j, event in enumerate(events):
         label = label_run[str(run_type)][event[2]]
-
-        start = int((float(event[0]) + t_cue) * sfreq)
-        duration = int((float(event[1]) - t_cue) * sfreq)
-
+        
+        start = event[0] + int(t_cue*sfreq)
+#         start = int((float(event[0]) + t_cue) * sfreq)
+        
+        try:
+            end = events[j+1][0]
+        except:
+            _, end = data.shape
+#         duration = int((float(event[1]) - t_cue) * sfreq)
+        duration = end - start
         tmp_data = data[:, start: start + duration]
         n_seg = int((duration - window_len)/step) + 1
         
@@ -137,7 +149,8 @@ class DataLoader():
         self.window_len = window_len
 
     def load_data(self, SUBs, normalized=True, mesh=True, l_freq=4, h_freq=30, resample_sfreq=None):
-
+        if resample_sfreq:
+            sfreq = resample_sfreq
         X, Y = [], []
         window_cnt = []
         for sub in SUBs:
@@ -148,7 +161,7 @@ class DataLoader():
                 for run in runs:
                     fname = os.path.join(dataDir, sub, '{}R{}.edf'.format(sub, run))
                     data, events = read_file(fname, l_freq, h_freq, resample_sfreq)
-                    x, y = get_window(data, events, run_type, self.window_len, self.step, mesh)
+                    x, y = get_window(data, events, run_type, self.window_len, self.step, sfreq, mesh=mesh)
                     run_cnt += len(y)
                     len_runs.append(run_cnt)
                     X.append(x)
@@ -165,11 +178,10 @@ class DataLoader():
 #             X, Y = reject_sample(X, Y, threshold=reject_threshold)
         return X, Y, window_cnt
         
-    def load_train_val_test(self, SUBs, normalized=True, mesh=True, 
-    						l_freq=4, h_freq=30, resample_sfreq=None, 
-    						one_hot=True):
+    def load_train_val_test(self, SUBs, normalized=True, mesh=True, l_freq=4, h_freq=30, resample_sfreq=None, one_hot=True):
         
         X, Y, window_cnt = self.load_data(SUBs, normalized, mesh, l_freq, h_freq, resample_sfreq)
+        print(X.shape, Y.shape, window_cnt)
         selected_index = balance_sample(Y)
 
         train_index, valid_index, test_index = split(selected_index, split_ratio)

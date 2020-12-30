@@ -15,7 +15,7 @@ def GetOutputDir(timestamp):
 
 
 # Model Config
-input_config = dict(window_len=80, overlap=0.25, mode='within')
+input_config = dict(window_len=80, overlap=0.25, mode='within', resample_freq=100)
 
 # cnn_config = dict(net_type='CNN',
 #                   reuse=True,

@@ -7,6 +7,9 @@ sfreq = 160 # Sampling rate
 # Train Valid Test
 split_ratio = [0.6, 0.2, 0.2]
 
+# Frequency bands for bandpower extraction
+freq_bands = [[4,7], [8,13], [13, 30]] # theta, alpha, beta
+
 # Label & Run
 labels = [0, 1, 2, 3, 4] # Todo specify catefory
 label_run = {'0':{'T0':0} , '1':{'T1':1, 'T2':2}, '2':{'T1':3, 'T2':4}}
