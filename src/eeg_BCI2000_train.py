@@ -34,7 +34,7 @@ class EEG_Train:
         data_loader = DataLoader(**input_config)
 
         if input_config['mode'] == 'within':
-            (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs, resample_freq=sfreq)
+            (train_X, train_y), (valid_X, valid_y), test_set = data_loader.load_train_val_test(SUBs, resample_sfreq=sfreq)
 
             # Save test index
             np.savez(test_index_filename, test_index=test_set[0], window_cnt=test_set[1])
