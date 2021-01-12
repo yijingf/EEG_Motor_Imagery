@@ -28,7 +28,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = test_ratio
 # X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size = validation_ratio/(1-test_ratio))
 
 # default setting 
-acc_dict = CV_Baselines(X_train, y_train, X_test, y_test, K = 5)
+acc_dict = CV_Baselines(X_train, y_train, X_test, y_test, K = 5) #no grid search on the ML parameters
 
 # grid searched parameters
 pred_y_rf, acc_rf = RandForest_gridSearch(data = X_train, labels = y_train, test_data = X_test, test_labels = y_test, K = 3)
