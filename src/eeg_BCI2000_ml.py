@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score
 from eeg_loader import *
 from config import SUBs, freq_bands
 from bandpower import *
-from baseline_ml import *
+from baseline import *
 from sklearn.model_selection import train_test_split
 
 # Preprocess config
