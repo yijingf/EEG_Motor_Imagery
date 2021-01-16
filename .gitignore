@@ -1,3 +1,4 @@
 *.edf
 *.DS_store
+*.pyc
 data/

@@ -30,7 +30,7 @@ def RandForest(train_data, train_labels, test_data, test_labels, verbose = 1):
 
 
 # All Baselines using default parameters
-def CV_Baselines(data, labels, test_data, test_labels, K = 0, verbose = 1):
+def CV_baseline_models(data, labels, test_ratio = 0.2, K = 0, verbose = 1):
     
     clfs = [
         SVC(C = 1, gamma = 'scale'),
@@ -46,16 +46,18 @@ def CV_Baselines(data, labels, test_data, test_labels, K = 0, verbose = 1):
                 print(f'classifier: ', clf.__class__.__name__, 'avg CV acc: ', acc_dict[str(clf.__class__.__name__)])
     
     if K == 0:
+        
+        X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size = test_ratio)
+        
         acc_dict = dict()
         for clf in clfs:
-            clf.fit(data, labels)
-            pred_labels = clf.predict(test_data)
-            acc_dict[str(clf.__class__.__name__)] = accuracy_score(test_labels, pred_labels)
+            clf.fit(X_train, y_train)
+            pred_labels = clf.predict(X_test)
+            acc_dict[str(clf.__class__.__name__)] = accuracy_score(y_test, pred_labels)
             if verbose != -1:
                 print(f'classifier: ', clf.__class__.__name__, 'test acc: ', acc_dict[str(clf.__class__.__name__)])
     
     return(acc_dict)
-
 
 # to use hyperparameters chosen by grid search, call SVM_gridSearch(), LogReg_gridSearch(), RandForest_gridSearch()
 def SVM_gridSearch(data, labels, test_data, test_labels, K, verbose=1):
