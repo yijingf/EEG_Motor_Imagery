@@ -16,6 +16,7 @@ resample_freq = 100 # original sfreq is 160
 # load data
 data_loader = DataLoader(window_len = 100, overlap = 0.5)
 # machine learning window_len 100, deep learning window_len: 20-40
+# for classical machine learning, we will use band power of three frequency bands (4~30HZ), so window_len should be long enough here
 # take a window sufficiently long to encompasses at least two full cycles of the lowest frequency of interest. 
 # https://raphaelvallat.com/bandpower.html 
 # 4hz -> 0.25s -> 2 cycles 0.5s -> resample_freq=100: at least 50 samples
