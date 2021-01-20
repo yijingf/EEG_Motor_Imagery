@@ -14,12 +14,21 @@ h_freq = 30
 resample_freq = 100 # original sfreq is 160
 
 # load data
-data_loader = DataLoader(window_len=100, overlap=0) # machine learning window_len 100, deep learning window_len: 20-40
+data_loader = DataLoader(window_len = 100, overlap = 0.5) 
+# machine learning window_len 100, deep learning window_len: 20-40
+
 X, y, _ = data_loader.load_data(SUBs, 
                                 l_freq=l_freq, h_freq=h_freq, 
                                 resample_sfreq=resample_freq, mesh=False)
 X = np.array([getBandPower_Pool(x, freq_bands, resample_freq) for x in X])
-# X is a matrix with the shape of (n, 3, 64) where n is the number of samples, 3 is the number of frequency bands and 64 is the number of channels
+# X is a matrix with the shape of (n, 3, 64) where n is the number of samples
+# 3 is the number of frequency bands and 64 is the number of channels
+
 X = X.reshape((-1, 3*64))
+
+# np.save('processed_X', X)
+# np.save('processed_y', y)
+# X = np.load('processed_X.npy')
+# y = np.load('processed_y.npy')
 
 acc_dict = gridSearch_baseline_models(X, y, test_ratio = 0.2, K = 3, verbose = 1)
