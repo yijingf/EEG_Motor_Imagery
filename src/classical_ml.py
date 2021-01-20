@@ -1,6 +1,7 @@
 import scipy.io
 import numpy as np
 
+from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV, StratifiedKFold
@@ -48,7 +49,7 @@ def gridSearch_baseline_models(data, labels, test_ratio = 0.2, K = 0, verbose = 
         ]
 
         acc_dict = dict()
-        
+
         for clf in clfs:
 
             if clf.__class__.__name__ == 'SVC':
