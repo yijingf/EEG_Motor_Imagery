@@ -12,20 +12,20 @@ from config import *
 labels = [0,1,2,3,4]
 lb = LabelBinarizer()
 lb.fit(labels)
-    
+
 def read_file(fname, l_freq=1, h_freq=30, resample_sfreq=None):
     """
     Load EEG signal and events, and apply bandpass filter.
     Arguments:
         fname: str, absolute path
         l_freq: int
-        h_freq: int 
+        h_freq: int
         sfreq: int, resample frequency
     """
     raw = read_raw_edf(fname, preload=True, verbose=False)
     picks = pick_types(raw.info, eeg=True)
-    
-    # Reject samples with different sampling rate. This will be deprecated when resampling is applied 
+
+    # Reject samples with different sampling rate. This will be deprecated when resampling is applied
     if raw.info['sfreq'] != 160:
         print('{} is sampled at 128Hz, will be excluded.'.format(subj))
         return
@@ -34,30 +34,30 @@ def read_file(fname, l_freq=1, h_freq=30, resample_sfreq=None):
     raw.filter(l_freq=l_freq, h_freq=h_freq, picks=picks)
     if resample_sfreq:
         raw = raw.resample(resample_sfreq)
-        
+
     data = raw.get_data(picks=picks)
-    
+
     # Get annotation
     events = mne.events_from_annotations(raw, verbose=False)
     event = sorted(events[1])
     event_time = events[0]
     events = [[i[0], i[1], event[i[2]-1]] for i in event_time]
-    
-    
+
+
     return data, events
 
 def get_window(data, events, run_type, window_len, step, sfreq, mesh=True, t_cue=t_cue):
     # Filter out rest states
     if run_type:
         events = [event for event in events if event[-1] != 'T0']
-        
+
     x, y = [], []
     for j, event in enumerate(events):
         label = label_run[str(run_type)][event[2]]
-        
+
         start = event[0] + int(t_cue*sfreq)
 #         start = int((float(event[0]) + t_cue) * sfreq)
-        
+
         try:
             end = events[j+1][0]
         except:
@@ -66,16 +66,16 @@ def get_window(data, events, run_type, window_len, step, sfreq, mesh=True, t_cue
         duration = end - start
         tmp_data = data[:, start: start + duration]
         n_seg = int((duration - window_len)/step) + 1
-        
+
         if mesh:
             tmp_data = np.array([get_mesh(tmp_data[:,i]) for i in range(duration)])
             x += [tmp_data[i * step: i * step + window_len, :,:] for i in range(n_seg)]
         else:
             x += [tmp_data[:, i * step: i * step + window_len] for i in range(n_seg)]
-            
+
         y += [label for i in range(n_seg)]
-        
-    return np.array(x), y 
+
+    return np.array(x), y
 
 def balance_sample(Y):
     label_cnt = Counter(Y)
@@ -86,7 +86,7 @@ def balance_sample(Y):
         tmp_index = np.where(Y == i)[0].tolist()
         selected_index += random.sample(tmp_index, min_cnt)
     selected_index += np.where(Y == min_label)[0].tolist()
-    
+
     return selected_index
 
 def split(index, split_ratio):
@@ -168,18 +168,17 @@ class DataLoader():
                     Y.append(y)
                 len_sub += len_runs
             window_cnt.append(len_sub)
-        X = np.concatenate(X)
-        Y = np.concatenate(Y)
-
+        X = np.array(X) # replace np.concatenate() with np.array(X) to save memory
+        Y = np.array(Y) # replace np.concatenate() with np.array(X) to save memory
 #         if normalized:
 #             X = normalization(X)
-        
+
 #         if reject:
 #             X, Y = reject_sample(X, Y, threshold=reject_threshold)
         return X, Y, window_cnt
-        
+
     def load_train_val_test(self, SUBs, normalized=True, mesh=True, l_freq=4, h_freq=30, resample_sfreq=None, one_hot=True):
-        
+
         X, Y, window_cnt = self.load_data(SUBs, normalized, mesh, l_freq, h_freq, resample_sfreq)
         print(X.shape, Y.shape, window_cnt)
         selected_index = balance_sample(Y)
@@ -189,7 +188,7 @@ class DataLoader():
             Y = lb.transform(Y)
         train_set = (X[train_index], Y[train_index])
         valid_set = (X[valid_index], Y[valid_index])
-    
+
         return train_set, valid_set, (test_index, np.array(window_cnt))
 
 class TestDataLoader():
@@ -197,7 +196,7 @@ class TestDataLoader():
     Loading data for within subject model testing given the index of windows.
     The order of subjects are required to be consistent with that when loading training data.
     """
-    
+
     def __init__(self, window_cnt, window_len=10, overlap=0.5, **kwargs):
         self.window_len = window_len
         self.step = int(window_len * overlap)
@@ -207,23 +206,23 @@ class TestDataLoader():
         self.n_window_cum = np.cumsum(n_window_per_sub)
         self.n_window_per_sub = np.array([0] + list(self.n_window_cum))
         return
-    
+
     def get_fname(self, index):
         tmp = index/self.n_window_cum
         tmp[np.where(tmp >= 1)] = 0
         sub_index = np.argmax(tmp)
-        
+
         tmp_run = index - self.n_window_per_sub[sub_index]
         tmp = tmp_run/self.window_cnt[sub_index]
 
         tmp[np.where(tmp >= 1)] = 0
         run_index = np.argmax(tmp)
         window_index = tmp_run - ([0] + self.window_cnt[sub_index].tolist())[run_index]
-        
+
         run, run_type = test_total_runs[run_index]
-        
+
         return sub_index, run, run_type, window_index
-    
+
     def load_data(self, SUBs, test_index, mesh=True, one_hot=True):
         input_list = {}
         # retrieve the subject/run of the window by its index
@@ -243,12 +242,12 @@ class TestDataLoader():
             run_type, window_index = v['run_type'], v['window_index']
             data, events = read_file(fname)
             x, y = get_window(data, events, run_type, self.window_len, self.step, mesh)
-            
+
             X.append(x[window_index])
             Y.append(np.array(y)[window_index])
 
-        X = np.concatenate(X)
-        Y = np.concatenate(Y)
+        X = np.array(X) # replace np.concatenate() with np.array(X) to save memory
+        Y = np.array(Y) # replace np.concatenate() with np.array(X) to save memory
         if one_hot:
             Y = lb.transform(Y)
         return X, Y

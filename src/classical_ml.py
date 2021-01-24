@@ -68,7 +68,7 @@ def gridSearch_baseline_models(data, labels, test_ratio = 0.2, K = 0, verbose = 
             grid_search = GridSearchCV(clf,
                                        param_grid = hyperparams,
                                        cv = cross_valid)
-            grid_search.fit(data, labels)
+            grid_search.fit(X_train, y_train)
 
             PARAM, score = grid_search.best_params_, grid_search.best_score_
 
