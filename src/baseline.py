@@ -126,21 +126,3 @@ def RandForest_gridSearch(data, labels, test_data, test_labels, K, verbose=1):
         print('test acc: %f' % accuracy_score(test_labels, pred_labels))
     
     return(pred_labels, accuracy_score(test_labels, pred_labels))
-
-
-
-# # Generate data
-# from sklearn.datasets import make_blobs
-# cluster_std = 5
-# num_features_for_samples = 4
-# num_samples_total = 1000
-# test_ratio = 0.20
-# X, y = make_blobs(n_samples = num_samples_total, 
-#                   n_features = num_features_for_samples, 
-#                   cluster_std = cluster_std)
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = test_ratio)
-
-# # test function
-# acc_dict = CV_Baselines(X_train, y_train, X_test, y_test, K = 3)
-# RandForest_gridSearch(data = X_train, labels = y_train, 
-#                       test_data = X_test, test_labels = y_test, K = 3)

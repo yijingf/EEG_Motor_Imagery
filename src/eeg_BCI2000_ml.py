@@ -1,12 +1,14 @@
+import sys
+import os
+
 import numpy as np
-from sklearn import svm
-from sklearn.metrics import accuracy_score
+
+from config import SUBs, freq_bands, split_ratio, resPath
 from eeg_loader import * # will load dataDir, DataLoader
-from config import SUBs, freq_bands
 from bandpower import * # will load getBandPower_Pool
 from baseline import *
 from classical_ml import * # will load gridSearch_baseline_models
-from sklearn.model_selection import train_test_split
+
 
 # Preprocess config
 l_freq = 4
@@ -38,4 +40,12 @@ X = X.reshape((-1, 3*64))
 # X = np.load('processed_X.npy')
 # y = np.load('processed_y.npy')
 
-acc_dict = gridSearch_baseline_models(X, y, test_ratio = 0.2, K = 3, verbose = 1)
+# save results
+org_stdout = sys.stdout
+resfile = open(os.path.join(resPath, 'ml_results.txt'), 'w')
+sys.stdout = resfile
+
+acc_dict = gridSearch_baseline_models(X, y, test_ratio = split_ratio[2], K = 3, verbose = 1)
+
+sys.stdout = org_stdout
+resfile.close()

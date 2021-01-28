@@ -1,4 +1,5 @@
 dataDir = '../data'
+resPath = '../res'
 
 # Sequence Config
 t_cue = 0.5 # extract data from 0.5s after the cue
