@@ -52,9 +52,13 @@ def gridSearch_baseline_models(data, labels, test_ratio = 0.2, K = 0, verbose = 
 
         for clf in clfs:
 
+            # if clf.__class__.__name__ == 'SVC':
+            #     hyperparams = {'C': [0.01, 0.1, 1, 10, 100],
+            #                    'gamma': np.arange(0.1, 10, 0.1)}
+            #hxf refer to Hebart2015.pdf
             if clf.__class__.__name__ == 'SVC':
-                hyperparams = {'C': [0.01, 0.1, 1, 10, 100],
-                               'gamma': np.arange(0.1, 10, 0.1)}
+                hyperparams = {'C': [0.0001,0.001,0.01, 0.1, 1, 10, 100,1000],
+                               'gamma': np.arange(0.1,0.5, 1, 2)}
 
             if clf.__class__.__name__ == 'LogisticRegression':
                 hyperparams = {'C': [0.01, 0.1, 1, 10, 100, 1000]}
